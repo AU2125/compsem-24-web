@@ -4,37 +4,49 @@
 
     const events = [
             {
-                "heading": "Technical Quiz",
+                "heading": "Essay",
             },
             {
-                "heading": "Technical Connection",
+                "heading": "Brain Teaser",
             },
             {
-                "heading": "Coding Challenge",
+                "heading": "Speech Competition (Elocution)",
             },
             {
-                "heading": "Debugging",
+                "heading": "Debate",
             },
             {
-                "heading": "Aptitude and Reasoning",
+                "heading": "Skit",
             },
             {
-                "heading": "Poster Design",
+                "heading": "Group Discussion",
             },
             {
-                "heading": "Web Design",
+                "heading": "Photography",
             },
             {
-                "heading": "UI / UX Design",
+                "heading": "Treasure Hunt",
             },
             {
-                "heading": "Paper Presentation",
+                "heading": "Meme Creation",
+            },
+            {
+                "heading": "Poetry",
+            },
+            {
+                "heading": "Cook without fire",
+            },
+            {
+                "heading": "E-Sports",
+            },
+            {
+                "heading": "Drawing",
             },
         ]
 </script>
 
 <main class="snap-y">
-    <section class="flex flex-col items-center w-full h-screen bg-slate-600">
+    <section class="flex flex-col items-center w-full h-full bg-slate-600">
         <!--
            - Event Section
            -->

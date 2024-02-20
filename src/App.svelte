@@ -6,5 +6,5 @@
 
 
 <main>
-    <HomePage />    
+    <NonTechEventPage />    
 </main>
