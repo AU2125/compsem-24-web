@@ -68,7 +68,7 @@
     }
 </script>
 
-<main class="snap-y">
+<main class="snap-y bg-slate-600">
     <section class="flex items-center justify-center w-full h-screen bg-slate-600" >
         <!--
            - Hero Section
@@ -94,38 +94,54 @@
     </section>
 
 
-    <section class="flex flex-col hidden items-center py-12 px-48 w-full max-h-1/3 bg-slate-300">
+    <section class="flex flex-col items-center py-12 px-4 md:px-24  max-h-1/3 bg-slate-500">
         <!--
            - Notification Section
            -->
-        <h2 class="text-2xl text-gray-900 mb-12">Notifications</h2>
+        <h2 class="text-2xl text-gray-200 font-semibold mb-12">Notifications</h2>
         <Notification notifications={notifications}/>
     </section>
-    <section class="py-48 px-32 w-full hidden h-screen bg-slate-600">
+    <section class="py-12 px-8 md:py-32 md:px-32 w-full bg-slate-600">
         <!--
            - About Department Section
            -->
-        <h2 class="text-2xl text-gray-300 font-semibold self-start mb-12">About Department</h2>
-        <div class="flex justify-between w-3/4">
-            <p class="text-gray-300">
-                This is some text Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit, doloribus.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa rem cupiditate eveniet sed
-                neque porro quaerat temporibus quia minima dolore? Minima aut est nostrum. Ad mollitia vitae
-                tenetur impedit nulla nostrum autem!
-            </p>
+        <h2 class="text-xl md:text-2xl text-gray-300 font-semibold self-start mb-4 md:mb-12">About Department</h2>
+           <p class="text-gray-300 text-justify indent-8 mt-6">
+The Department of Computer Science and Engineering was established in the year 1984 to meet the demand for well-qualified computer professionals. Flexible Choice based Credit System. Student Centric Teaching Methodology is adopted. The various Associations and Clubs promote the leadership and organisational skills of the students by conducting various academic events throughout the year. Apart from academics, students also involve themselves in activities that inculcate service and team spirit. The department library has more than 7500 books.
+The department has two research laboratories having high-end systems with NVIDIA GeForce RTX 3080 Graphics Card to carry out research in the areas of Speech, Image/Video Processing and Data Analytics. There are six Computer Laboratories having 300 systems, an IoT Laboratory, and three seminar halls with necessary ICT facilities to conduct conferences/seminars and placement activities.
+           </p>
+    </section>
+    <section class="flex flex-col items-center p-8 lg:py-24 lg:px-48 w-full max-h-1/3 bg-slate-500">
+        <!--
+           - Committee Section
+           -->
+        <h2 class="text-xl md:text-2xl text-gray-200 mb-12 font-semibold">Committees</h2>
+        <div class="flex items-center bg-gray-300 py-24 px-12 rounded-lg justify-around w-full ">
+            <div class="flex flex-col items-center">
+                <div class="h-24 w-24 bg-black mb-4"></div>
+                <p class="text-xs md:text-lg text-slate-600">Committee Name</p>
+            </div>
+            <div class="flex flex-col items-center">
+                <div class="h-24 w-24 bg-black mb-4"></div>
+                <p class="text-xs md:text-lg text-slate-600">Committee Name</p>
+            </div>
+            <div class="flex flex-col items-center">
+                <div class="h-24 w-24 bg-black mb-4"></div>
+                <p class="text-xs md:text-lg text-slate-600">Committee Name</p>
+            </div>
         </div>
     </section>
-    <section class="flex flex-col items-center hidden justify-center w-full h-screen bg-slate-300">
+    <section class="flex flex-col items-center justify-center w-full p-14 bg-slate-300">
         <!--
            - Event Section
            -->
-        <h2 class="text-2xl text-gray-900 mb-12">Events</h2>
-        <div class="flex justify-between px-8 w-2/3">
-            <div class="h-80 w-80 flex justify-center items-center p-4 rounded-md bg-blue-200">
+        <h2 class="text-xl md:text-2xl text-gray-900 font-semibold mb-12">Events</h2>
+        <div class="flex gap-2 lg:gap-4 items-center max-h-1/2 justify-center md:justify-between px-8 w-full md:w-2/3">
+            <div class="text-sm md:text-lg h-40 md:h-80 w-40 md:w-80 flex justify-center items-center px-8 py-4 md:p-4 rounded-md bg-blue-200">
                 Technical Events
             </div>
-            <div class="h-80 w-80 flex justify-center items-center p-4 rounded-md bg-blue-200">
-                Non-Technical Events
+            <div class="text-sm md:text-lg h-40 md:h-80 w-40 md:w-80 flex justify-center items-center px-8 py-4 md:p-4  rounded-md bg-blue-200">
+                Non Technical Events
             </div>
         </div>
     </section>

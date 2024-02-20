@@ -7,7 +7,7 @@
 </script>
 
 
-<div class="w-full bg-slate-400 p-4 rounded-md">
-<h3 class="text-lg mb-4">{heading}</h3>
+<div class="min-w-0.5 bg-slate-400 p-4 rounded-md">
+    <h3 class="text-lg mb-4">{heading}</h3>
     <p class="text-sm">{content}</p>
 </div>
