@@ -1,11 +1,14 @@
+<svelte:head>
+    <title>Home</title>
+</svelte:head>
 <script lang="ts">
     import {onMount, onDestroy} from 'svelte';
     import Notification from '../lib/notification/Notification.svelte';
 
-    let countdown: any;
+
+    let countdownInterval: any;
     let targetDate: any = new Date("2024-02-26T15:00:00");
     let timeLeft = Math.floor((targetDate - new Date())/ 1000);
-
 
 
     const notifications = [
@@ -31,55 +34,74 @@
         },
     ]
 
+    let countdown: {
+        days: number,
+        hrs: number,
+        mins: number,
+        secs: number
+    } = formatTime(timeLeft);
 
     onMount(() => {
-        countdown = setInterval(() => {
+        countdownInterval = setInterval(() => {
           if (timeLeft > 0) {
                 timeLeft--;
+
+                countdown = formatTime(timeLeft);
+
           } else {
-            clearInterval(countdown);
+            clearInterval(countdownInterval);
           }
         }, 1000);
     });
 
     onDestroy(() => {
-        clearInterval(countdown);
+        clearInterval(countdownInterval);
     });
-    console.log(timeLeft);
     function formatTime(seconds: number) {
-        const days = Math.floor(seconds/ 86400);
-        const hours = Math.floor((seconds % 86400) / 3600);
-        const minutes = Math.floor((seconds % 3600) / 60);
-        const remainingSeconds = seconds % 60;
-        return `${days} days ${hours} h ${minutes} m ${remainingSeconds} s`;
+        const days = Math.floor(seconds / 86400);
+        const hrs = Math.floor((seconds % 86400) / 3600);
+        const mins = Math.floor((seconds% 3600) / 60);
+        const secs = seconds % 60;
+        return {
+            days, hrs, mins, secs
+        }
     }
 </script>
 
 <main class="snap-y">
-    <section class="flex items-center justify-center w-full h-screen bg-slate-600">
+    <section class="flex items-center justify-center w-full h-screen bg-slate-600" >
         <!--
            - Hero Section
            -->
         <div class="flex flex-col items-center justify-center">
-            <h1 class="text-[186px] text-gray-200">CompSem'24</h1>
-            <p class="text-gray-900">Starting in</p>
-            <p class="text-gray-900">{formatTime(timeLeft)}</p>
+            <h1 class="lg:text-[12rem] md:text-[6rem] text-[3rem] mb-4 text-gray-100">CompSem<span class="text-gray-800">'24</span></h1>
+            <div class="text-gray-800 text-sm md:text-lg bg-slate-400 py-3 rounded-md px-4 flex flex-col items-center">
+                <p>Starting in</p>
+                <span class="flex gap-2 text-gray-900 justify-between mt-2">
+                    {#each Object.entries(countdown) as [key, value]}
+                    <span class="text-center w-14 bg-gray-100 p-2 rounded-md ">
+                        <p>{value}</p>
+                        <p>{key}</p>
+                    </span>
+                    {/each}
+                </span>
+            </div>
             <button
-                class="text-gray-200 text-2xl hover:text-gray-100 hover:bg-slate-700 px-8 py-4 mt-8 bg-slate-800 rounded-md">
-                I'm Exicted!
+                class="text-gray-200 lg:text-2xl hover:text-gray-100 hover:bg-slate-700 px-8 py-4 mt-8 bg-slate-800 rounded-md">
+                I'm Excited!
             </button>
         </div>
     </section>
 
 
-    <section class="flex flex-col items-center py-12 px-48 w-full max-h-1/3 bg-slate-300">
+    <section class="flex flex-col hidden items-center py-12 px-48 w-full max-h-1/3 bg-slate-300">
         <!--
            - Notification Section
            -->
         <h2 class="text-2xl text-gray-900 mb-12">Notifications</h2>
         <Notification notifications={notifications}/>
     </section>
-    <section class="py-48 px-32 w-full h-screen bg-slate-600">
+    <section class="py-48 px-32 w-full hidden h-screen bg-slate-600">
         <!--
            - About Department Section
            -->
@@ -93,7 +115,7 @@
             </p>
         </div>
     </section>
-    <section class="flex flex-col items-center justify-center w-full h-screen bg-slate-300">
+    <section class="flex flex-col items-center hidden justify-center w-full h-screen bg-slate-300">
         <!--
            - Event Section
            -->
