@@ -55,38 +55,42 @@
     }
 </script>
 
-<main>
+<main class="snap-y">
     <section class="flex items-center justify-center w-full h-screen bg-slate-600">
         <!--
            - Hero Section
            -->
         <div class="flex flex-col items-center justify-center">
-            <h1 class="text-[128px] text-gray-200">CompSem'24</h1>
+            <h1 class="text-[186px] text-gray-200">CompSem'24</h1>
             <p class="text-gray-900">Starting in</p>
             <p class="text-gray-900">{formatTime(timeLeft)}</p>
+            <button
+                class="text-gray-200 text-2xl hover:text-gray-100 hover:bg-slate-700 px-8 py-4 mt-8 bg-slate-800 rounded-md">
+                I'm Exicted!
+            </button>
         </div>
     </section>
 
 
-    <section class="flex flex-col items-center p-48 w-full h-screen bg-slate-300">
+    <section class="flex flex-col items-center py-12 px-48 w-full max-h-1/3 bg-slate-300">
         <!--
            - Notification Section
            -->
         <h2 class="text-2xl text-gray-900 mb-12">Notifications</h2>
         <Notification notifications={notifications}/>
     </section>
-    <section class="flex flex-col items-center justify-center w-full h-screen bg-slate-600">
+    <section class="py-48 px-32 w-full h-screen bg-slate-600">
         <!--
-           - About Compsem Section
+           - About Department Section
            -->
-        <h2 class="text-2xl text-gray-900 mb-12">Events</h2>
-        <div class="flex justify-between px-8 w-2/3">
-            <div class="h-80 w-80 flex justify-center items-center p-4 rounded-md bg-blue-200">
-                Technical Events
-            </div>
-            <div class="h-80 w-80 flex justify-center items-center p-4 rounded-md bg-blue-200">
-                Non-Technical Events
-            </div>
+        <h2 class="text-2xl text-gray-300 font-semibold self-start mb-12">About Department</h2>
+        <div class="flex justify-between w-3/4">
+            <p class="text-gray-300">
+                This is some text Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit, doloribus.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa rem cupiditate eveniet sed
+                neque porro quaerat temporibus quia minima dolore? Minima aut est nostrum. Ad mollitia vitae
+                tenetur impedit nulla nostrum autem!
+            </p>
         </div>
     </section>
     <section class="flex flex-col items-center justify-center w-full h-screen bg-slate-300">
@@ -103,5 +107,4 @@
             </div>
         </div>
     </section>
-
 </main>
