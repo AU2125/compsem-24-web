@@ -1,8 +1,37 @@
 <script lang="ts">
     import {onMount, onDestroy} from 'svelte';
-    let countdown;
-    let targetDate = new Date("2024-02-26T15:00:00");
+    import Notification from '../lib/notification/Notification.svelte';
+
+    let countdown: any;
+    let targetDate: any = new Date("2024-02-26T15:00:00");
     let timeLeft = Math.floor((targetDate - new Date())/ 1000);
+
+
+
+    const notifications = [
+        {
+            "heading": "Heading 1",
+            "content": "some text for heading"
+        },
+        {
+            "heading": "Heading 2",
+            "content": "some text for heading"
+        },
+        {
+            "heading": "Heading 3",
+            "content": "some text for heading"
+        },
+        {
+            "heading": "Heading 4",
+            "content": "some text for heading"
+        },
+        {
+            "heading": "Heading 5",
+            "content": "some text for heading"
+        },
+    ]
+
+
     onMount(() => {
         countdown = setInterval(() => {
           if (timeLeft > 0) {
@@ -17,7 +46,7 @@
         clearInterval(countdown);
     });
     console.log(timeLeft);
-    function formatTime(seconds) {
+    function formatTime(seconds: number) {
         const days = Math.floor(seconds/ 86400);
         const hours = Math.floor((seconds % 86400) / 3600);
         const minutes = Math.floor((seconds % 3600) / 60);
@@ -44,28 +73,7 @@
            - Notification Section
            -->
         <h2 class="text-2xl text-gray-900 mb-12">Notifications</h2>
-        <div class="flex flex-col gap-3 scroll-y overflow-scroll items-center max-h-300 justify-between w-2/3 ">
-            <div class="w-full bg-slate-400 p-4 rounded-md">
-                <h3 class="text-lg mb-4">Notification Heading</h3>
-                <p class="text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente sint illo nihil amet nostrum assumenda pariatur, quidem architecto praesentium aperiam?</p>
-            </div>
-            <div class="w-full bg-slate-400 p-4 rounded-md">
-                <h3 class="text-lg mb-4">Notification Heading</h3>
-                <p class="text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente sint illo nihil amet nostrum assumenda pariatur, quidem architecto praesentium aperiam?</p>
-            </div>
-            <div class="w-full bg-slate-400 p-4 rounded-md">
-                <h3 class="text-lg mb-4">Notification Heading</h3>
-                <p class="text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente sint illo nihil amet nostrum assumenda pariatur, quidem architecto praesentium aperiam?</p>
-            </div>
-            <div class="w-full bg-slate-400 p-4 rounded-md">
-                <h3 class="text-lg mb-4">Notification Heading</h3>
-                <p class="text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente sint illo nihil amet nostrum assumenda pariatur, quidem architecto praesentium aperiam?</p>
-            </div>
-            <div class="w-full bg-slate-400 p-4 rounded-md">
-                <h3 class="text-lg mb-4">Notification Heading</h3>
-                <p class="text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente sint illo nihil amet nostrum assumenda pariatur, quidem architecto praesentium aperiam?</p>
-            </div>
-        </div>
+        <Notification notifications={notifications}/>
     </section>
     <section class="flex flex-col items-center justify-center w-full h-screen bg-slate-600">
         <!--
