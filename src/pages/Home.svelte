@@ -2,15 +2,64 @@
     <title>Home</title>
 </svelte:head>
 <script lang="ts">
+    import {Link} from 'svelte-routing';
     import {onMount, onDestroy} from 'svelte';
     import Notification from '../lib/notification/Notification.svelte';
+    import App from '../App.svelte';
 
 
     let countdownInterval: any;
     let targetDate: any = new Date("2024-02-26T15:00:00");
     let timeLeft = Math.floor((targetDate - new Date())/ 1000);
 
+    const contacts = [
+        {
+            "name" : "Jeya Prakash S",
+            "designation": "General Secretary, CSEA",
+            "phone": "+91 9119119119",
+            "email": "gbrow@aubro.com"
+        },
+        {
+            "name" : "Gowtham R",
+            "designation": "President, IEI",
+            "phone": "+91 9119119119",
+            "email": "gbrow@aubro.com"
+        },
+        {
+            "name" : "Bhavani R",
+            "designation": "Department Head, CSE",
+            "phone": "+91 9119119119",
+            "email": "gbrow@aubro.com"
+        },
+    ]
 
+    const committees = [
+        {
+            "name": "CSEA",
+            "logo": "CSEA_LOGO.png"
+        },
+        {
+            "name": "IEI",
+            "logo": "IEI_LOGO.png"
+        },
+        {
+            "name": "CSI",
+            "logo": "CSI_LOGO.png"
+        },
+
+
+    ]
+
+    const eventsCategories = [
+        {
+            "name": "Technincal Events",
+            "to": "tech_events"
+        },
+        {
+            "name": "Non Technincal Events",
+            "to": "non_tech_events"
+        }
+    ]
     const notifications = [
         {
             "heading": "Heading 1",
@@ -117,18 +166,12 @@ The department has two research laboratories having high-end systems with NVIDIA
            -->
         <h2 class="text-xl md:text-2xl text-gray-200 mb-12 font-semibold">Committees</h2>
         <div class="flex items-center p-8 bg-gray-300  text-xs md:text-lg text-slate-600 rounded-lg justify-around w-full ">
-            <div class="flex flex-col items-center">
-                <div class="h-24 w-24 bg-black mb-4"></div>
-                <p>IEI</p>
+            {#each committees as comm}
+            <div class="flex flex-col items-center w-24">
+                <img class=" object-center object-cover w-full" src="/compsem-24-web/{comm.logo}" alt="">
+                <p class="mt-2 md:mt-6">{comm.name}</p>
             </div>
-            <div class="flex flex-col items-center">
-                <div class="h-24 w-24 bg-black mb-4"></div>
-                <p>CSEA</p>
-            </div>
-            <div class="flex flex-col items-center">
-                <div class="h-24 w-24 bg-black mb-4"></div>
-                <p>CSI</p>
-            </div>
+            {/each}
         </div>
     </section>
     <section class="py-12 px-8 md:py-32 md:px-32 w-full bg-slate-600">
@@ -157,20 +200,29 @@ The department has two research laboratories having high-end systems with NVIDIA
            -->
         <h2 class="text-xl md:text-2xl text-gray-900 font-semibold mb-12">Events</h2>
         <div class="flex gap-3 lg:gap-4 items-center max-h-1/2 justify-between md:px-4 w-full md:w-2/3">
-            {#each ['Technincal Events', 'Non Technical Events'] as ev}
-                <a
-                    href="tech_events"
+            {#each eventsCategories as ev}
+                <Link
+                    to='compsem-24-web/{ev.to}'
                     class="hover:scale-110 h-32 md:h-80 w-32 md:w-80 flex justify-center items-center p-4 md:p-4 rounded-md bg-blue-200">
-                    <p class="text-xs md:text-lg">{ev}</p>
-                </a>
+                    <p class="text-xs md:text-lg">{ev.name}</p>
+                </Link>
             {/each}
         </div>
     </section>
-    <section class="flex flex-col w-full justify-center items-center">
+    <section class="flex flex-col w-full justify-center items-center py-6">
         <!--
            - Contact Us
            -->
-        <h2 class="text-xl md:text-2xl text-gray-300 font-semibold py-12 mb-4 md:mb-12">Contact Us</h2>
-        <div></div>
+        <h2 class="text-xl md:text-2xl text-gray-300 font-semibold mb-4">Contact Us</h2>
+        <div class="text-[8px] md:text-[12px] text-gray-300 flex justify-around w-full">
+            {#each contacts as contact}
+            <div class="">
+                <p class="text-center">{contact.name}</p>
+                <p class="text-center">{contact.designation}</p>
+                <a href="tel:{contact.phone}">Phone: {contact.phone}</a><br/>
+                <a href="mailto:{contact.email}">Email: {contact.email}</a>
+            </div>
+            {/each}
+        </div>
     </section>
 </main>
