@@ -79,7 +79,7 @@
                 <p>Starting in</p>
                 <span class="flex gap-2 text-gray-900 justify-between mt-2">
                     {#each Object.entries(countdown) as [key, value]}
-                    <span class="text-center w-14 bg-gray-100 p-2 rounded-md ">
+                    <span class="text-center text-xs md:text-md w-14 bg-gray-100 p-2 rounded-md ">
                         <p>{value}</p>
                         <p>{key}</p>
                     </span>
@@ -106,43 +106,71 @@
            - About Department Section
            -->
         <h2 class="text-xl md:text-2xl text-gray-300 font-semibold self-start mb-4 md:mb-12">About Department</h2>
-           <p class="text-gray-300 text-justify indent-8 mt-6">
+           <p class="text-gray-300 text-justify indent-8 text-xs leading-tight md:text-lg mt-6">
 The Department of Computer Science and Engineering was established in the year 1984 to meet the demand for well-qualified computer professionals. Flexible Choice based Credit System. Student Centric Teaching Methodology is adopted. The various Associations and Clubs promote the leadership and organisational skills of the students by conducting various academic events throughout the year. Apart from academics, students also involve themselves in activities that inculcate service and team spirit. The department library has more than 7500 books.
 The department has two research laboratories having high-end systems with NVIDIA GeForce RTX 3080 Graphics Card to carry out research in the areas of Speech, Image/Video Processing and Data Analytics. There are six Computer Laboratories having 300 systems, an IoT Laboratory, and three seminar halls with necessary ICT facilities to conduct conferences/seminars and placement activities.
            </p>
     </section>
-    <section class="flex flex-col items-center p-8 lg:py-24 lg:px-48 w-full max-h-1/3 bg-slate-500">
+    <section class="flex flex-col items-center p-8 lg:py-24 lg:px-48 w-full  bg-slate-500">
         <!--
            - Committee Section
            -->
         <h2 class="text-xl md:text-2xl text-gray-200 mb-12 font-semibold">Committees</h2>
-        <div class="flex items-center bg-gray-300 py-24 px-12 rounded-lg justify-around w-full ">
+        <div class="flex items-center p-8 bg-gray-300  text-xs md:text-lg text-slate-600 rounded-lg justify-around w-full ">
             <div class="flex flex-col items-center">
                 <div class="h-24 w-24 bg-black mb-4"></div>
-                <p class="text-xs md:text-lg text-slate-600">Committee Name</p>
+                <p>IEI</p>
             </div>
             <div class="flex flex-col items-center">
                 <div class="h-24 w-24 bg-black mb-4"></div>
-                <p class="text-xs md:text-lg text-slate-600">Committee Name</p>
+                <p>CSEA</p>
             </div>
             <div class="flex flex-col items-center">
                 <div class="h-24 w-24 bg-black mb-4"></div>
-                <p class="text-xs md:text-lg text-slate-600">Committee Name</p>
+                <p>CSI</p>
             </div>
         </div>
+    </section>
+    <section class="py-12 px-8 md:py-32 md:px-32 w-full bg-slate-600">
+        <!--
+           - About Tech Club Section
+           -->
+        <h2 class="text-xl md:text-2xl text-gray-300 font-semibold self-start mb-4 md:mb-12">About Tech Club</h2>
+           <p class="text-gray-300 text-justify text-xs md:text-lg leading-tight indent-8 mt-6">
+The Department of Computer Science and Engineering was established in the year 1984 to meet the demand for well-qualified computer professionals. Flexible Choice based Credit System. Student Centric Teaching Methodology is adopted. The various Associations and Clubs promote the leadership and organisational skills of the students by conducting various academic events throughout the year. Apart from academics, students also involve themselves in activities that inculcate service and team spirit. The department library has more than 7500 books.
+The department has two research laboratories having high-end systems with NVIDIA GeForce RTX 3080 Graphics Card to carry out research in the areas of Speech, Image/Video Processing and Data Analytics. There are six Computer Laboratories having 300 systems, an IoT Laboratory, and three seminar halls with necessary ICT facilities to conduct conferences/seminars and placement activities.
+           </p>
+    </section>
+    <section class="py-12 px-8 md:py-32 text-gray-300 md:px-32 w-full bg-slate-500">
+        <!--
+           - History of CompSem Section
+           -->
+        <h2 class="text-xl md:text-2xl  font-semibold self-start mb-4 md:mb-12">History of CompSem</h2>
+           <p class="text-justify indent-8 mt-6 text-xs md:text-lg leading-tight">
+The Department of Computer Science and Engineering was established in the year 1984 to meet the demand for well-qualified computer professionals. Flexible Choice based Credit System. Student Centric Teaching Methodology is adopted. The various Associations and Clubs promote the leadership and organisational skills of the students by conducting various academic events throughout the year. Apart from academics, students also involve themselves in activities that inculcate service and team spirit. The department library has more than 7500 books.
+The department has two research laboratories having high-end systems with NVIDIA GeForce RTX 3080 Graphics Card to carry out research in the areas of Speech, Image/Video Processing and Data Analytics. There are six Computer Laboratories having 300 systems, an IoT Laboratory, and three seminar halls with necessary ICT facilities to conduct conferences/seminars and placement activities.
+           </p>
     </section>
     <section class="flex flex-col items-center justify-center w-full p-14 bg-slate-300">
         <!--
            - Event Section
            -->
         <h2 class="text-xl md:text-2xl text-gray-900 font-semibold mb-12">Events</h2>
-        <div class="flex gap-2 lg:gap-4 items-center max-h-1/2 justify-center md:justify-between px-8 w-full md:w-2/3">
-            <div class="text-sm md:text-lg h-40 md:h-80 w-40 md:w-80 flex justify-center items-center px-8 py-4 md:p-4 rounded-md bg-blue-200">
-                Technical Events
-            </div>
-            <div class="text-sm md:text-lg h-40 md:h-80 w-40 md:w-80 flex justify-center items-center px-8 py-4 md:p-4  rounded-md bg-blue-200">
-                Non Technical Events
-            </div>
+        <div class="flex gap-3 lg:gap-4 items-center max-h-1/2 justify-between md:px-4 w-full md:w-2/3">
+            {#each ['Technincal Events', 'Non Technical Events'] as ev}
+                <a
+                    href="tech_events"
+                    class="hover:scale-110 h-32 md:h-80 w-32 md:w-80 flex justify-center items-center p-4 md:p-4 rounded-md bg-blue-200">
+                    <p class="text-xs md:text-lg">{ev}</p>
+                </a>
+            {/each}
         </div>
+    </section>
+    <section class="flex flex-col w-full justify-center items-center">
+        <!--
+           - Contact Us
+           -->
+        <h2 class="text-xl md:text-2xl text-gray-300 font-semibold py-12 mb-4 md:mb-12">Contact Us</h2>
+        <div></div>
     </section>
 </main>
