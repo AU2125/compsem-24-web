@@ -5,7 +5,6 @@
     import {Link} from 'svelte-routing';
     import {onMount, onDestroy} from 'svelte';
     import Notification from '../lib/notification/Notification.svelte';
-    import App from '../App.svelte';
 
 
     let countdownInterval: any;
@@ -53,11 +52,11 @@
     const eventsCategories = [
         {
             "name": "Technincal Events",
-            "to": "tech_events"
+            "to": "events/technical"
         },
         {
             "name": "Non Technincal Events",
-            "to": "non_tech_events"
+            "to": "events/technincal"
         }
     ]
     const notifications = [
