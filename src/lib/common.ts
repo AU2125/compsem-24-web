@@ -6,15 +6,19 @@ export interface IEvent {
     to: string,
     form: string, // Form Link
     description?: string,
-    students: IHandler[],
-    staffs: string[]
+    students: IStudent [],
+    staffs: IStaff[]
 };
 
-export interface IHandler {
+export interface IStudent {
   name: string,
   phone: string,
 }
 
+export interface IStaff {
+  name: string,
+  phone: string,
+}
 
 const days = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"];
 const months = ["JAN", "FEB", "MAR", "APR"];
