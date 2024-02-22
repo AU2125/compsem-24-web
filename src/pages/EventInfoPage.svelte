@@ -29,25 +29,29 @@
             <h2 class="text-4xl">Description</h2>
             <p class="w-full indent-5 p-8">{eventDetails.description}</p>
             <h2 class="text-4xl">Handlers</h2>
-            <div class="w-full flex flex-col lg:flex-col">
-
-                <h3 class="text-center text-2xl">Staffs</h3>
-                <ul class="flex px-5 py-2 mt-4 justify-around">
-                    {#each eventDetails.staffs as staff}
-                        <li class="font-bold">
-                            <p>{staff}</p>
-                        </li>
-                    {/each}
-                </ul>
-                <h3 class="text-center text-2xl">Students</h3>
-                <ul class="flex px-5 py-2 mt-4 justify-around">
-                    {#each eventDetails.students as stdu}
-                        <li class="p-4 bg-slate-400 rounded-md">
-                            <p class="font-bold">{stdu.name}</p>
-                            <a class="text-sky-600" href="tel:{stdu.phone}">{stdu.phone}</a>
-                        </li>
-                    {/each}
-                </ul>
+            <div class="w-full flex mt-8 justify-around">
+                <div>
+                    <h3 class="text-center text-2xl">Student Co-ordinators</h3>
+                    <ul class="flex flex-col px-5 py-2 mt-4 justify-around">
+                        {#each eventDetails.students as stdu}
+                            <li class="p-2  rounded-md">
+                                <p class="font-bold">{stdu.name}</p>
+                                <a class="text-sky-600" href="tel:{stdu.phone}">{stdu.phone}</a>
+                            </li>
+                        {/each}
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-center text-2xl">Staffs Co-ordinators</h3>
+                    <ul class="flex flex-col px-5 py-2 mt-4 justify-around">
+                        {#each eventDetails.staffs as staff}
+                            <li >
+                                <p class="font-bold">{staff.name}</p>
+                                <p >{staff.designation}</p>
+                            </li>
+                        {/each}
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
