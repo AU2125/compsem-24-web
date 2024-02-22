@@ -13,7 +13,7 @@
 
 
 <main class="snap-y">
-    <section class="flex flex-col z-10 absolute top-0 left-0 items-center w-full h-screen bg-slate-600">
+    <section class="flex flex-col -z-10 absolute top-0 left-0 items-center w-full h-screen bg-slate-600">
         <!--
            - Event Section
            -->
@@ -21,7 +21,10 @@
             {title}
         </h2>
         <div class="flex flex-wrap items-stretch justify-evenly gap-4">
-            <Events events = {events.filter((e) => e.type==evType).map((e) => ({...e, "scheduledDate": new Date(e["scheduledDate"])}))} />
+            <Events events = {
+                events.filter((e) => e.type==evType)
+                    .map((e) => ({...e, "scheduledDate": new Date(e["scheduledDate"])}
+                    ))} />
         </div>
     </section>
 

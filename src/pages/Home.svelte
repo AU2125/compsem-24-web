@@ -56,7 +56,7 @@
         },
         {
             "name": "Non Technincal Events",
-            "to": "events/technincal"
+            "to": "events/nontechnical"
         }
     ]
     const notifications = [
@@ -116,7 +116,7 @@
     }
 </script>
 
-<main class="snap-y bg-slate-600">
+<main class="snap-y top-0 left-0 absolute w-screen bg-slate-600 -z-10">
     <section class="flex items-center justify-center w-full h-screen bg-slate-600" >
         <!--
            - Hero Section
