@@ -1,0 +1,177 @@
+[
+    {
+        "heading": "Technical Quiz",
+        "scheduledDate": "2024-02-26T15:00:00",
+        "type": "technical",
+        "oneliner": "Some oneliner text",
+        "to": "tech_quiz"
+    },
+    {
+        "heading": "Technical Connection",
+        "scheduledDate": "2024-02-27T15:00:00",
+        "type": "technical",
+        "oneliner": "Some oneliner text",
+        "to": "tech_quiz"
+    },
+    {
+        "heading": "Coding Challenge",
+        "scheduledDate": "2024-02-28T15:00:00",
+        "type": "technical",
+        "oneliner": "Some oneliner text",
+        "to": "tech_quiz"
+
+
+    },
+    {
+        "heading": "Debugging",
+        "scheduledDate": "2024-02-28T15:00:00",
+        "type": "technical",
+        "oneliner": "Some oneliner text",
+        "to": "tech_quiz"
+
+
+    },
+    {
+        "heading": "Aptitude and Reasoning",
+        "scheduledDate": "2024-02-28T15:00:00",
+        "type": "technical",
+        "oneliner": "Some oneliner text",
+        "to": "tech_quiz"
+
+
+    },
+    {
+        "heading": "Poster Design",
+        "scheduledDate": "2024-02-28T15:00:00",
+        "type": "technical",
+        "oneliner": "Some oneliner text",
+        "to": "tech_quiz"
+    },
+    {
+        "heading": "Web Design",
+        "scheduledDate": "2024-02-28T15:00:00",
+        "type": "technical",
+        "oneliner": "Some oneliner text",
+        "to": "tech_quiz"
+    },
+    {
+        "heading": "UI / UX Design",
+        "scheduledDate": "2024-02-28T15:00:00",
+        "type": "technical",
+        "oneliner": "Some oneliner text",
+        "to": "tech_quiz"
+
+
+    },
+    {
+        "heading": "Paper Presentation",
+        "scheduledDate": "2024-02-28T15:00:00",
+        "type": "technical",
+        "oneliner": "Some oneliner text",
+        "to": "tech_quiz"
+
+
+    },
+    {
+        "heading": "Essay",
+        "scheduledDate": "2024-02-28T15:00:00",
+        "type": "nontechnical",
+        "oneliner": "Some oneliner text",
+        "to": "tech_quiz"
+
+    },
+    {
+        "heading": "Brain Teaser",
+        "scheduledDate": "2024-02-28T15:00:00",
+        "type": "nontechnical",
+        "oneliner": "Some oneliner text",
+        "to": "tech_quiz"
+
+    },
+    {
+        "heading": "Speech Competition (Elocution)",
+        "scheduledDate": "2024-02-28T15:00:00",
+        "type": "nontechnical",
+        "to": "tech_quiz"
+
+    },
+    {
+        "heading": "Debate",
+        "scheduledDate": "2024-02-28T15:00:00",
+        "type": "nontechnical",
+        "oneliner": "Some oneliner text",
+        "to": "tech_quiz"
+
+    },
+    {
+        "heading": "Skit",
+        "scheduledDate": "2024-02-28T15:00:00",
+        "type": "nontechnical",
+        "oneliner": "Some oneliner text",
+        "to": "tech_quiz"
+
+    },
+    {
+        "heading": "Group Discussion",
+        "scheduledDate": "2024-02-28T15:00:00",
+        "type": "nontechnical",
+        "oneliner": "Some oneliner text",
+        "to": "tech_quiz"
+
+    },
+    {
+        "heading": "Photography",
+        "scheduledDate": "2024-02-28T15:00:00",
+        "type": "nontechnical",
+        "oneliner": "Some oneliner text",
+        "to": "tech_quiz"
+
+    },
+    {
+        "heading": "Treasure Hunt",
+        "scheduledDate": "2024-02-28T15:00:00",
+        "type": "nontechnical",
+        "to": "tech_quiz"
+
+    },
+    {
+        "heading": "Meme Creation",
+        "scheduledDate": "2024-02-28T15:00:00",
+        "type": "nontechnical",
+        "oneliner": "Some oneliner text",
+        "to": "tech_quiz"
+
+    },
+    {
+        "heading": "Poetry",
+        "scheduledDate": "2024-02-28T15:00:00",
+        "type": "nontechnical",
+        "oneliner": "Some oneliner text",
+        "to": "tech_quiz"
+
+    },
+    {
+        "heading": "Cook without fire",
+        "scheduledDate": "2024-02-28T15:00:00",
+        "type": "nontechnical",
+        "oneliner": "Some oneliner text",
+        "to": "tech_quiz"
+
+    },
+    {
+        "heading": "E-Sports",
+        "scheduledDate": "2024-02-28T15:00:00",
+        "type": "nontechnical",
+        "oneliner": "Some oneliner text",
+        "to": "tech_quiz"
+
+    },
+    {
+        "heading": "Drawing",
+        "scheduledDate": "2024-02-28T15:00:00",
+        "type": "nontechnical",
+        "oneliner": "Some oneliner text",
+        "to": "tech_quiz"
+
+    }
+]

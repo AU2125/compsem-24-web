@@ -8,7 +8,7 @@
     export let notifications: INotifcation[];
 </script>
 
-<div class="flex flex-col gap-3 scroll-y overflow-scroll items-center max-h-64 justify-between w-2/3 ">
+<div class="grid w-full lg:w-1/2 grid-flow-row gap-1 md:gap-3 scroll-y overflow-scroll items-center max-h-64">
     {#each notifications as notification}
     <NotificationItem heading={notification.heading} content={notification.content} />
     {/each}
