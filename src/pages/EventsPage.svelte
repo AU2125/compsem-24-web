@@ -12,8 +12,8 @@
 </svelte:head>
 
 
-<main class="snap-y h-screen">
-    <section class="flex bg-black py-14 flex-col absolute min-h-screen top-0 left-0 items-center w-full ">
+<main class="snap-y h-screen w-screen">
+    <section class="flex overflow-x-hidden bg-black py-14 flex-col absolute min-h-screen top-0 left-0 items-center w-full ">
         <!--
            - Event Section
            -->
