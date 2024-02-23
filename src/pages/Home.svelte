@@ -101,8 +101,8 @@
            -->
         <div class="flex flex-col items-center justify-center">
             <h1 class="lg:text-[12rem] md:text-[6rem] text-[3rem] mb-4 text-gray-100">
-                <span class="animate-clip-text-from-below">Comp</span><span class="animate-clip-text-from-above">Sem</span><span
-                class="bg-clip-text text-transparent bg-gradient-to-r from-pink-300 to-red-400">'{compSemYear}</span>
+                <span class="animate-clip-text-from-below font-anta">Comp</span><span class="animate-clip-text-from-above font-anta">Sem</span><span
+                class="bg-clip-text text-transparent bg-gradient-to-r from-pink-300 to-red-400 font-anta">'{compSemYear}</span>
             </h1>
             <div class="border-red-400 border-2  text-sm md:text-lg border py-3 rounded-md px-4 flex flex-col items-center">
                 <p class="text-red-400">Starting in</p>
@@ -124,7 +124,7 @@
         <!--
            - Notification Section
            -->
-        <h2 class="text-2xl text-gray-300 font-semibold mb-4">Notifications</h2>
+        <h2 class="text-2xl text-gray-300 font-semibold mb-4 font-exo">Notifications</h2>
         <Notification notifications={notifications}/>
     </section>
 
@@ -185,7 +185,7 @@ The department has two research laboratories having high-end systems with NVIDIA
                 <Link
                     to='compsem-24-web/{ev.to}'
                     class="text-xs backdrop-blur-sm text-gray-100 md:text-lg hover:scale-110 hover:text-2xl border-rose-500 border-2 h-24 md:h-80 w-24 md:w-80 flex justify-center items-center p-4 md:p-4 rounded-md  shadow-lg shadow-rose-500/50">
-                    <p>{ev.name}</p>
+                    <p class="font-anta">{ev.name}</p>
                 </Link>
             {/each}
         </div>

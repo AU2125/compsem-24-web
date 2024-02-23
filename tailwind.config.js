@@ -6,9 +6,21 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        'noto': ["Noto Sans Display", "sans-serif"],
+        'pt': ["PT Sans Caption", "sans-serif"],
+        'alegraya': ["Alegreya Sans", "sans-serif"],
+        'didact': ["Didact Gothic", "sans-serif"],
+        'maven': ["Maven Pro", "sans-serif"],
+        'exo' : ["Exo 2", "sans-serif"],
+        'barlow': ["Barlow Condensed", "sans-serif"],
+        'kdam': ["Kdam Thmor Pro", "sans-serif"],
+        'josefin': ["Josefin Sans", "sans-serif"],
+        'anta': ["Anta", "sans-serif"]
+      },
       animation: {
-        'clip-text-from-below': 'clip-polygon 150ms ease-in-out',
-        'clip-text-from-above': 'clip-polygon-reverse 150ms ease-in-out',
+        'clip-text-from-below': 'clip-polygon 600ms ease-in-out',
+        'clip-text-from-above': 'clip-polygon-reverse 600ms ease-in-out',
       },
       keyframes: {
         'clip-polygon': {

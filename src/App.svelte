@@ -82,6 +82,16 @@
 
 
 <style>
+    :global(h2) {
+        font-family: "Exo 2", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+    }
+    :global(p){
+        font-family: "Josefin Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+    }
     body, html {
         margin: 0;
         padding: 0;
@@ -94,6 +104,8 @@
         left: 0;
         z-index: -1; /* Ensure canvas is behind other elements */
     }
+
+    
 </style>
 
 <Router url={url}>
