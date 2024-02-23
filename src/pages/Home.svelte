@@ -267,8 +267,8 @@ The department has two research laboratories having high-end systems with NVIDIA
             {#each eventsCategories as ev}
                 <Link
                     to='compsem-24-web/{ev.to}'
-                    class="hover:scale-110 h-24 md:h-80 w-24 md:w-80 flex justify-center items-center p-4 md:p-4 rounded-md bg-cyan-500 shadow-lg shadow-cyan-500/50">
-                    <p class="text-xs md:text-lg">{ev.name}</p>
+                    class="text-xs text-gray-100 md:text-lg hover:scale-110 hover:text-2xl border-rose-500 border-2 h-24 md:h-80 w-24 md:w-80 flex justify-center items-center p-4 md:p-4 rounded-md  shadow-lg shadow-rose-500/50">
+                    <p>{ev.name}</p>
                 </Link>
             {/each}
         </div>
@@ -283,8 +283,8 @@ The department has two research laboratories having high-end systems with NVIDIA
             <div class="text-center ">
                 <p class="md:text-lg font-semibold">{contact.name}</p>
                 <p>{contact.designation}</p>
-                <a href="tel:{contact.phone}" class="text-sky-500 text-[6px] md:text-sm"><span class="hidden md:inline text-gray-300" >Phone: </span>{contact.phone}</a><br/>
-                <a href="mailto:{contact.email}" class="text-sky-500 text-[6px] md:text-sm"><span class="hidden md:inline text-gray-300" >Email: </span>{contact.email}</a>
+                <a href="tel:{contact.phone}" class="text-rose-400 text-[6px] md:text-sm"><span class="hidden md:inline text-gray-300" >Phone: </span>{contact.phone}</a><br/>
+                <a href="mailto:{contact.email}" class="text-rose-400 text-[6px] md:text-sm"><span class="hidden md:inline text-gray-300" >Email: </span>{contact.email}</a>
             </div>
             {/each}
         </div>
