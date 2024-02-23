@@ -4,8 +4,6 @@
     import Footer from '../lib/Footer.svelte';
     export let evType: string;
 
-
-    const title = evType == "technical" ? "Technical Events" : "Non-Technical Events";
 </script>
 
 <svelte:head>

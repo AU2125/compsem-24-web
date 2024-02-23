@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       animation: {
-        'clip-text-from-below': 'clip-polygon 150ms ease-in-out',
+        'clip-text-from-below': ' clip-polygon 150ms ease-in-out ',
         'clip-text-from-above': 'clip-polygon-reverse 150ms ease-in-out',
       },
       keyframes: {
