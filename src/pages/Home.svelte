@@ -148,7 +148,7 @@ The department has two research laboratories having high-end systems with NVIDIA
         <div class="flex items-center px-8 py-8 md:py-16 bg-gray-800/60 backdrop-blur-sm text-xs md:text-lg text-slate-300 rounded-lg justify-around w-full ">
             {#each committees as comm}
             <div class="flex flex-col items-center w-16 md:w-24">
-                <img class=" object-center object-cover w-full" src="/compsem-24-web/{comm.logo}" alt="">
+                <img class=" object-center object-cover w-full" src="{comm.logo}" alt="">
                 <p class="mt-2 md:mt-6">{comm.name}</p>
             </div>
             {/each}
@@ -183,7 +183,7 @@ The department has two research laboratories having high-end systems with NVIDIA
         <div class="flex gap-3 lg:gap-4 items-center justify-around rounded-md bg-gray-900/40 py-6 md:p-12 w-full ">
             {#each eventsCategories as ev}
                 <Link
-                    to='compsem-24-web/{ev.to}'
+                    to='{ev.to}'
                     class="text-xs backdrop-blur-sm text-gray-100 md:text-lg hover:scale-110 hover:text-2xl border-rose-500 border-2 h-24 md:h-80 w-24 md:w-80 flex justify-center items-center p-4 md:p-4 rounded-md  shadow-lg shadow-rose-500/50">
                     <p class="font-anta">{ev.name}</p>
                 </Link>
