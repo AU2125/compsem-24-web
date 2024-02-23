@@ -17,7 +17,7 @@
 </script>
 
 
-<main class="snap-y bg-slate-600">
+<main class="snap-y ">
     <div class="flex justify-center">
         <div class="page-container max-w-3xl xl:max-w-5xl text-white text-align-center">
             <div class="flex flex-col items-center mb-8">

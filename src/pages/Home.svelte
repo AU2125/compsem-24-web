@@ -10,7 +10,7 @@
     import contacts from '../data/contacts.json';
     import notifications from '../data/notifications.json';
 
-    import P5 from 'p5-svelte';
+    
 
     let countdownInterval: any;
     let targetDate: any = new Date("2024-02-26T15:00:00");
@@ -49,11 +49,11 @@
 
     const eventsCategories = [
         {
-            "name": "Technincal Events",
+            "name": "Technical Events",
             "to": "events/technical"
         },
         {
-            "name": "Non Technincal Events",
+            "name": "Non Technical Events",
             "to": "events/nontechnical"
         }
     ]
@@ -90,88 +90,10 @@
         }
     }
 
-    let width = window.innerWidth; // Set canvas width to full screen
-    let height = window.innerHeight; // Set canvas height to full screen
-    let particles = [];
-
-    class Particle {
-
-        constructor(p5){
-            this.x = p5.random(0, width);
-            this.y = p5.random(0, height);
-            this.r = p5.random(1, 8);
-            this.xSpeed = p5.random(-2, 2);
-            this.ySpeed = p5.random(-1, 1.5);
-        }
-
-        // creation of a particle.
-        createParticle(p5) {
-            p5.noStroke();
-            p5.fill('rgba(163, 33, 85,0.5)');
-            p5.circle(this.x, this.y, this.r);
-        }
-
-        // setting the particle in motion.
-        moveParticle(p5) {
-            if(this.x < 0 || this.x > width)
-                this.xSpeed *= -1;
-            if(this.y < 0 || this.y > height)
-                this.ySpeed *= -1;
-            this.x += this.xSpeed;
-            this.y += this.ySpeed;
-        }
-
-        // this function creates the connections(lines)
-        // between particles which are less than a certain distance apart
-        joinParticles(particles, p5) {
-            particles.forEach(element =>{
-            let dis = p5.dist(this.x, this.y, element.x, element.y);
-            if(dis < 85) {
-                p5.stroke('rgba(163, 33, 85,0.4)');
-                p5.line(this.x, this.y, element.x, element.y);
-            }
-            });
-        }
-    }
-
-    const sketch = (p5) => {
-        p5.setup = () => {
-            p5.createCanvas(width, height);
-            for(let i = 0; i < width / 10; i++){
-                particles.push(new Particle(p5));
-            }
-        };
-
-        p5.draw = () => {
-            p5.clear();
-            for(let i = 0; i < particles.length; i++) {
-                particles[i].createParticle(p5);
-                particles[i].moveParticle(p5);
-                particles[i].joinParticles(particles.slice(i), p5);
-            }
-        };
-    };
 </script>
 
-<style>
-    body, html {
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-    }
-
-    #p5-canvas {
-        position: fixed;
-        top: 0;
-        left: 0;
-        z-index: -1; /* Ensure canvas is behind other elements */
-    }
-</style>
 
 
-<div id="p5-container" class="fixed top-0 left-0 w-screen h-screen -z-5 bg-gray-900">
-    <P5 {sketch} id="p5-canvas"/>
-</div>
 <!-- Add other elements here for overlay -->
 <main class="snap-y absolute top-0 left-0 w-screen z-5">
     <section class="flex items-center justify-center w-full h-screen " >
@@ -263,11 +185,11 @@ The department has two research laboratories having high-end systems with NVIDIA
            - Event Section
            -->
         <h2 class="text-xl md:text-2xl text-gray-300 font-semibold mb-4">Events</h2>
-        <div class="flex gap-3 lg:gap-4 items-center justify-around rounded-md bg-gray-900 py-6 md:p-12 w-full ">
+        <div class="flex gap-3 lg:gap-4 items-center justify-around rounded-md bg-gray-900/40 py-6 md:p-12 w-full ">
             {#each eventsCategories as ev}
                 <Link
                     to='compsem-24-web/{ev.to}'
-                    class="text-xs text-gray-100 md:text-lg hover:scale-110 hover:text-2xl border-rose-500 border-2 h-24 md:h-80 w-24 md:w-80 flex justify-center items-center p-4 md:p-4 rounded-md  shadow-lg shadow-rose-500/50">
+                    class="text-xs backdrop-blur-sm text-gray-100 md:text-lg hover:scale-110 hover:text-2xl border-rose-500 border-2 h-24 md:h-80 w-24 md:w-80 flex justify-center items-center p-4 md:p-4 rounded-md  shadow-lg shadow-rose-500/50">
                     <p>{ev.name}</p>
                 </Link>
             {/each}
@@ -278,9 +200,9 @@ The department has two research laboratories having high-end systems with NVIDIA
            - Contact Us
            -->
         <h2 class="text-xl md:text-2xl text-gray-300 font-semibold mb-4">Contact Us</h2>
-        <div class="text-[8px] text-gray-300 md:text-sm p-8 bg-gray-800 rounded-md flex justify-around w-full">
+        <div class="text-[8px] text-gray-300 md:text-sm p-8 bg-gray-800/60 backdrop-blur-sm rounded-md flex justify-around w-full">
             {#each contacts as contact}
-            <div class="text-center ">
+            <div class="text-center">
                 <p class="md:text-lg font-semibold">{contact.name}</p>
                 <p>{contact.designation}</p>
                 <a href="tel:{contact.phone}" class="text-rose-400 text-[6px] md:text-sm"><span class="hidden md:inline text-gray-300" >Phone: </span>{contact.phone}</a><br/>

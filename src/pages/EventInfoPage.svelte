@@ -11,11 +11,11 @@
 </script>
 
 
-<div class="w-screen h-screen bg-black fixed top-0 left-0 -z-5"></div>
+<div class="w-screen h-screen  fixed top-0 left-0 -z-5"></div>
 <main class="snap-y absolute top-0 left-0 w-screen">
 
     <section class=" gap-4 px-16 flex md:p-16 flex-col justify-center items-center">
-        <div class="md:w-3/4 border-red-400 border-2 text-white mt-40 w-full p-6 gap-8  flex flex-col md:flex-row justify-between items-center rounded-md">
+        <div class="md:w-3/4 border-red-400 border-2 text-white mt-40 w-full p-6 gap-8  flex flex-col md:flex-row justify-between items-center rounded-md backdrop-blur-sm bg-gray-800/40">
             <div class="flex flex-col justify-center  md:justify-evenly items-start">
                 <h1 class="text-2xl md:text-6xl">{eventDetails.heading}</h1>
                 <div class="flex w-full items-center flex-col md:px-4 mt-4 text-center">
@@ -25,7 +25,7 @@
             </div>
             <a class="border-2 border-red-400 px-8 rounded-md py-6" href="{eventDetails.form}">Register !</a>
         </div>
-        <div class="md:w-3/4 text-white border-red-400 border-2 p-6 w-full rounded-md">
+        <div class="md:w-3/4 text-white border-red-400 border-2 p-6 w-full rounded-md backdrop-blur-sm bg-gray-800/40">
             <h2 class="text-xl md:text-4xl">Description</h2>
             <p class="w-full indent-5 py-4 md:p-8 text-sm">{eventDetails.description}</p>
             <h2 class="text-xl md:text-4xl">Handlers</h2>
