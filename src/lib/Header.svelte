@@ -16,7 +16,7 @@
         Menu
    </button>
 
-    <nav class="flex bg-gray-600 md:bg-transparent {mdScreen ? '' : menuToggle ? 'animate-clip-text-from-above flex-col text-center rounded-md items-center' : 'hidden'} text-sm justify-evenly md:gap-4  text-gray-200">
+    <nav class="flex bg-gray-800/40 md:bg-transparent {mdScreen ? '' : menuToggle ? 'border-2 border-rose-400 animate-clip-text-from-above flex-col text-center rounded-md items-center backdrop-blur-sm' : 'hidden'} text-sm justify-evenly md:gap-4  text-gray-200">
         <Link on:click= {() => menuToggle = false} to="compsem-24-web/" class="p-2 transition-transform duration-75 ease-in-out hover:scale-125 rounded-md hover:text-md hover:bg-clip-text hover:text-transparent hover:bg-gradient-to-r hover:from-pink-300 hover:to-red-400">Home</Link>
         <Link on:click= {() => menuToggle = false} to="compsem-24-web/events/technical" class="p-2  transition-transform duration-75 ease-in-out hover:scale-125 hover:text-md hover:bg-clip-text hover:text-transparent hover:bg-gradient-to-r hover:from-pink-300 hover:to-red-400">Technical Events</Link>
         <Link on:click= {() => menuToggle = false} to="compsem-24-web/events/nontechnical" class="p-2  transition-transform duration-75 ease-in-out hover:scale-125 hover:text-md hover:bg-clip-text hover:text-transparent hover:bg-gradient-to-r hover:from-pink-300 hover:to-red-400">Non Technical Events</Link>
