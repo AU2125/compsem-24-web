@@ -10,12 +10,15 @@
     import contacts from '../data/contacts.json';
     import notifications from '../data/notifications.json';
 
+    import P5 from 'p5-svelte';
+
     let countdownInterval: any;
     let targetDate: any = new Date("2024-02-26T15:00:00");
     let timeLeft = Math.floor((targetDate - new Date())/ 1000);
 
     let compSemYear = 0;
     let comSemYearCounter: any;
+
     onMount(() => {
         comSemYearCounter = setInterval(() => {
             if (compSemYear < 24){
@@ -86,10 +89,91 @@
             days, hrs, mins, secs
         }
     }
+
+    let width = window.innerWidth; // Set canvas width to full screen
+    let height = window.innerHeight; // Set canvas height to full screen
+    let particles = [];
+
+    class Particle {
+
+        constructor(p5){
+            this.x = p5.random(0, width);
+            this.y = p5.random(0, height);
+            this.r = p5.random(1, 8);
+            this.xSpeed = p5.random(-2, 2);
+            this.ySpeed = p5.random(-1, 1.5);
+        }
+
+        // creation of a particle.
+        createParticle(p5) {
+            p5.noStroke();
+            p5.fill('rgba(200,169,169,0.5)');
+            p5.circle(this.x, this.y, this.r);
+        }
+
+        // setting the particle in motion.
+        moveParticle(p5) {
+            if(this.x < 0 || this.x > width)
+                this.xSpeed *= -1;
+            if(this.y < 0 || this.y > height)
+                this.ySpeed *= -1;
+            this.x += this.xSpeed;
+            this.y += this.ySpeed;
+        }
+
+        // this function creates the connections(lines)
+        // between particles which are less than a certain distance apart
+        joinParticles(particles, p5) {
+            particles.forEach(element =>{
+            let dis = p5.dist(this.x, this.y, element.x, element.y);
+            if(dis < 85) {
+                p5.stroke('rgba(255,255,255,0.4)');
+                p5.line(this.x, this.y, element.x, element.y);
+            }
+            });
+        }
+    }
+
+    const sketch = (p5) => {
+        p5.setup = () => {
+            p5.createCanvas(width, height);
+            for(let i = 0; i < width / 10; i++){
+                particles.push(new Particle(p5));
+            }
+        };
+
+        p5.draw = () => {
+            p5.background('#0f0f0f');
+            for(let i = 0; i < particles.length; i++) {
+                particles[i].createParticle(p5);
+                particles[i].moveParticle(p5);
+                particles[i].joinParticles(particles.slice(i), p5);
+            }
+        };
+    };
 </script>
 
-<div class="w-screen h-screen bg-black fixed top-0 left-0 -z-5"></div>
-<main class="snap-y absolute top-0 left-0 w-screen">
+<style>
+    body, html {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    #p5-canvas {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -1; /* Ensure canvas is behind other elements */
+    }
+</style>
+
+
+<div id="p5-container" class="fixed top-0 left-0 w-screen h-screen -z-5">
+    <P5 {sketch} id="p5-canvas"/>
+</div>
+<!-- Add other elements here for overlay -->
+<main class="snap-y absolute top-0 left-0 w-screen z-5">
     <section class="flex items-center justify-center w-full h-screen " >
         <!--
            - Hero Section
@@ -183,7 +267,7 @@ The department has two research laboratories having high-end systems with NVIDIA
             {#each eventsCategories as ev}
                 <Link
                     to='compsem-24-web/{ev.to}'
-                    class="hover:scale-110 h-24 md:h-80 w-24 md:w-80 flex justify-center items-center p-4 md:p-4 rounded-md bg-blue-200">
+                    class="hover:scale-110 h-24 md:h-80 w-24 md:w-80 flex justify-center items-center p-4 md:p-4 rounded-md bg-cyan-500 shadow-lg shadow-cyan-500/50">
                     <p class="text-xs md:text-lg">{ev.name}</p>
                 </Link>
             {/each}
@@ -207,3 +291,6 @@ The department has two research laboratories having high-end systems with NVIDIA
     </section>
     <Footer />
 </main>
+
+
+
