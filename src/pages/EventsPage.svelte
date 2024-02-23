@@ -12,20 +12,18 @@
 </svelte:head>
 
 
-<main class="snap-y">
-    <section class="flex flex-col -z-10 absolute top-0 left-0 items-center w-full h-screen bg-slate-600">
+<main class="snap-y h-screen">
+    <section class="flex bg-black py-14 flex-col absolute min-h-screen top-0 left-0 items-center w-full ">
         <!--
            - Event Section
            -->
-        <h2 class="text-5xl text-white mt-20 mb-12">
+        <h2 class="text-2xl md:text-5xl text-white mt-32">
             {title}
         </h2>
-        <div class="flex flex-wrap items-stretch justify-evenly gap-4">
-            <Events events = {
-                events.filter((e) => e.type==evType)
-                    .map((e) => ({...e, "scheduledDate": new Date(e["scheduledDate"])}
-                    ))} />
-        </div>
+        <Events events = {
+            events.filter((e) => e.type==evType)
+                .map((e) => ({...e, "scheduledDate": new Date(e["scheduledDate"])}
+                ))} />
     </section>
 
 </main>
