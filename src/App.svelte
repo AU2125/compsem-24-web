@@ -105,7 +105,7 @@
         z-index: -1; /* Ensure canvas is behind other elements */
     }
 
-    
+
 </style>
 
 <Router url={url}>
@@ -114,7 +114,7 @@
         <P5 {sketch} id="p5-canvas"/>
     </div>
 
-    <Route path="/compsem-24-web/"><HomePage/></Route>
-    <Route path="/compsem-24-web/events/:evType" component={EventsPage}></Route>
-    <Route path="/compsem-24-web/event/:eventId" component={EventInfoPage}></Route>
+    <Route path="/"><HomePage/></Route>
+    <Route path="/events/:evType" component={EventsPage}></Route>
+    <Route path="/event/:eventId" component={EventInfoPage}></Route>
 </Router>
