@@ -8,7 +8,7 @@
 </script>
 
 <svelte:head>
-    <title>{title}</title>
+    <title>{evType == "technical" ? "Technical Events" : "Non-Technical Events"}</title>
 </svelte:head>
 
 
@@ -18,7 +18,7 @@
            - Event Section
            -->
         <h2 class="text-2xl md:text-5xl text-white mt-32">
-            {title}
+           {evType == "technical" ? "Technical Events" : "Non-Technical Events"}
         </h2>
         <Events events = {
             events.filter((e) => e.type==evType)
