@@ -1,6 +1,7 @@
 <script lang="ts">
     import events from '../data/events.json';
     import Events from '../lib/Events/Event.svelte';
+    import Footer from '../lib/Footer.svelte';
     export let evType: string;
 
 
@@ -26,4 +27,5 @@
                 ))} />
     </section>
 
+    <Footer />
 </main>
