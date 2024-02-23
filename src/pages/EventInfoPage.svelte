@@ -19,8 +19,6 @@
             <div class="flex flex-col justify-center  md:justify-evenly items-start">
                 <h1 class=" font-anta text-2xl md:text-6xl">{eventDetails.heading}</h1>
                 <div class="flex w-full items-center flex-col md:px-4 mt-4 text-center">
-                <h1 class="text-2xl md:text-6xl">{eventDetails.heading}</h1>
-                <div class="flex md:block items-center flex-col md:px-4 mt-4 ">
                     <p>{evType}</p>
                     <p>{calcDate(new Date(eventDetails.scheduledDate))}</p>
                 </div>
