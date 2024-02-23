@@ -10,7 +10,6 @@
     import contacts from '../data/contacts.json';
     import notifications from '../data/notifications.json';
 
-    
 
     let countdownInterval: any;
     let targetDate: any = new Date("2024-02-26T15:00:00");
@@ -134,21 +133,19 @@
         <!--
            - About Department Section
            -->
-        <div class="bg-gray-900 py-8 px-10 rounded-md">
-           <h2 class="text-xl md:text-2xl text-gray-300 font-semibold self-start mb-4 md:mb-12">About Department</h2>
-           <p class="text-gray-300 text-justify indent-8 text-xs leading-tight md:text-lg mt-6">
+       <h2 class="text-xl md:text-2xl text-gray-300 font-semibold self-start mb-4 md:mb-12">About Department</h2>
+       <p class="text-gray-300 text-justify indent-8 text-xs leading-tight md:text-lg mt-6">
 The Department of Computer Science and Engineering was established in the year 1984 to meet the demand for well-qualified computer professionals. Flexible Choice based Credit System. Student Centric Teaching Methodology is adopted. The various Associations and Clubs promote the leadership and organisational skills of the students by conducting various academic events throughout the year. Apart from academics, students also involve themselves in activities that inculcate service and team spirit. The department library has more than 7500 books.
 The department has two research laboratories having high-end systems with NVIDIA GeForce RTX 3080 Graphics Card to carry out research in the areas of Speech, Image/Video Processing and Data Analytics. There are six Computer Laboratories having 300 systems, an IoT Laboratory, and three seminar halls with necessary ICT facilities to conduct conferences/seminars and placement activities.
-           </p>
+       </p>
 
-        </div>
     </section>
     <section class="flex flex-col items-center p-8 lg:py-24 lg:px-48 w-full">
         <!--
-           - Committee Section
+           - Associations Section
            -->
-        <h2 class="text-xl md:text-2xl text-gray-200 mb-12 font-semibold">Committees</h2>
-        <div class="flex items-center px-8 py-8 md:py-16 bg-gray-800  text-xs md:text-lg text-slate-300 rounded-lg justify-around w-full ">
+        <h2 class="text-xl md:text-2xl text-gray-200 mb-12 font-semibold">Associations</h2>
+        <div class="flex items-center px-8 py-8 md:py-16 bg-gray-800/60 backdrop-blur-sm text-xs md:text-lg text-slate-300 rounded-lg justify-around w-full ">
             {#each committees as comm}
             <div class="flex flex-col items-center w-16 md:w-24">
                 <img class=" object-center object-cover w-full" src="/compsem-24-web/{comm.logo}" alt="">
@@ -161,14 +158,12 @@ The department has two research laboratories having high-end systems with NVIDIA
         <!--
            - About Tech Club Section
            -->
-        <div class="bg-gray-900 py-8 px-10 rounded-md">
            <h2 class="text-xl md:text-2xl text-gray-300 font-semibold self-start mb-4 md:mb-12">About Tech Club</h2>
            <p class="text-gray-300 text-justify indent-8 text-xs leading-tight md:text-lg mt-6">
 The Department of Computer Science and Engineering was established in the year 1984 to meet the demand for well-qualified computer professionals. Flexible Choice based Credit System. Student Centric Teaching Methodology is adopted. The various Associations and Clubs promote the leadership and organisational skills of the students by conducting various academic events throughout the year. Apart from academics, students also involve themselves in activities that inculcate service and team spirit. The department library has more than 7500 books.
 The department has two research laboratories having high-end systems with NVIDIA GeForce RTX 3080 Graphics Card to carry out research in the areas of Speech, Image/Video Processing and Data Analytics. There are six Computer Laboratories having 300 systems, an IoT Laboratory, and three seminar halls with necessary ICT facilities to conduct conferences/seminars and placement activities.
            </p>
 
-        </div>
     </section>
     <section class="py-12 px-8 md:py-32 text-gray-300 md:px-32 w-full ">
         <!--
@@ -200,9 +195,9 @@ The department has two research laboratories having high-end systems with NVIDIA
            - Contact Us
            -->
         <h2 class="text-xl md:text-2xl text-gray-300 font-semibold mb-4">Contact Us</h2>
-        <div class="text-[8px] text-gray-300 md:text-sm p-8 bg-gray-800/60 backdrop-blur-sm rounded-md flex justify-around w-full">
+        <div class="text-[8px] text-gray-300 gap-2 md:text-sm p-4 md:p-8 bg-gray-800/50 backdrop-blur-sm rounded-md grid grid-rows-2 grid-cols-2 ">
             {#each contacts as contact}
-            <div class="text-center">
+            <div class="text-center p-2 md:p-4">
                 <p class="md:text-lg font-semibold">{contact.name}</p>
                 <p>{contact.designation}</p>
                 <a href="tel:{contact.phone}" class="text-rose-400 text-[6px] md:text-sm"><span class="hidden md:inline text-gray-300" >Phone: </span>{contact.phone}</a><br/>
