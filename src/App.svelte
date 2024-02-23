@@ -5,6 +5,7 @@
     import Header from './lib/Header.svelte';
     import EventInfoPage from './pages/EventInfoPage.svelte';
 
+    import Footer from './lib/Footer.svelte';
     import P5 from 'p5-svelte';
 
     export let url = "";
@@ -55,10 +56,17 @@
 
     const sketch = (p5) => {
         p5.setup = () => {
-            p5.createCanvas(width, height);
+            let cnv = p5.createCanvas(width, height);
             for(let i = 0; i < width / 10; i++){
                 particles.push(new Particle(p5));
             }
+            window.onresize = () => {
+                console.log(p5.windowWidth, p5.windowHeight);
+            }
+            p5.windowResized = () => {
+                console.log("reseted")
+                cnv.resizeCanvas(p5.windowWidth, p5.windowHeight);
+            };
         };
 
         p5.draw = () => {
@@ -74,6 +82,16 @@
 
 
 <style>
+    :global(h2) {
+        font-family: "Exo 2", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+    }
+    :global(p){
+        font-family: "Josefin Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+    }
     body, html {
         margin: 0;
         padding: 0;
@@ -86,6 +104,8 @@
         left: 0;
         z-index: -1; /* Ensure canvas is behind other elements */
     }
+
+    
 </style>
 
 <Router url={url}>
@@ -93,7 +113,7 @@
     <div id="p5-container" class="fixed top-0 left-0 w-screen h-screen -z-5 bg-gray-900">
         <P5 {sketch} id="p5-canvas"/>
     </div>
-    
+
     <Route path="/compsem-24-web/"><HomePage/></Route>
     <Route path="/compsem-24-web/events/:evType" component={EventsPage}></Route>
     <Route path="/compsem-24-web/event/:eventId" component={EventInfoPage}></Route>

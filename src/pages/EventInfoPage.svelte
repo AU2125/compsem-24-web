@@ -18,23 +18,31 @@
         <div class="md:w-3/4 border-red-400 border-2 text-white mt-40 w-full p-6 gap-8  flex flex-col md:flex-row justify-between items-center rounded-md backdrop-blur-sm bg-gray-800/40">
             <div class="flex flex-col justify-center  md:justify-evenly items-start">
                 <h1 class="text-2xl md:text-6xl">{eventDetails.heading}</h1>
-                <div class="flex w-full items-center flex-col md:px-4 mt-4 text-center">
+                <div class="flex md:block items-center flex-col md:px-4 mt-4 ">
                     <p>{evType}</p>
                     <p>{calcDate(new Date(eventDetails.scheduledDate))}</p>
                 </div>
             </div>
-            <a class="border-2 border-red-400 px-8 rounded-md py-6" href="{eventDetails.form}">Register !</a>
+            {#if (eventDetails.scheduledDate - new Date() >= 0)}
+                <p class="text-green-500 px-8 rounded-md py-6">On Going</p>
+            {:else if (new Date() - eventDetails.scheduledDate > 2 * 3600 * 1000)}
+                <p class="text-green-500 px-8 rounded-md py-6">Completed</p>
+            {:else if  eventDetails.form != null}
+                <a class="border-2 border-red-400 px-8 rounded-md py-6" href="{eventDetails.form}">Register !</a>
+            {:else}
+                <p class="text-red-500 px-8 rounded-md py-6">Registration Not Available</p>
+            {/if}
         </div>
         <div class="md:w-3/4 text-white border-red-400 border-2 p-6 w-full rounded-md backdrop-blur-sm bg-gray-800/40">
             <h2 class="text-xl md:text-4xl">Description</h2>
-            <p class="w-full indent-5 py-4 md:p-8 text-sm">{eventDetails.description}</p>
+            <p class="w-full indent-5 py-4 md:p-8 text-sm md:text-base">{eventDetails.description}</p>
             <h2 class="text-xl md:text-4xl">Handlers</h2>
             <div class="w-full flex mt-8 -p-2 justify-between md:justify-around">
                 <div>
                     <h3 class="text-center text-xs md:text-2xl">Student Co-ordinators</h3>
-                    <ul class="flex flex-col md:px-5 py-2 mt-4 justify-between md:justify-around">
+                    <ul class="flex gap-2 flex-col md:px-5 py-2 mt-4 items-center justify-between md:justify-around">
                         {#each eventDetails.students as stdu}
-                            <li class="p-2 rounded-md">
+                            <li class="w-full rounded-md">
                                 <p class="font-bold text-xs md:text-lg">{stdu.name}</p>
                                 <a class="text-sky-600 text-xs md:text-lg" href="tel:{stdu.phone}">{stdu.phone}</a>
                             </li>
@@ -43,9 +51,9 @@
                 </div>
                 <div>
                     <h3 class="text-center text-xs md:text-2xl">Staffs Co-ordinators</h3>
-                    <ul class="flex flex-col md:px-5 py-2 mt-4 justify-between md:justify-around">
+                    <ul class="flex flex-col gap-2 md:px-5 py-2 mt-4 justify-between md:justify-around">
                         {#each eventDetails.staffs as staff}
-                            <li class="p-2 rounded-md">
+                            <li class="w-full rounded-md">
                                 <p class="font-bold text-xs md:text-lg">{staff.name}</p>
                                 <p class="text-xs md:text-lg">{staff.designation}</p>
                             </li>
