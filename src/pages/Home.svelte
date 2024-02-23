@@ -106,7 +106,7 @@
             </h1>
             <div class="border-red-400 border-2  text-sm md:text-lg border py-3 rounded-md px-4 flex flex-col items-center">
                 <p class="text-red-400">Starting in</p>
-                <span class="flex gap-2 text-gray-900 bg-gray-900 rounded-md justify-between mt-2">
+                <span class="flex gap-2 text-gray-900 bg-gray-800/60 backdrop-blur-sm rounded-md justify-between mt-2">
                     {#each Object.entries(countdown) as [key, value]}
                     <span class="text-center text-sm text-rose-400 md:text-md w-14  p-2 rounded-md ">
                         <p>{value}</p>
