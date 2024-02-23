@@ -49,11 +49,11 @@
 
     const eventsCategories = [
         {
-            "name": "Technincal Events",
+            "name": "Technical Events",
             "to": "events/technical"
         },
         {
-            "name": "Non Technincal Events",
+            "name": "Non Technical Events",
             "to": "events/nontechnical"
         }
     ]
