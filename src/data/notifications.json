@@ -2,7 +2,7 @@
     {
         "heading": "Welcome Note",
         "content": "Welcome the newly launched CompSem website!!!!!!!",
-        "url" : "",
+        "url" : "/",
         "date": "2024-02-26T00:00:00"
     },
     {
@@ -14,13 +14,13 @@
     {
         "heading": "Day 1 Technical Event: Technical Quiz",
         "content": "Click Here to go to the Technical Quiz Event page",
-        "url": "",
+        "url": "/event/tech_quiz",
         "date": "2024-02-26T00:00:00"
     },
     {
         "heading": "Day 1 Non-Technical Event: Essay Writing",
         "content": "Click Here to go to the Essay Writing Event page",
-        "url": "",
+        "url": "/event/essay",
         "date": "2024-02-26T00:00:00"
     }
 ]

@@ -12,6 +12,6 @@
 
 <div class="grid w-full lg:w-1/2 grid-flow-row no-scrollbar gap-1 md:gap-3 scroll-y overflow-scroll items-center max-h-64">
     {#each notifications as notification}
-    <NotificationItem url={url} date={new Date(notification.date)} heading={notification.heading} content={notification.content} />
+    <NotificationItem url={notification.url} date={new Date(notification.date)} heading={notification.heading} content={notification.content} />
     {/each}
 </div>
