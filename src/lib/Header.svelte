@@ -2,17 +2,17 @@
     import  {Link} from 'svelte-routing';
 
     let menuToggle = false;
-    let mdScreen = screen.width > 768;
+    let mdScreen = screen.width > 1024;
 </script>
 
-<header class="px-8 py-6 z-10 absolute top-0 left-0 flex flex-col md:flex-row items-center justify-center md:justify-between w-screen">
+<header class="px-8 py-6 z-10 absolute top-0 left-0 flex flex-col lg:flex-row items-center justify-center lg:justify-between w-screen">
     <Link to="/" >
         <h3 class="font-anta text-3xl text-gray-200">CompSem<span class="font-anta bg-clip-text text-transparent bg-gradient-to-r from-pink-300 to-red-400">'24</span></h3>
     </Link>
 
    <button on:click={
         () => {menuToggle = ! menuToggle}
-    } class="p-2 text-gray-200 md:hidden transition-transform duration-75 ease-in-out hover:scale-125 rounded-md  hover:bg-clip-text hover:text-transparent hover:bg-gradient-to-r hover:from-pink-300 hover:to-red-400">
+    } class="p-2 text-gray-200 lg:hidden transition-transform duration-75 ease-in-out hover:scale-125 rounded-md  hover:bg-clip-text hover:text-transparent hover:bg-gradient-to-r hover:from-pink-300 hover:to-red-400">
         Menu
    </button>
 
