@@ -160,8 +160,7 @@ The department has two research laboratories having high-end systems with NVIDIA
            -->
            <h2 class="text-xl md:text-2xl text-gray-300 font-semibold self-start mb-4 md:mb-12">About Tech Club</h2>
            <p class="text-gray-300 text-justify indent-8 text-xs leading-tight md:text-lg mt-6">
-The Department of Computer Science and Engineering was established in the year 1984 to meet the demand for well-qualified computer professionals. Flexible Choice based Credit System. Student Centric Teaching Methodology is adopted. The various Associations and Clubs promote the leadership and organisational skills of the students by conducting various academic events throughout the year. Apart from academics, students also involve themselves in activities that inculcate service and team spirit. The department library has more than 7500 books.
-The department has two research laboratories having high-end systems with NVIDIA GeForce RTX 3080 Graphics Card to carry out research in the areas of Speech, Image/Video Processing and Data Analytics. There are six Computer Laboratories having 300 systems, an IoT Laboratory, and three seminar halls with necessary ICT facilities to conduct conferences/seminars and placement activities.
+           Techclub - where ideas take flight! Our focus is on making computer knowledge practical and solving real-world challenges. We provide a space for hands-on learning and collaboration. At Techclub, we believe in sharing knowledge, improving communication, and diving into the nitty-gritty of software development. We're here to guide you, support your interests, and offer opportunities to work on exciting projects. Join us at Techclub for a journey of learning, teamwork, and exploring the exciting world of technology!
            </p>
 
     </section>
