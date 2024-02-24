@@ -14,7 +14,7 @@
                 "name": "Dr. G. Prabakaran",
                 "designation": "Associate Professor"
             }],
-        "form": "https://google.com",
+        "form": "https://forms.gle/ws7GsKL5YoK8B4SZ6",
         "students": [
             { "name":"V. Rajeshwaran",
               "phone": "8940338808"
@@ -43,7 +43,7 @@
                 "name": "Dr. M. Arulselvi",
                 "designation": "Associate Professor"
             }],
-        "form": "https://google.com",
+        "form": "https://forms.gle/kgrWocE9ncT9mzp88",
         "students": [
             { "name":"R. Haripriya",
               "phone": "7010681369"
@@ -72,7 +72,7 @@
                 "name": "Dr. T. Suresh",
                 "designation": "Associate Professor"
             }],
-        "form": "https://google.com",
+        "form": "https://forms.gle/xUAqFW7Lupes1bpv5",
         "students": [
             { "name":"J. Rathnagopal",
               "phone": "9384324688"
@@ -101,7 +101,7 @@
                 "name": "Dr. M. Balasubramanian",
                 "designation": "Professor"
             }],
-        "form": "https://google.com",
+        "form": "https://forms.gle/HY7t4M3yG6GtuqWP8",
         "students": [
             { "name":"I. Sahithyan",
               "phone": "9361133021"
@@ -130,7 +130,7 @@
                 "name": "Dr. R. Arunkumar",
                 "designation": "Associate Professor"
             }],
-        "form": "https://google.com",
+        "form": "https://forms.gle/kN1xwB8Fz1QdqpAaA",
         "students": [
             { "name":"D. Bharanidharan",
               "phone": "9361917993"
@@ -145,8 +145,41 @@
         "to": "debugging"
     },
     {
-        "heading": "Aptitude & Reasoning",
+        "heading": "Newsletter: Theme & Template",
         "scheduledDate": "2024-03-07T15:00:00",
+        "type": "technical",
+        "oneliner": "Some oneliner text",
+        "description": "Embark on a captivating journey of intellect and innovation with our newsletter event, 'Name our Newsletter' This thoughtfully crafted publication weaves together a rich tapestry of ideas, insights, and inspiration. Explore the realms of knowledge as we delve into diverse topics, connecting minds and fostering a community of curious thinkers. Join us in this intellectual adventure, where each edition promises to be a voyage into the realms of discovery, collaboration, and enlightenment. Name our newsletter event, and let the exploration of ideas begin!",
+        "staffs": [
+            {
+                "name": "Dr. R. Bhavani",
+                "designation": "Professor & Head"
+            }, 
+            {
+                "name": "Dr. P. Aruna",
+                "designation": "Professor"
+            },
+            {
+              "name": "Dr. A.N. Sigappi",
+              "designation": "Professor"
+          }],
+        "form": "https://forms.gle/cL6VT1WKTrMuHURD9",
+        "students": [
+            { "name":"R. Gowdham",
+              "phone": "8428764256"
+            },
+            { "name":"H. Janarthanan",
+              "phone": "9842307274"
+            },
+            { "name":"S. Jeya Prakash",
+              "phone": "9976605533"
+            }
+        ],
+        "to": "news_letter"
+    },
+    {
+        "heading": "Aptitude & Reasoning",
+        "scheduledDate": "2024-03-08T15:00:00",
         "type": "technical",
         "oneliner": "Some oneliner text",
         "description": "The Aptitude and Reasoning event is a competitive challenge designed to test participants' problem-solving abilities, logical reasoning skills, and numerical aptitude. Participants will engage in a series of tasks and questions that require them to analyze information, make deductions, and apply critical thinking to arrive at solutions.",
@@ -157,9 +190,9 @@
             }, 
             {
                 "name": "Dr. S. Saravanan",
-                "designation": "Associate Professor"
+                "designation": "Assistant Professor"
             }],
-        "form": "https://google.com",
+        "form": "https://forms.gle/aJVdWCE9STBCi3S16",
         "students": [
             { "name":"G.  Rahulan",
               "phone": "7339261080"
@@ -175,7 +208,7 @@
     },
     {
         "heading": "Poster Design",
-        "scheduledDate": "2024-03-08T15:00:00",
+        "scheduledDate": "2024-03-11T15:00:00",
         "type": "technical",
         "oneliner": "Some oneliner text",
         "description": "The Poster Design Event is a creative competition where participants are invited to showcase their artistic skills and design abilities by creating visually appealing posters on a given theme or topic. Participants will have the opportunity to express their ideas, messages, or concepts through a combination of images, graphics, and text on a single poster. The event aims to promote creativity, originality, and effective communication through visual mediums.",
@@ -188,7 +221,7 @@
                 "name": "Dr. B. Kirubagari",
                 "designation": "Associate Professor"
             }],
-        "form": "https://google.com",
+        "form": "https://forms.gle/rA9kYp6KCsPciGLX6",
         "students": [
             { "name":"R. Mithun",
               "phone": "9789569181"
@@ -204,26 +237,26 @@
     },
     {
         "heading": "Web Design",
-        "scheduledDate": "2024-03-11T15:00:00",
+        "scheduledDate": "2024-03-12T15:00:00",
         "type": "technical",
         "oneliner": "Some oneliner text",
         "description": "The web design event is a competition where participants showcase their creativity, technical skills, and knowledge of web design principles. Participants are given a specific theme or prompt and are required to design a website that effectively communicates the theme while demonstrating usability, functionality, and aesthetic appeal. (Note: Participants may bring their own laptop or use the Lab Systems, and if needed, they should inform as early as possible.)",
         "staffs": [
             {
                 "name": "Mr. A. Kanthimathinathan",
-                "designation": "Associate Professor"
+                "designation": "Assistant Professor"
             }, 
             {
                 "name": "Dr. K. T. Meena Abarna",
-                "designation": "Associate Professor"
+                "designation": "Assistant Professor"
             }],
-        "form": "https://google.com",
+        "form": "https://forms.gle/RsYNrhfqc1MR8gRk8",
         "students": [
             { "name":"H. Janarthanan",
               "phone": "9842307274"
             },
-            { "name":"M. T. Ravi Prakasham",
-              "phone": "8754602767"
+            { "name":"S. A. Brijesh",
+              "phone": "8610210827"
             },
             { "name":"J. V. Vishnu Priya",
               "phone": "9342523988"
@@ -233,7 +266,7 @@
     },
     {
         "heading": "UI / UX Design",
-        "scheduledDate": "2024-03-12T15:00:00",
+        "scheduledDate": "2024-03-14T15:00:00",
         "type": "technical",
         "oneliner": "Some oneliner text",
         "description": "The UI & UX Design event is a competition that challenges participants to showcase their skills in creating user-friendly and visually appealing digital interfaces. Participants will be tasked with designing interfaces for various platforms such as websites, mobile apps, or software applications. The event aims to promote creativity, innovation, and best practices in UI & UX design. (Note: Participants should bring their own laptop with the required software.)",
@@ -246,7 +279,7 @@
                 "name": "Dr. K. Kavitha",
                 "designation": "Associate Professor"
             }],
-        "form": "https://google.com",
+        "form": "https://forms.gle/dftLpneySMyie5Fq7",
         "students": [
             { "name":"S. Jeya Prakash",
               "phone": "9976605533"
@@ -262,7 +295,7 @@
     },
     {
         "heading": "Paper Presentation",
-        "scheduledDate": "2024-02-14T15:00:00",
+        "scheduledDate": "2024-02-18T15:00:00",
         "type": "technical",
         "oneliner": "Some oneliner text",
         "description": "The Paper Presentation event is an opportunity for individuals or teams to present their research, ideas, or findings on a specific topic to an audience. Participants will prepare and deliver a presentation based on their paper, showcasing their knowledge, insights, and contributions to the field. The event aims to foster intellectual exchange, promote critical thinking, and encourage academic discourse. (Note: Participants should bring their own laptop with the required software.)",
@@ -275,7 +308,7 @@
                 "name": "Dr. S. Mohan",
                 "designation": "Assistant Professor"
             }],
-        "form": "https://google.com",
+        "form": "https://forms.gle/QPZsv288XTPPvZ44A",
         "students": [
             { "name":"S. Barath",
               "phone": "9791643891"
@@ -288,35 +321,6 @@
             }
         ],
         "to": "paper_presentation"
-    },
-    {
-        "heading": "Name Our Newsletter",
-        "scheduledDate": "2024-03-18T15:00:00",
-        "type": "technical",
-        "oneliner": "Some oneliner text",
-        "description": "Embark on a captivating journey of intellect and innovation with our newsletter event, 'Name our Newsletter' This thoughtfully crafted publication weaves together a rich tapestry of ideas, insights, and inspiration. Explore the realms of knowledge as we delve into diverse topics, connecting minds and fostering a community of curious thinkers. Join us in this intellectual adventure, where each edition promises to be a voyage into the realms of discovery, collaboration, and enlightenment. Name our newsletter event, and let the exploration of ideas begin!",
-        "staffs": [
-            {
-                "name": "Dr. S. Saravanan",
-                "designation": "Assistant Professor"
-            }, 
-            {
-                "name": "Dr. P. Anbalagan",
-                "designation": "Assistant Professor"
-            }],
-        "form": "https://google.com",
-        "students": [
-            { "name":"R. Gowdham",
-              "phone": "8428764256"
-            },
-            { "name":"H. Janarthanan",
-              "phone": "9842307274"
-            },
-            { "name":"S. Jeya Prakash",
-              "phone": "9976605533"
-            }
-        ],
-        "to": "news_letter"
     },
     {
         "heading": "Essay Writing",
@@ -333,7 +337,7 @@
                 "name": "Dr. R. Madhan Mohan",
                 "designation": "Associate Professor"
             }],
-        "form": "https://google.com",
+        "form": "https://forms.gle/bafotqaZJS1gw6fm6",
         "students": [
             { "name":"N. Leena",
               "phone": "6384058012"
@@ -362,7 +366,7 @@
                 "name": "Dr. G. Arulselvi",
                 "designation": "Associate Professor"
             }],
-        "form": "https://google.com",
+        "form": "https://forms.gle/ySJkmchgbVf3uf5z9",
         "students": [
             { "name":"Dhivya Harini",
               "phone": "7639374205"
@@ -391,7 +395,7 @@
                 "name": "Dr. P. Anbalagan",
                 "designation": "Assistant Professor"
             }],
-        "form": "https://google.com",
+        "form": "https://forms.gle/GTAeQ5ofKmzwze6XA",
         "students": [
             { "name":"V. Vimal",
               "phone": "9486364030"
@@ -425,7 +429,7 @@
                 "designation": "Associate Professor"
             }
         ],
-        "form": "https://google.com",
+        "form": "https://forms.gle/GNeEpkspHGc5RCgG8",
         "students": [
             { "name":"K. S. Vinodkumar",
               "phone": "9952385850"
@@ -454,7 +458,7 @@
                 "name": "Dr. M. Thillaikarasi",
                 "designation": "Assistant Professor"
             }],
-        "form": "https://google.com",
+        "form": "https://forms.gle/KJRNEBf1LNr2vddT7",
         "students": [
             { "name":"B. Bharathraj",
               "phone": "9597175515"
@@ -483,7 +487,7 @@
                 "name": "Dr. S. Mohan",
                 "designation": "Assistant Professor"
             }],
-        "form": "https://google.com",
+        "form": "https://forms.gle/QYJ8HKUtFXmCBVW77",
         "students": [
             { "name":"Anirudh Krishna",
               "phone": "9281057264"
@@ -505,14 +509,14 @@
         "description": "The photography event is an opportunity for participants to showcase their photography skills and creativity. Participants will capture images based on a given theme or category, and their photos will be judged based on criteria such as composition, creativity, technical proficiency, and adherence to the theme.",
         "staffs": [
             {
-                "name": "Dr. A. Suhasini",
-                "designation": "Professor"
+                "name": "Dr. N. J. Nalini",
+                "designation": "Associate Professor"
             }, 
             {
-                "name": "Dr. R. Madhan Mohan",
+                "name": "Dr. L. R. Sudha",
                 "designation": "Associate Professor"
             }],
-        "form": "https://google.com",
+        "form": "https://forms.gle/QYJ8HKUtFXmCBVW77",
         "students": [
             { "name":"M. S. Shree Varsha",
               "phone": "8667382858"
@@ -534,14 +538,14 @@
         "description": "The meme creation event is a fun and creative competition where participants generate humorous and engaging memes based on a given theme or topic. Memes are typically images, videos, or text that spread rapidly across the internet, often accompanied by witty captions or commentary. Participants will have the opportunity to showcase their creativity, humor, and digital design skills in this light-hearted competition.",
         "staffs": [
             {
-                "name": "Dr. A. Suhasini",
-                "designation": "Professor"
+                "name": "Dr. R. Ragupathy",
+                "designation": "Associate Professor"
             }, 
             {
-                "name": "Dr. R. Madhan Mohan",
+                "name": "Dr. M. Arulselvi",
                 "designation": "Associate Professor"
             }],
-        "form": "https://google.com",
+        "form": "https://forms.gle/nGh76hQntaWuRfe39",
         "students": [
             { "name":"D. Devadharshini",
               "phone": "8110983094"
@@ -570,7 +574,7 @@
                 "name": "Dr. S. Pasupathy",
                 "designation": "Associate Professor"
             }],
-        "form": "https://google.com",
+        "form": "https://forms.gle/B3aVUoXjYbkw1fwh8",
         "students": [
             { "name":"P. Sathiyapravin",
               "phone": "9787199439"
@@ -599,7 +603,7 @@
                 "name": "Dr. R. Saminathan",
                 "designation": "Associate Professor"
             }],
-        "form": "https://google.com",
+        "form": "https://forms.gle/Wts7xgz7EDDZwr5M9",
         "students": [
             { "name":"R. Madhumitha",
               "phone": "7639374205"
@@ -628,7 +632,7 @@
                 "name": "Dr. S. Arivalagan",
                 "designation": "Assistant Professor"
             }],
-        "form": "https://google.com",
+        "form": "https://forms.gle/YBjgUKZycbh9tHA88",
         "students": [
             { "name":"H. Janarthanan",
               "phone": "9842307274"
