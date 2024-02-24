@@ -86,6 +86,12 @@
         font-weight: 400;
         font-style: normal;
     }
+
+    :global(p) {
+        font-family: "Maven Pro", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+    }
 </style>
 
 <Router url={url}>

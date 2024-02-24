@@ -171,9 +171,18 @@ The department has two research laboratories having high-end systems with NVIDIA
            - About Tech Club Section
            -->
            <h2 class="text-xl md:text-2xl text-gray-300 font-semibold self-start mb-4 md:mb-12">About Tech Club</h2>
-           <p class="text-gray-300 text-justify indent-8 text-xs leading-tight md:text-lg mt-6">
-           Techclub - where ideas take flight! Our focus is on making computer knowledge practical and solving real-world challenges. We provide a space for hands-on learning and collaboration. At Techclub, we believe in sharing knowledge, improving communication, and diving into the nitty-gritty of software development. We're here to guide you, support your interests, and offer opportunities to work on exciting projects. Join us at Techclub for a journey of learning, teamwork, and exploring the exciting world of technology!
-           </p>
+           <div class="font-maven text-gray-300 text-justify indent-8 text-xs leading-tight md:text-lg mt-6">
+                TechClub was founded with a clear mission: to provide a platform for students to explore, learn, and excel in various domains of technology. Our objectives encompass both technical and non-technical aspects, aiming to cultivate a well-rounded skill set among members. We strive to:
+            <ul>
+                <li><strong>Facilitate Learning:</strong> Through workshops, seminars, and hands-on sessions, we aim to enhance technical proficiency in diverse areas such as Python programming, web designing, UI/UX design, poster design, and more.</li>
+
+                <li><strong>Promote Innovation:</strong> TechClub encourages members to think outside the box and explore innovative solutions to real-world problems. We foster creativity through activities like app building, game design challenges, and hackathons.</li>
+
+                <li><strong>Soft Skill Development:</strong> Recognizing the importance of soft skills in career development, TechClub organizes sessions focused on communication, leadership, teamwork, and time management. These skills complement technical expertise and prepare members for success in their professional lives.</li>
+
+                <li><strong>Community Engagement:</strong> Beyond individual growth, TechClub serves as a hub for collaboration and camaraderie among students. We organize events, competitions, and social gatherings to foster a sense of belonging and unity within the department.</li>
+            </ul> 
+        </div>
 
     </section>
     <section class="py-12 px-8 md:py-32 text-gray-300 md:px-32 w-full ">
