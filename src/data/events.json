@@ -10,7 +10,7 @@
             {
                 "name": "Dr. R. Bhavani",
                 "designation": "Professor & Head"
-            }, 
+            },
             {
                 "name": "Dr. G. Prabakaran",
                 "designation": "Associate Professor"
@@ -40,7 +40,7 @@
             {
                 "name": "Dr. M. Balasubramanian",
                 "designation": "Associate Professor"
-            }, 
+            },
             {
                 "name": "Dr. M. Arulselvi",
                 "designation": "Associate Professor"
@@ -70,7 +70,7 @@
             {
                 "name": "Dr. R. Priya",
                 "designation": "Professor"
-            }, 
+            },
             {
                 "name": "Dr. T. Suresh",
                 "designation": "Associate Professor"
@@ -93,14 +93,14 @@
         "heading": "Coding Challenge",
         "scheduledDate": "2024-02-29T15:00:00",
         "type": "technical",
-        "oneliner": "Induvidual Event",
+        "oneliner": "Individual Event",
         "description": "The coding challenge test event is a competition designed to assess participants' programming skills and problem-solving abilities. Participants will be given a series of coding challenges that they must solve within a specified time frame. The challenges may cover a range of topics such as algorithms, data structures, and problem-solving techniques. The event provides an opportunity for participants to showcase their coding prowess and compete against others in a friendly and competitive environment.",
         "note": "Participants may bring their own laptops to the competition. Alternatively, if they require the use of lab systems, they should inform to the Student Co-ordinator in advance.",
         "staffs": [
             {
                 "name": "Dr. S. Palanivel",
                 "designation": "Professor"
-            }, 
+            },
             {
                 "name": "Dr. M. Balasubramanian",
                 "designation": "Professor"
@@ -130,7 +130,7 @@
             {
                 "name": "Dr. A. Geetha",
                 "designation": "Professor"
-            }, 
+            },
             {
                 "name": "Dr. R. Arunkumar",
                 "designation": "Associate Professor"
@@ -158,17 +158,18 @@
         "note": "Participants may bring their own laptops to the competition. Alternatively, if they require the use of lab systems, they should inform to the Student Co-ordinator in advance.",
         "staffs": [
             {
-                "name": "Dr. R. Bhavani",
-                "designation": "Professor & Head"
-            }, 
-            {
                 "name": "Dr. P. Aruna",
                 "designation": "Professor"
             },
             {
               "name": "Dr. A.N. Sigappi",
               "designation": "Professor"
-          }],
+            },
+            {
+                "name": "Dr. P. Anbalagan",
+                "designation": "Professor & Head"
+            }
+        ],
         "form": "https://forms.gle/cL6VT1WKTrMuHURD9",
         "students": [
             { "name":"R. Gowdham",
@@ -187,14 +188,14 @@
         "heading": "Aptitude & Reasoning",
         "scheduledDate": "2024-03-08T15:00:00",
         "type": "technical",
-        "oneliner": "Induvidual Event",
+        "oneliner": "Individual Event",
         "description": "The Aptitude and Reasoning event is a competitive challenge designed to test participants' problem-solving abilities, logical reasoning skills, and numerical aptitude. Participants will engage in a series of tasks and questions that require them to analyze information, make deductions, and apply critical thinking to arrive at solutions.",
         "note": "Participants should be prepared on topics of Quantitative, logical reasoning, and verbal aptitude questions.",
         "staffs": [
             {
                 "name": "Dr. A. Suhasini",
                 "designation": "Professor"
-            }, 
+            },
             {
                 "name": "Dr. S. Saravanan",
                 "designation": "Assistant Professor"
@@ -217,14 +218,14 @@
         "heading": "Poster Design",
         "scheduledDate": "2024-03-11T15:00:00",
         "type": "technical",
-        "oneliner": "Induvidual Event",
+        "oneliner": "Individual Event",
         "description": "The Poster Design Event is a creative competition where participants are invited to showcase their artistic skills and design abilities by creating visually appealing posters on a given theme or topic. Participants will have the opportunity to express their ideas, messages, or concepts through a combination of images, graphics, and text on a single poster. The event aims to promote creativity, originality, and effective communication through visual mediums.",
         "note": "Participants may bring their own laptops to the competition. Alternatively, if they require the use of lab systems, they should inform to the Student Co-ordinator in advance.",
         "staffs": [
             {
                 "name": "Dr. G. Arulselvi",
                 "designation": "Associate Professor"
-            }, 
+            },
             {
                 "name": "Dr. B. Kirubagari",
                 "designation": "Associate Professor"
@@ -247,14 +248,14 @@
         "heading": "Web Design",
         "scheduledDate": "2024-03-12T15:00:00",
         "type": "technical",
-        "oneliner": "Induvidual Event",
+        "oneliner": "Individual Event",
         "description": "The web design event is a competition where participants showcase their creativity, technical skills, and knowledge of web design principles. Participants are given a specific theme or prompt and are required to design a website that effectively communicates the theme while demonstrating usability, functionality, and aesthetic appeal. (Note: Participants may bring their own laptop or use the Lab Systems, and if needed, they should inform as early as possible.)",
         "note": "Participants may bring their own laptops to the competition. Alternatively, if they require the use of lab systems, they should inform to the Student Co-ordinator in advance.",
         "staffs": [
             {
                 "name": "Mr. A. Kanthimathinathan",
                 "designation": "Assistant Professor"
-            }, 
+            },
             {
                 "name": "Dr. K. T. Meena Abarna",
                 "designation": "Assistant Professor"
@@ -264,8 +265,8 @@
             { "name":"H. Janarthanan",
               "phone": "9842307274"
             },
-            { "name":"S. A. Brijesh",
-              "phone": "8610210827"
+            { "name":"M. T. Ravi Prakasham",
+              "phone": "8054602767"
             },
             { "name":"J. V. Vishnu Priya",
               "phone": "9342523988"
@@ -277,14 +278,14 @@
         "heading": "UI / UX Design",
         "scheduledDate": "2024-03-14T15:00:00",
         "type": "technical",
-        "oneliner": "Induvidual Event",
+        "oneliner": "Individual Event",
         "description": "The UI & UX Design event is a competition that challenges participants to showcase their skills in creating user-friendly and visually appealing digital interfaces. Participants will be tasked with designing interfaces for various platforms such as websites, mobile apps, or software applications. The event aims to promote creativity, innovation, and best practices in UI & UX design. (Note: Participants should bring their own laptop with the required software.)",
         "note": "Participants must bring their own laptops to the competition with the required software installed.",
         "staffs": [
             {
                 "name": "Dr. A. N. Sigappi",
                 "designation": "Professor"
-            }, 
+            },
             {
                 "name": "Dr. K. Kavitha",
                 "designation": "Associate Professor"
@@ -307,14 +308,14 @@
         "heading": "Paper Presentation",
         "scheduledDate": "2024-03-18T15:00:00",
         "type": "technical",
-        "oneliner": "Induvidual Event",
+        "oneliner": "Individual Event",
         "description": "The Paper Presentation event is an opportunity for individuals or teams to present their research, ideas, or findings on a specific topic to an audience. Participants will prepare and deliver a presentation based on their paper, showcasing their knowledge, insights, and contributions to the field. The event aims to foster intellectual exchange, promote critical thinking, and encourage academic discourse. (Note: Participants should bring their own laptop with the required software.)",
         "note": "Participants should present on any one of the following Theme - Quantum Computing or Human - Computer INtegration or Edge Computing.",
         "staffs": [
             {
                 "name": "Dr. P. Dhanalakshmi",
                 "designation": "Professor"
-            }, 
+            },
             {
                 "name": "Dr. S. Mohan",
                 "designation": "Assistant Professor"
@@ -337,14 +338,14 @@
         "heading": "Essay Writing",
         "scheduledDate": "2024-02-26T15:00:00",
         "type": "nontechnical",
-        "oneliner": "Induvidual Event",
+        "oneliner": "Individual Event",
         "description": "The Essay Writing event is a competition where participants are tasked with crafting well-researched, articulate, and persuasive essays on a given topic or prompt. Participants are challenged to showcase their writing skills, critical thinking abilities, and creativity within a specified time frame. The event aims to promote literacy, encourage intellectual discourse, and celebrate the art of writing.",
         "note": "Participants should prepare on any one of the following Themes - social media influcing (For English) or அரசியல் பரிமாணம் (For Tamil) ",
         "staffs": [
             {
                 "name": "Dr. A. Suhasini",
                 "designation": "Professor"
-            }, 
+            },
             {
                 "name": "Dr. R. Madhan Mohan",
                 "designation": "Associate Professor"
@@ -367,14 +368,14 @@
         "heading": "Speech Competition",
         "scheduledDate": "2024-02-27T15:00:00",
         "type": "nontechnical",
-        "oneliner": "Induvidual Event",
+        "oneliner": "Individual Event",
         "description": "The Speech Competition event is an opportunity for individuals to showcase their public speaking skills by delivering engaging and persuasive speeches on a variety of topics. Participants will present their speeches in front of an audience and a panel of judges, aiming to captivate, inform, or inspire their listeners. The event provides a platform for participants to express their ideas, demonstrate their communication abilities, and compete for recognition and prizes.",
         "note": "Participants should prepare on any one of the following Themes - Importance of Education (For English) or உலக நிலை பொருளாதாரம் (For Tamil)",
         "staffs": [
             {
                 "name": "Dr. A.N. Sigappi",
                 "designation": "Professor"
-            }, 
+            },
             {
                 "name": "Dr. G. Arulselvi",
                 "designation": "Associate Professor"
@@ -399,12 +400,12 @@
         "type": "nontechnical",
         "oneliner": "Group Event",
         "description": "The Debate event is a structured competition where participants engage in formal argumentation on a given topic or resolution. Participants, typically organized into teams, present arguments, rebuttals, and counterarguments in a persuasive and articulate manner. The event aims to promote critical thinking, public speaking skills, and the ability to construct coherent arguments.",
-        "note": "Participants should prepare on any one of the following Themes - Technology in Society: Developing ? Spoiling (For English) or அரசியல் போராட்டம்: சரியா ? தவறா ? (For Tamil)",
+        "note": "Participants should prepare on any one of the following Themes - Technology in Society: Developing or Spoiling (For English) or அரசியல் போராட்டம்: சரியா ? தவறா ? (For Tamil)",
         "staffs": [
             {
                 "name": "Dr. M. Kalaiselvi Geetha",
                 "designation": "Professor"
-            }, 
+            },
             {
                 "name": "Dr. P. Anbalagan",
                 "designation": "Assistant Professor"
@@ -434,7 +435,7 @@
             {
                 "name": "Dr. S. G. Santhi",
                 "designation": "Associate Professor"
-            }, 
+            },
             {
                 "name": "Dr. S. Arivalagan",
                 "designation": "Assistant Professor"
@@ -457,14 +458,14 @@
         "heading": "Group Discussion",
         "scheduledDate": "2024-03-01T15:00:00",
         "type": "nontechnical",
-        "oneliner": "Induvidual Event",
+        "oneliner": "Individual Event",
         "description": "The group discussion event is an opportunity for participants to engage in a structured discussion on a given topic. Participants will be divided into groups, and each group will discuss the topic for a specified amount of time. The goal is to exchange ideas, listen to different perspectives, and come to a collective understanding or solution.",
         "note": "The topic to the Participants will be given on-the-spot.",
         "staffs": [
             {
                 "name": "Dr. C. Anbuananth",
                 "designation": "Assistant Professor"
-            }, 
+            },
             {
                 "name": "Dr. M. Thillaikarasi",
                 "designation": "Assistant Professor"
@@ -494,7 +495,7 @@
             {
                 "name": "Dr. G. Ramachandran",
                 "designation": "Associate Professor"
-            }, 
+            },
             {
                 "name": "Dr. S. Mohan",
                 "designation": "Assistant Professor"
@@ -507,7 +508,7 @@
             { "name":"J. Job",
               "phone": "9342809948"
             },
-            { "name":"S. chiranchievi",
+            { "name":"S. Chiranchievi",
               "phone": "6369171507"
             }
         ],
@@ -517,14 +518,14 @@
         "heading": "Photography",
         "scheduledDate": "2024-03-08T15:00:00",
         "type": "nontechnical",
-        "oneliner": "Induvidual Event",
+        "oneliner": "Individual Event",
         "description": "The photography event is an opportunity for participants to showcase their photography skills and creativity. Participants will capture images based on a given theme or category, and their photos will be judged based on criteria such as composition, creativity, technical proficiency, and adherence to the theme.",
         "note": "Participants should give the photos to the coordinators before the day of the event and most importantly iPhone and camera is not allowed in the competition.",
         "staffs": [
             {
                 "name": "Dr. N. J. Nalini",
                 "designation": "Associate Professor"
-            }, 
+            },
             {
                 "name": "Dr. L. R. Sudha",
                 "designation": "Associate Professor"
@@ -534,7 +535,7 @@
             { "name":"M. S. Shree Varsha",
               "phone": "8667382858"
             },
-            { "name":"M. Pradeep ",
+            { "name":"M. Pradeep",
               "phone": "8148353521"
             },
             { "name":"P. Subameena",
@@ -547,14 +548,14 @@
         "heading": "Meme Creation",
         "scheduledDate": "2024-03-11T15:00:00",
         "type": "nontechnical",
-        "oneliner": "Induvidual Event",
+        "oneliner": "Individual Event",
         "description": "The meme creation event is a fun and creative competition where participants generate humorous and engaging memes based on a given theme or topic. Memes are typically images, videos, or text that spread rapidly across the internet, often accompanied by witty captions or commentary. Participants will have the opportunity to showcase their creativity, humor, and digital design skills in this light-hearted competition.",
         "note": "Participants should give the meme to the coordinators before the day of the event on the theme - Technology Fails",
         "staffs": [
             {
                 "name": "Dr. R. Ragupathy",
                 "designation": "Associate Professor"
-            }, 
+            },
             {
                 "name": "Dr. M. Arulselvi",
                 "designation": "Associate Professor"
@@ -577,14 +578,14 @@
         "heading": "Poetry",
         "scheduledDate": "2024-03-12T15:00:00",
         "type": "nontechnical",
-        "oneliner": "Induvidual Event",
+        "oneliner": "Individual Event",
         "description": "The poetry event is a platform for participants to showcase their creative writing skills and share their original poetry with an audience. Participants may recite their poems live or submit written works for evaluation. The event celebrates the beauty and power of language through various poetic forms and styles.",
         "note": "Participants should prepare on any one of the following Themes - Reflection of Past (For English) or உலகின் உயிர்கள் (For Tamil)",
         "staffs": [
             {
                 "name": "Dr. P. Sudhakar",
                 "designation": "Associate Professor"
-            }, 
+            },
             {
                 "name": "Dr. S. Pasupathy",
                 "designation": "Associate Professor"
@@ -604,7 +605,7 @@
         "to": "poetry"
     },
     {
-        "heading": "Cook Wthout Fire",
+        "heading": "Cook Without Fire",
         "scheduledDate": "2024-03-14T15:00:00",
         "type": "nontechnical",
         "oneliner": "Group Event",
@@ -614,7 +615,7 @@
             {
                 "name": "Dr. P. Aruna",
                 "designation": "Professor"
-            }, 
+            },
             {
                 "name": "Dr. R. Saminathan",
                 "designation": "Associate Professor"
@@ -644,7 +645,7 @@
             {
                 "name": "Dr. G. Arulselvi",
                 "designation": "Associate Professor"
-            }, 
+            },
             {
                 "name": "Dr. K. Kavitha",
                 "designation": "Associate Professor"
