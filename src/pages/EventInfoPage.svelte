@@ -28,7 +28,7 @@
             {:else if (new Date() - eventDetails.scheduledDate > 2 * 3600 * 1000)}
                 <p class="text-green-500 px-8 rounded-md py-6">Completed</p>
             {:else if  eventDetails.form != null}
-                <a class="border-2 border-red-400 px-8 rounded-md py-6" href="{eventDetails.form}">Register !</a>
+                <a class="block border-2 border-red-400 px-8 rounded-md py-6 group" href="{eventDetails.form}"><span class="group-hover:text-lg tansition transition-all duration-100">Register !</span></a>
             {:else}
                 <p class="text-red-500 px-8 rounded-md py-6">Registration Not Available</p>
             {/if}

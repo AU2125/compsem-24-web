@@ -1,6 +1,6 @@
 <footer class="p-1 md:px-8 md:py-6  md:text-sm flex flex-col items-center  justify-center ">
     <div class="flex pb-8 justify-center flex-col text-gray-200 items-center uppercase ">
-        <a class="justify-center md:mb-2 md:text-3xl items-center flex" href="https://google.com">
+        <a class="justify-center md:mb-2 md:text-3xl items-center flex" href="https://annamalaiuniversity.ac.in/index.php">
             <p>Annamalai</p> <img class="px-1 w-6 md:w-12" src="AU_logo.png" alt="Annamalai University Logo"><p>University</p>
         </a>
         <p class="text-[6px] md:text-xs text-gray-300 normal-case">(Accredited with 'A<sup>+</sup>' Grade by NAAC)</p>
