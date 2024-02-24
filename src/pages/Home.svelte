@@ -186,7 +186,7 @@ The Department of Computer Science and Engineering was established in the year 1
 The department has two research laboratories having high-end systems with NVIDIA GeForce RTX 3080 Graphics Card to carry out research in the areas of Speech, Image/Video Processing and Data Analytics. There are six Computer Laboratories having 300 systems, an IoT Laboratory, and three seminar halls with necessary ICT facilities to conduct conferences/seminars and placement activities.
            </p>
     </section>
-    <section class="flex flex-col items-center justify-center w-full p-6 lg:px-32 ">
+    <section class="flex flex-col items-center justify-center w-full p-6 lg:px-32 ">gi 
         <!--
            - Event Section
            -->

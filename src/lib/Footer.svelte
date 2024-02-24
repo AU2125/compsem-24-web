@@ -9,6 +9,6 @@
     </div>
     <div class="w-full flex justify-between">
         <p class="bg-clip-text text-[6px] md:text-sm text-transparent bg-gradient-to-r from-pink-300 to-red-400">&copy; Department of CSE. All Rights Reserved.</p>
-        <p class='bg-clip-text text-[6px] md:text-sm text-transparent bg-gradient-to-r from-pink-300 to-red-400'>Made by <span class="font-semibold">TechClub</span></p>
+        <p class='bg-clip-text text-[6px] md:text-sm text-transparent bg-gradient-to-r from-pink-300 to-red-400'>Made with ❤️ by <span class="font-semibold">TechClub</span></p>
     </div>
 </footer>
