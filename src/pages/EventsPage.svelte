@@ -21,7 +21,7 @@
         <Events events = {
             events.filter((e) => e.type==evType)
                 .map((e) => ({...e, "scheduledDate": new Date(e["scheduledDate"])}))
-                .sort((e) => e.scheduledDate)
+                .sort((a, b) => b.scheduledDate - a.scheduledDate)
                 .reverse()
                 } />
     </section>
