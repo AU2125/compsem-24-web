@@ -2,7 +2,7 @@
     import NotificationItem from "./NotificationItem.svelte";
     interface INotifcation {
         heading: string,
-        content: string
+        content: string,
     };
 
     export let notifications: INotifcation[];

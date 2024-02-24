@@ -1,15 +1,23 @@
 [
     {
-        "heading": "News",
-        "content": "Some News Text"
+        "heading": "Welcome Note",
+        "content": "Welcome the newly launched CompSem website!!!!!!!",
+        "url" : ""
     },
     {
-        "heading": "News 2",
-        "content": "Some News Text"
+        "heading": "Register Soon",
+        "content": "Registration for each events open now only Pre-Registrations allowed no on spot registration",
+        "url": ""
     },
     {
-        "heading": "Happy News",
-        "content": "Some Happy News Text"
+        "heading": "Day 1 Technical Event: Technical Quiz",
+        "content": "Click Here to go to the Technical Quiz Event page",
+        "url": ""
+    },
+    {
+        "heading": "Day 1 Non-Technical Event: Essay Writing",
+        "content": "Click Here to go to the Essay Writing Event page",
+        "url": ""
     }
 ]
 

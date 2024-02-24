@@ -1,5 +1,5 @@
 <svelte:head>
-    <title>Home</title>
+    <title>CompSem'24</title>
 </svelte:head>
 <script lang="ts">
     import {Link} from 'svelte-routing';

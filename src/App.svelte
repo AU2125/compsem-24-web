@@ -80,9 +80,17 @@
     };
 </script>
 
+<style >
+    :global(h2) {
+        font-family: "Anta", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+</style>
+
 <Router url={url}>
     <Header />
-    <div id="p5-container" class="fixed top-0 left-0 w-screen h-screen -z-5 bg-gradient-to-tr from-rose-950 from-10% via-gray-900 to-pink-950 ">
+    <div id="p5-container" class="fixed top-0 left-0 w-screen h-screen -z-5 bg-gradient-to-tr from-rose-950 from-10% via-gray-900 to-sky-950 ">
         <P5 {sketch} id="p5-canvas"/>
     </div>
 
