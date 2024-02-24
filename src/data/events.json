@@ -424,39 +424,34 @@
         "to": "debate"
     },
     {
-        "heading": "Short Film",
+        "heading": "Drawing",
         "scheduledDate": "2024-02-29T15:00:00",
         "type": "nontechnical",
-        "oneliner": "Group Event",
-        "description": "The Short Film Competition is an event designed to showcase the creativity and talent of filmmakers in crafting compelling narratives within a limited time frame. Whether you're a seasoned filmmaker or a budding talent, this competition provides a platform to express your ideas, experiment with storytelling techniques, and captivate audiences with your short film.",
-        "note": "This is a group event where 5 members are allowed. Groups are advised to submit their respective films one day before the event, Sentiments, love, violence, alcohol consumption and use of harsh language should be avoided. ",
+        "oneliner": "Induvidual Event",
+        "description": "The drawing event is a creative competition where participants showcase their artistic talents through drawing or illustration. Participants may be given a specific theme or subject to draw, or they may have the freedom to choose their own topic. The event provides a platform for artists of all skill levels to express themselves and share their artwork with others.",
+        "note": "Participants should prepare on the Theme - History of Tamilians",
         "staffs": [
             {
-                "name": "Dr. G. Arulselvi",
+                "name": "Dr. S. G. Santhi",
                 "designation": "Associate Professor"
             }, 
             {
-                "name": "Dr. K. Kavitha",
-                "designation": "Associate Professor"
-            },
-            {
-                "name": "Dr. A. Punitha",
-                "designation": "Associate Professor"
-            }
-        ],
-        "form": "https://forms.gle/GNeEpkspHGc5RCgG8",
+                "name": "Dr. S. Arivalagan",
+                "designation": "Assistant Professor"
+            }],
+        "form": "https://forms.gle/YBjgUKZycbh9tHA88",
         "students": [
-            { "name":"K. S. Vinodkumar",
-              "phone": "9952385850"
+            { "name":"H. Janarthanan",
+              "phone": "9842307274"
             },
-            { "name":"S. Aravind",
-              "phone": "8778278866"
+            { "name":"J. V. Vishnu Priya",
+              "phone": "9342523988"
             },
-            { "name":"R. Dharani",
-              "phone": "6379651358"
+            { "name":"R. Nithya Sri",
+              "phone": "9944053872"
             }
         ],
-        "to": "short_film"
+        "to": "drawing"
     },
     {
         "heading": "Group Discussion",
@@ -639,33 +634,38 @@
         "to": "cook_without_fire"
     },
     {
-        "heading": "Drawing",
+        "heading": "Short Film",
         "scheduledDate": "2024-03-18T15:00:00",
         "type": "nontechnical",
-        "oneliner": "Induvidual Event",
-        "description": "The drawing event is a creative competition where participants showcase their artistic talents through drawing or illustration. Participants may be given a specific theme or subject to draw, or they may have the freedom to choose their own topic. The event provides a platform for artists of all skill levels to express themselves and share their artwork with others.",
-        "note": "Participants should prepare on the Theme - History of Tamilians",
+        "oneliner": "Group Event",
+        "description": "The Short Film Competition is an event designed to showcase the creativity and talent of filmmakers in crafting compelling narratives within a limited time frame. Whether you're a seasoned filmmaker or a budding talent, this competition provides a platform to express your ideas, experiment with storytelling techniques, and captivate audiences with your short film.",
+        "note": "This is a group event where 5 members are allowed. Groups are advised to submit their respective films one day before the event, Sentiments, love, violence, alcohol consumption and use of harsh language should be avoided. ",
         "staffs": [
             {
-                "name": "Dr. S. G. Santhi",
+                "name": "Dr. G. Arulselvi",
                 "designation": "Associate Professor"
             }, 
             {
-                "name": "Dr. S. Arivalagan",
-                "designation": "Assistant Professor"
-            }],
-        "form": "https://forms.gle/YBjgUKZycbh9tHA88",
-        "students": [
-            { "name":"H. Janarthanan",
-              "phone": "9842307274"
+                "name": "Dr. K. Kavitha",
+                "designation": "Associate Professor"
             },
-            { "name":"J. V. Vishnu Priya",
-              "phone": "9342523988"
-            },
-            { "name":"R. Nithya Sri",
-              "phone": "9944053872"
+            {
+                "name": "Dr. A. Punitha",
+                "designation": "Associate Professor"
             }
         ],
-        "to": "drawing"
+        "form": "https://forms.gle/GNeEpkspHGc5RCgG8",
+        "students": [
+            { "name":"K. S. Vinodkumar",
+              "phone": "9952385850"
+            },
+            { "name":"S. Aravind",
+              "phone": "8778278866"
+            },
+            { "name":"R. Dharani",
+              "phone": "6379651358"
+            }
+        ],
+        "to": "short_film"
     }
 ]

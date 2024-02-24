@@ -212,18 +212,18 @@ The department has two research laboratories having high-end systems with NVIDIA
             {/each}
         </div>
     </section>
-    <section id="contacts" class="flex flex-col w-full lg:px-32 justify-center items-center py-6">
+    <section id="contacts" class="flex flex-col w-full lg:px-32 justify-center items-center p-6">
         <!--
            - Contact Us
            -->
         <h2 class="text-xl md:text-2xl text-gray-300 font-semibold mb-4">Contact Us</h2>
-        <div class="text-[8px] text-gray-300 gap-2 md:text-sm p-4 md:p-8 bg-gray-800/50 backdrop-blur-sm rounded-md grid grid-rows-2 grid-cols-2 ">
+        <div class="text-[10px] text-gray-300 gap-2 p-3 md:text-sm md:p-8 bg-gray-800/50 backdrop-blur-sm rounded-md grid grid-rows-2 grid-cols-2 ">
             {#each contacts as contact}
-            <div class="text-center p-2 md:p-4">
+            <div class="text-center p-1 md:p-4">
                 <p class="font-anta md:text-lg font-semibold">{contact.name}</p>
                 <p>{contact.designation}</p>
-                <a href="tel:{contact.phone}" class="text-rose-400 text-[6px] md:text-sm"><span class="hidden md:inline text-gray-300" >Phone: </span>{contact.phone}</a><br/>
-                <a href="mailto:{contact.email}" class="text-rose-400 text-[6px] md:text-sm"><span class="hidden md:inline text-gray-300" >Email: </span>{contact.email}</a>
+                <a href="tel:{contact.phone}" class="text-rose-400  md:text-sm"><span class="hidden md:inline text-gray-300" >Phone: </span>{contact.phone}</a><br/>
+                <a href="mailto:{contact.email}" class="text-rose-400  md:text-sm"><span class="hidden md:inline text-gray-300" >Email: </span>{contact.email}</a>
             </div>
             {/each}
         </div>
