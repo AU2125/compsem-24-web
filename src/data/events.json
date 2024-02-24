@@ -3,8 +3,9 @@
         "heading": "Technical Quiz",
         "scheduledDate": "2024-02-26T15:00:00",
         "type": "technical",
-        "oneliner": "Some oneliner text",
+        "oneliner": "Group Event",
         "description": "The Technical Quiz event is designed to test participants' knowledge and understanding of various technical subjects like science, engineering, technology, mathematics, and computing. It aims to engage participants in a challenging and intellectually stimulating competition where they can showcase their expertise and problem-solving abilities in these fields with simple quizzes. The questions may cover a wide range of topics, from basic principles to advanced concepts, and may require both theoretical understanding and practical application.",
+        "note": "This is a group event where 4 members are allowed. Groups are advised to have a name and designate a group leader to whom the details will be shared. ",
         "staffs": [
             {
                 "name": "Dr. R. Bhavani",
@@ -32,8 +33,9 @@
         "heading": "Technical Connection",
         "scheduledDate": "2024-02-27T15:00:00",
         "type": "technical",
-        "oneliner": "Some oneliner text",
+        "oneliner": "Group Event",
         "description": "The Technical Connection Event is a competition designed to test participants' technical knowledge in various fields such as engineering, computer science, and technology. Participants will engage in a series of challenges that require them to utilize their knowledge and creativity to solve real-world problems by connecting various images. This event aims to promote innovation, collaboration, and critical thinking among participants.",
+        "note": "This is a group event where 4 members are allowed. Groups are advised to have a name and designate a group leader to whom the details will be shared.",
         "staffs": [
             {
                 "name": "Dr. M. Balasubramanian",
@@ -61,8 +63,9 @@
         "heading": "Brain Teaser",
         "scheduledDate": "2024-02-28T15:00:00",
         "type": "technical",
-        "oneliner": "Some oneliner text",
+        "oneliner": "Group Event",
         "description": "The Brain Teaser for Current Affairs Test event is designed to challenge participants' knowledge of recent news events and their ability to think critically and solve complex problems. Participants will be presented with a series of brain teasers and puzzles related to current affairs, requiring them to apply their understanding of recent events to find solutions.",
+        "note": "This is a group event where 4 members are allowed. Groups are advised to have a name and designate a group leader to whom the details will be shared.",
         "staffs": [
             {
                 "name": "Dr. R. Priya",
@@ -90,8 +93,9 @@
         "heading": "Coding Challenge",
         "scheduledDate": "2024-02-29T15:00:00",
         "type": "technical",
-        "oneliner": "Some oneliner text",
+        "oneliner": "Induvidual Event",
         "description": "The coding challenge test event is a competition designed to assess participants' programming skills and problem-solving abilities. Participants will be given a series of coding challenges that they must solve within a specified time frame. The challenges may cover a range of topics such as algorithms, data structures, and problem-solving techniques. The event provides an opportunity for participants to showcase their coding prowess and compete against others in a friendly and competitive environment.",
+        "note": "Participants may bring their own laptops to the competition. Alternatively, if they require the use of lab systems, they should inform to the Student Co-ordinator in advance.",
         "staffs": [
             {
                 "name": "Dr. S. Palanivel",
@@ -119,8 +123,9 @@
         "heading": "Debugging",
         "scheduledDate": "2024-03-01T15:00:00",
         "type": "technical",
-        "oneliner": "Some oneliner text",
+        "oneliner": "Group Event",
         "description": "The debugging event is a competition where participants are tasked with identifying and fixing errors or bugs in software code or program. Participants may be given a set of code snippets, programs, or systems with known bugs, and they must use their problem-solving skills and technical expertise to locate and correct these issues within a specified time frame.",
+        "note": "This is a group event where 2 members can be in a team, teams are advised to have a name and designate a group leader to whom the details will be shared.Participants may bring their own laptops to the competition. Alternatively, if they require the use of lab systems, they should inform to the Student Co-ordinator in advance.",
         "staffs": [
             {
                 "name": "Dr. A. Geetha",
@@ -148,8 +153,9 @@
         "heading": "Newsletter: Theme & Template",
         "scheduledDate": "2024-03-07T15:00:00",
         "type": "technical",
-        "oneliner": "Some oneliner text",
+        "oneliner": "Group Event",
         "description": "Embark on a captivating journey of intellect and innovation with our newsletter event, 'Name our Newsletter' This thoughtfully crafted publication weaves together a rich tapestry of ideas, insights, and inspiration. Explore the realms of knowledge as we delve into diverse topics, connecting minds and fostering a community of curious thinkers. Join us in this intellectual adventure, where each edition promises to be a voyage into the realms of discovery, collaboration, and enlightenment. Name our newsletter event, and let the exploration of ideas begin!",
+        "note": "Participants may bring their own laptops to the competition. Alternatively, if they require the use of lab systems, they should inform to the Student Co-ordinator in advance.",
         "staffs": [
             {
                 "name": "Dr. R. Bhavani",
@@ -181,8 +187,9 @@
         "heading": "Aptitude & Reasoning",
         "scheduledDate": "2024-03-08T15:00:00",
         "type": "technical",
-        "oneliner": "Some oneliner text",
+        "oneliner": "Induvidual Event",
         "description": "The Aptitude and Reasoning event is a competitive challenge designed to test participants' problem-solving abilities, logical reasoning skills, and numerical aptitude. Participants will engage in a series of tasks and questions that require them to analyze information, make deductions, and apply critical thinking to arrive at solutions.",
+        "note": "Participants should be prepared on topics of Quantitative, logical reasoning, and verbal aptitude questions.",
         "staffs": [
             {
                 "name": "Dr. A. Suhasini",
@@ -210,8 +217,9 @@
         "heading": "Poster Design",
         "scheduledDate": "2024-03-11T15:00:00",
         "type": "technical",
-        "oneliner": "Some oneliner text",
+        "oneliner": "Induvidual Event",
         "description": "The Poster Design Event is a creative competition where participants are invited to showcase their artistic skills and design abilities by creating visually appealing posters on a given theme or topic. Participants will have the opportunity to express their ideas, messages, or concepts through a combination of images, graphics, and text on a single poster. The event aims to promote creativity, originality, and effective communication through visual mediums.",
+        "note": "Participants may bring their own laptops to the competition. Alternatively, if they require the use of lab systems, they should inform to the Student Co-ordinator in advance.",
         "staffs": [
             {
                 "name": "Dr. G. Arulselvi",
@@ -239,8 +247,9 @@
         "heading": "Web Design",
         "scheduledDate": "2024-03-12T15:00:00",
         "type": "technical",
-        "oneliner": "Some oneliner text",
+        "oneliner": "Induvidual Event",
         "description": "The web design event is a competition where participants showcase their creativity, technical skills, and knowledge of web design principles. Participants are given a specific theme or prompt and are required to design a website that effectively communicates the theme while demonstrating usability, functionality, and aesthetic appeal. (Note: Participants may bring their own laptop or use the Lab Systems, and if needed, they should inform as early as possible.)",
+        "note": "Participants may bring their own laptops to the competition. Alternatively, if they require the use of lab systems, they should inform to the Student Co-ordinator in advance.",
         "staffs": [
             {
                 "name": "Mr. A. Kanthimathinathan",
@@ -268,8 +277,9 @@
         "heading": "UI / UX Design",
         "scheduledDate": "2024-03-14T15:00:00",
         "type": "technical",
-        "oneliner": "Some oneliner text",
+        "oneliner": "Induvidual Event",
         "description": "The UI & UX Design event is a competition that challenges participants to showcase their skills in creating user-friendly and visually appealing digital interfaces. Participants will be tasked with designing interfaces for various platforms such as websites, mobile apps, or software applications. The event aims to promote creativity, innovation, and best practices in UI & UX design. (Note: Participants should bring their own laptop with the required software.)",
+        "note": "Participants must bring their own laptops to the competition with the required software installed.",
         "staffs": [
             {
                 "name": "Dr. A. N. Sigappi",
@@ -297,8 +307,9 @@
         "heading": "Paper Presentation",
         "scheduledDate": "2024-03-18T15:00:00",
         "type": "technical",
-        "oneliner": "Some oneliner text",
+        "oneliner": "Induvidual Event",
         "description": "The Paper Presentation event is an opportunity for individuals or teams to present their research, ideas, or findings on a specific topic to an audience. Participants will prepare and deliver a presentation based on their paper, showcasing their knowledge, insights, and contributions to the field. The event aims to foster intellectual exchange, promote critical thinking, and encourage academic discourse. (Note: Participants should bring their own laptop with the required software.)",
+        "note": "Participants should present on any one of the following Theme - Quantum Computing or Human - Computer INtegration or Edge Computing.",
         "staffs": [
             {
                 "name": "Dr. P. Dhanalakshmi",
@@ -326,8 +337,9 @@
         "heading": "Essay Writing",
         "scheduledDate": "2024-02-26T15:00:00",
         "type": "nontechnical",
-        "oneliner": "Some oneliner text",
+        "oneliner": "Induvidual Event",
         "description": "The Essay Writing event is a competition where participants are tasked with crafting well-researched, articulate, and persuasive essays on a given topic or prompt. Participants are challenged to showcase their writing skills, critical thinking abilities, and creativity within a specified time frame. The event aims to promote literacy, encourage intellectual discourse, and celebrate the art of writing.",
+        "note": "Participants should prepare on any one of the following Themes - social media influcing (For English) or அரசியல் பரிமாணம் (For Tamil) ",
         "staffs": [
             {
                 "name": "Dr. A. Suhasini",
@@ -355,8 +367,9 @@
         "heading": "Speech Competition",
         "scheduledDate": "2024-02-27T15:00:00",
         "type": "nontechnical",
-        "oneliner": "Some oneliner text",
+        "oneliner": "Induvidual Event",
         "description": "The Speech Competition event is an opportunity for individuals to showcase their public speaking skills by delivering engaging and persuasive speeches on a variety of topics. Participants will present their speeches in front of an audience and a panel of judges, aiming to captivate, inform, or inspire their listeners. The event provides a platform for participants to express their ideas, demonstrate their communication abilities, and compete for recognition and prizes.",
+        "note": "Participants should prepare on any one of the following Themes - Importance of Education (For English) or உலக நிலை பொருளாதாரம் (For Tamil)",
         "staffs": [
             {
                 "name": "Dr. A.N. Sigappi",
@@ -384,8 +397,9 @@
         "heading": "Debate",
         "scheduledDate": "2024-02-28T15:00:00",
         "type": "nontechnical",
-        "oneliner": "Some oneliner text",
+        "oneliner": "Group Event",
         "description": "The Debate event is a structured competition where participants engage in formal argumentation on a given topic or resolution. Participants, typically organized into teams, present arguments, rebuttals, and counterarguments in a persuasive and articulate manner. The event aims to promote critical thinking, public speaking skills, and the ability to construct coherent arguments.",
+        "note": "Participants should prepare on any one of the following Themes - Technology in Society: Developing ? Spoiling (For English) or அரசியல் போராட்டம்: சரியா ? தவறா ? (For Tamil)",
         "staffs": [
             {
                 "name": "Dr. M. Kalaiselvi Geetha",
@@ -413,8 +427,9 @@
         "heading": "Short Film",
         "scheduledDate": "2024-02-29T15:00:00",
         "type": "nontechnical",
-        "oneliner": "Some oneliner text",
+        "oneliner": "Group Event",
         "description": "The Short Film Competition is an event designed to showcase the creativity and talent of filmmakers in crafting compelling narratives within a limited time frame. Whether you're a seasoned filmmaker or a budding talent, this competition provides a platform to express your ideas, experiment with storytelling techniques, and captivate audiences with your short film.",
+        "note": "This is a group event where 5 members are allowed. Groups are advised to submit their respective films one day before the event, Sentiments, love, violence, alcohol consumption and use of harsh language should be avoided. ",
         "staffs": [
             {
                 "name": "Dr. G. Arulselvi",
@@ -447,8 +462,9 @@
         "heading": "Group Discussion",
         "scheduledDate": "2024-03-01T15:00:00",
         "type": "nontechnical",
-        "oneliner": "Some oneliner text",
+        "oneliner": "Induvidual Event",
         "description": "The group discussion event is an opportunity for participants to engage in a structured discussion on a given topic. Participants will be divided into groups, and each group will discuss the topic for a specified amount of time. The goal is to exchange ideas, listen to different perspectives, and come to a collective understanding or solution.",
+        "note": "The topic to the Participants will be given on-the-spot.",
         "staffs": [
             {
                 "name": "Dr. C. Anbuananth",
@@ -476,8 +492,9 @@
         "heading": "Treasure Hunt",
         "scheduledDate": "2024-03-07T15:00:00",
         "type": "nontechnical",
-        "oneliner": "Some oneliner text",
+        "oneliner": "Group Event",
         "description": "The treasure hunt event is an exciting and interactive activity where participants work in teams to solve clues, follow a series of hints, and ultimately locate a hidden 'treasure' or prize. The event typically takes place in a defined area, such as a park, campus, or city, and participants must use their problem-solving skills, creativity, and teamwork to successfully complete the hunt.",
+        "note": "Rules and regulations will be announced shortly.....",
         "staffs": [
             {
                 "name": "Dr. G. Ramachandran",
@@ -505,8 +522,9 @@
         "heading": "Photography",
         "scheduledDate": "2024-03-08T15:00:00",
         "type": "nontechnical",
-        "oneliner": "Some oneliner text",
+        "oneliner": "Induvidual Event",
         "description": "The photography event is an opportunity for participants to showcase their photography skills and creativity. Participants will capture images based on a given theme or category, and their photos will be judged based on criteria such as composition, creativity, technical proficiency, and adherence to the theme.",
+        "note": "Participants should give the photos to the coordinators before the day of the event and most importantly iPhone and camera is not allowed in the competition.",
         "staffs": [
             {
                 "name": "Dr. N. J. Nalini",
@@ -534,8 +552,9 @@
         "heading": "Meme Creation",
         "scheduledDate": "2024-03-11T15:00:00",
         "type": "nontechnical",
-        "oneliner": "Some oneliner text",
+        "oneliner": "Induvidual Event",
         "description": "The meme creation event is a fun and creative competition where participants generate humorous and engaging memes based on a given theme or topic. Memes are typically images, videos, or text that spread rapidly across the internet, often accompanied by witty captions or commentary. Participants will have the opportunity to showcase their creativity, humor, and digital design skills in this light-hearted competition.",
+        "note": "Participants should give the meme to the coordinators before the day of the event on the theme - Technology Fails",
         "staffs": [
             {
                 "name": "Dr. R. Ragupathy",
@@ -563,8 +582,9 @@
         "heading": "Poetry",
         "scheduledDate": "2024-03-12T15:00:00",
         "type": "nontechnical",
-        "oneliner": "Some oneliner text",
+        "oneliner": "Induvidual Event",
         "description": "The poetry event is a platform for participants to showcase their creative writing skills and share their original poetry with an audience. Participants may recite their poems live or submit written works for evaluation. The event celebrates the beauty and power of language through various poetic forms and styles.",
+        "note": "Participants should prepare on any one of the following Themes - Reflection of Past (For English) or உலகின் உயிர்கள் (For Tamil)",
         "staffs": [
             {
                 "name": "Dr. P. Sudhakar",
@@ -592,8 +612,9 @@
         "heading": "Cook Wthout Fire",
         "scheduledDate": "2024-03-14T15:00:00",
         "type": "nontechnical",
-        "oneliner": "Some oneliner text",
+        "oneliner": "Group Event",
         "description": "The 'Cook Without Fire' event is a fun and creative culinary competition where participants prepare delicious dishes without using any heat source. Instead, participants rely on techniques such as mixing, chopping, marinating, and assembling ingredients to create appetizing dishes. The event encourages innovation, teamwork, and culinary skills, and it is suitable for participants of all ages.",
+        "note": "Participants should make the dishes only during the competition and bringing dish from your home or buying somewhere will not be encouraged. And should not make the place dirty.",
         "staffs": [
             {
                 "name": "Dr. P. Aruna",
@@ -621,8 +642,9 @@
         "heading": "Drawing",
         "scheduledDate": "2024-03-18T15:00:00",
         "type": "nontechnical",
-        "oneliner": "Some oneliner text",
+        "oneliner": "Induvidual Event",
         "description": "The drawing event is a creative competition where participants showcase their artistic talents through drawing or illustration. Participants may be given a specific theme or subject to draw, or they may have the freedom to choose their own topic. The event provides a platform for artists of all skill levels to express themselves and share their artwork with others.",
+        "note": "Participants should prepare on the Theme - History of Tamilians",
         "staffs": [
             {
                 "name": "Dr. S. G. Santhi",
