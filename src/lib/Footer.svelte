@@ -1,12 +1,12 @@
 <footer class="p-1 md:px-8 md:py-6  md:text-sm flex flex-col items-center  justify-center ">
-    <div class="flex justify-around items-center w-full text-gray-200 ">
+    <div class="flex mb-4 md:mb-8 justify-around items-center w-full text-gray-200 md:mb-8">
         <div class="flex flex-col items-center ">
-            <img class="w-10 p-2 bg-gray-700/40 backdrop-blur-sm rounded-full md:w-20" src="Favi.png" alt="CSE Logo">
-            <p class="text-sm font-anta md:text-3xl">CSE</p>
+            <img class="w-10 md:w-12 p-1 md:p-2 bg-gray-400/60 mb-2 backdrop-blur-sm rounded-full md:w-20" src="Favi.png" alt="CSE Logo">
+            <p class="text-[6px] font-anta md:text-2xl">CSE</p>
          </div>
-        <div class="flex pb-8 justify-center flex-col  items-center uppercase ">
+        <div class="flex  justify-center flex-col  items-center uppercase ">
             <a class="justify-center md:mb-2 md:text-3xl items-center flex" href="https://annamalaiuniversity.ac.in/index.php">
-                <p class="font-anta">Annamalai</p> <img class="px-1 w-6 md:w-12" src="AU_logo.png" alt="Annamalai University Logo"><p class="font-anta">University</p>
+                <p class="font-anta">Annamalai</p> <img class="px-1 w-8 md:w-12" src="AU_logo.png" alt="Annamalai University Logo"><p class="font-anta">University</p>
             </a>
             <div class="flex flex-col text-center">
                 <p class="font-anta text-[4px] md:text-xs text-gray-300 normal-case">(Accredited with 'A<sup>+</sup>' Grade by NAAC)</p>
@@ -16,8 +16,8 @@
         </div>
 
         <div class="flex flex-col items-center ">
-           <img class="w-10 p-2 bg-gray-700/40 backdrop-blur-sm rounded-full md:w-20" src="TechclubLogo.jpg" alt="TechClub Logo">
-           <p class="text-sm font-anta md:text-3xl">TechClub</p>
+           <img class="w-10 md:w-12 p-1 md:p-2 bg-gray-400/60 mb-2 backdrop-blur-sm rounded-full md:w-20" src="TechclubLogo.jpg" alt="TechClub Logo">
+           <p class="text-[6px] font-anta md:text-2xl">TechClub</p>
         </div>
 
     </div>
