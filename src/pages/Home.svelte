@@ -172,9 +172,11 @@ The department has two research laboratories having high-end systems with NVIDIA
            - About Tech Club Section
            -->
            <h2 class="text-xl md:text-2xl text-gray-300 font-semibold self-start mb-4 md:mb-12">About The TechClub</h2>
-           <div class="font-maven text-gray-300 text-justify indent-8 text-xs leading-tight md:text-lg mt-6">
-                TechClub was founded with a <strong>clear mission</strong>: to provide a platform for students to explore, learn, and excel in various domains of technology.<br/>
-                Our objectives encompass both technical and non-technical aspects, aiming to cultivate a well-rounded skill set among members. We strive to:
+           <div class="font-maven text-gray-300 text-justify indent-3 text-xs leading-tight md:text-lg mt-6">
+            <div class="text-center">
+                <strong>TechClub was founded with a clear mission</strong>: to provide a platform for students to explore, learn, and excel in various domains of technology.
+                Our objectives encompass both technical and non-technical aspects, aiming to cultivate a well-rounded skill set among members.
+            </div>
             <ul class="indent-0 px-4 md:px-8 mt-4 md:mt-2 flex flex-col gap-2">
                 <li><strong>Facilitate Learning:</strong> Through workshops, seminars, and hands-on sessions, we aim to enhance technical proficiency in diverse areas such as Python programming, web designing, UI/UX design, poster design, and more.</li>
 
@@ -184,7 +186,7 @@ The department has two research laboratories having high-end systems with NVIDIA
 
                 <li><strong>Community Engagement:</strong> Beyond individual growth, TechClub serves as a hub for collaboration and camaraderie among students. We organize events, competitions, and social gatherings to foster a sense of belonging and unity within the department.</li>
             </ul>
-        </div>
+            </div>
 
     </section>
     <section class="py-12 px-8 md:py-32 text-gray-300 md:px-32 w-full ">
