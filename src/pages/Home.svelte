@@ -217,7 +217,7 @@ The department has two research laboratories having high-end systems with NVIDIA
            - Contact Us
            -->
         <h2 class="text-xl md:text-2xl text-gray-300 font-semibold mb-4">Contact Us</h2>
-        <div class="text-[10px] text-gray-300 gap-2 p-3 md:text-sm md:p-8 bg-gray-800/50 backdrop-blur-sm rounded-md grid grid-rows-2 grid-cols-2 ">
+        <div class="text-[8px] sm:text-xs text-gray-300 gap-2 p-3 md:text-sm md:p-8 bg-gray-800/50 backdrop-blur-sm rounded-md grid grid-rows-2 grid-cols-2 ">
             {#each contacts as contact}
             <div class="text-center p-1 md:p-4">
                 <p class="font-anta md:text-lg font-semibold">{contact.name}</p>
