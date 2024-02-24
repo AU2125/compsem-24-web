@@ -36,6 +36,8 @@
         <div class="md:w-3/4 text-white border-red-400 border-2 p-6 w-full rounded-md backdrop-blur-sm bg-gray-800/40">
             <h2 class="text-xl md:text-4xl">Description</h2>
             <p class="w-full indent-5 text-justify py-4 md:p-8 text-sm md:text-base">{eventDetails.description}</p>
+            <h2 class="text-xl md:text-4xl">Note</h2>
+            <p class="w-full indent-5 text-justify py-4 md:p-8 text-sm md:text-base">{eventDetails.note}</p>
             <h2 class="text-xl md:text-4xl">Handlers</h2>
             <div class="w-full flex mt-8 -p-2 justify-between md:justify-around">
                 <div>
