@@ -43,7 +43,7 @@
                     <ul class="flex gap-2 flex-col md:px-5 py-2 mt-4 items-center justify-between md:justify-around">
                         {#each eventDetails.students as stdu}
                             <li class="w-full rounded-md">
-                                <p class="font-bold text-xs md:text-lg">{stdu.name}</p>
+                                <p class="font-anta font-bold text-xs md:text-lg">{stdu.name}</p>
                                 <a class="text-rose-400 text-xs md:text-lg" href="tel:{stdu.phone}">+91 {stdu.phone}</a>
                             </li>
                         {/each}
@@ -54,7 +54,7 @@
                     <ul class="flex flex-col gap-2 md:px-5 py-2 mt-4 justify-between md:justify-around">
                         {#each eventDetails.staffs as staff}
                             <li class="w-full rounded-md">
-                                <p class="font-bold text-xs md:text-lg">{staff.name}</p>
+                                <p class="font-anta font-bold text-xs md:text-lg">{staff.name}</p>
                                 <p class="text-xs md:text-lg">{staff.designation}</p>
                             </li>
                         {/each}

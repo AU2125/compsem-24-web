@@ -8,7 +8,7 @@
         <p class="text-[8px] md:text-sm">Department of Computer Science and Engineering</p>
     </div>
     <div class="w-full flex justify-between">
-        <p class="bg-clip-text text-[6px] md:text-sm text-transparent bg-gradient-to-r from-pink-300 to-red-400">&copy; All Rights Reserved. Department of CSE.</p>
+        <p class="bg-clip-text text-[6px] md:text-sm text-transparent bg-gradient-to-r from-pink-300 to-red-400">All Rights Reserved &copy; Department of CSE.</p>
         <p class='bg-clip-text text-[6px] md:text-sm text-transparent bg-gradient-to-r from-pink-300 to-red-400'>Made with ❤️ by <span class="font-semibold">TechClub</span></p>
     </div>
 </footer>
