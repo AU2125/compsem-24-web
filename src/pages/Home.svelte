@@ -1,5 +1,5 @@
 <svelte:head>
-    <title>Home</title>
+    <title>CompSem'24</title>
 </svelte:head>
 <script lang="ts">
     import {Link} from 'svelte-routing';
@@ -9,6 +9,7 @@
 
     import contacts from '../data/contacts.json';
     import notifications from '../data/notifications.json';
+
 
 
     let countdownInterval: any;
@@ -25,7 +26,7 @@
             } else {
                 clearInterval(comSemYearCounter);
             }
-        }, 50);
+        }, 30);
 
     });
 
@@ -104,17 +105,29 @@
                 <span class="animate-clip-text-from-below font-anta">Comp</span><span class="animate-clip-text-from-above font-anta">Sem</span><span
                 class="bg-clip-text text-transparent bg-gradient-to-r from-pink-300 to-red-400 font-anta">'{compSemYear}</span>
             </h1>
-            <div class="border-red-400 border-2  text-sm md:text-lg border py-3 rounded-md px-4 flex flex-col items-center">
-                <p class="text-red-400">Starting in</p>
-                <span class="flex gap-2 text-gray-900 bg-gray-800/40 backdrop-blur-sm rounded-md justify-between mt-2">
-                    {#each Object.entries(countdown) as [key, value]}
-                    <span class="text-center text-sm text-rose-400 md:text-md w-14  p-2 rounded-md ">
-                        <p>{value}</p>
-                        <p>{key}</p>
-                    </span>
-                    {/each}
-                </span>
-            </div>
+                {#if timeLeft > 0}
+                    <div class="border-red-400 border-2  text-sm md:text-lg border py-3 rounded-md px-4 flex flex-col items-center">
+                        <p class="text-red-400">Starting in</p>
+                        <span class="flex gap-2 text-gray-900 bg-gray-800/40 backdrop-blur-sm rounded-md justify-between mt-2">
+                            {#each Object.entries(countdown) as [key, value]}
+                            <span class="text-center text-sm text-rose-400 md:text-md w-14  p-2 rounded-md ">
+                                <p>{value}</p>
+                                <p>{key}</p>
+                            </span>
+                            {/each}
+                        </span>
+                    </div>
+                    {:else}
+                        <div class="md:text-2xl bg-gray-700/10 inline-flex text-center text-rose-500  backdrop-blur-sm rounded-md">
+
+                                <p class="px-4 font-anta py-2">Live</p>
+
+                                <span class="h-3 z-3 w-3 top-0 right-0 absolute">
+                                    <span class="h-full w-full  bg-red-400 rounded-full animate-ping opacity-75 absolute"></span>
+                                    <span class="h-full w-full rounded-full bg-red-400 absolute"></span>
+                                </span>
+                        </div>
+                {/if}
         </div>
     </section>
 
@@ -147,7 +160,7 @@ The department has two research laboratories having high-end systems with NVIDIA
         <h2 class="text-xl md:text-2xl text-gray-200 mb-12 font-semibold">Associations</h2>
         <div class="flex items-center px-8 py-8 md:py-16 bg-gray-800/60 backdrop-blur-sm text-xs md:text-lg text-slate-300 rounded-lg justify-around w-full ">
             {#each committees as comm}
-            <div class="flex flex-col items-center w-16 md:w-24">
+            <div class="flex flex-col items-center w-16 md:w-28">
                 <img class=" object-center object-cover w-full" src="{comm.logo}" alt="">
                 <p class="mt-2 md:mt-6">{comm.name}</p>
             </div>
@@ -159,9 +172,18 @@ The department has two research laboratories having high-end systems with NVIDIA
            - About Tech Club Section
            -->
            <h2 class="text-xl md:text-2xl text-gray-300 font-semibold self-start mb-4 md:mb-12">About Tech Club</h2>
-           <p class="text-gray-300 text-justify indent-8 text-xs leading-tight md:text-lg mt-6">
-           Techclub - where ideas take flight! Our focus is on making computer knowledge practical and solving real-world challenges. We provide a space for hands-on learning and collaboration. At Techclub, we believe in sharing knowledge, improving communication, and diving into the nitty-gritty of software development. We're here to guide you, support your interests, and offer opportunities to work on exciting projects. Join us at Techclub for a journey of learning, teamwork, and exploring the exciting world of technology!
-           </p>
+           <div class="font-maven text-gray-300 text-justify indent-8 text-xs leading-tight md:text-lg mt-6">
+                TechClub was founded with a clear mission: to provide a platform for students to explore, learn, and excel in various domains of technology. Our objectives encompass both technical and non-technical aspects, aiming to cultivate a well-rounded skill set among members. We strive to:
+            <ul class="-indent-2 px-4 md:px-8 mt-4 md:mt-2 flex flex-col gap-2">
+                <li><strong>Facilitate Learning:</strong> Through workshops, seminars, and hands-on sessions, we aim to enhance technical proficiency in diverse areas such as Python programming, web designing, UI/UX design, poster design, and more.</li>
+
+                <li><strong>Promote Innovation:</strong> TechClub encourages members to think outside the box and explore innovative solutions to real-world problems. We foster creativity through activities like app building, game design challenges, and hackathons.</li>
+
+                <li><strong>Soft Skill Development:</strong> Recognizing the importance of soft skills in career development, TechClub organizes sessions focused on communication, leadership, teamwork, and time management. These skills complement technical expertise and prepare members for success in their professional lives.</li>
+
+                <li><strong>Community Engagement:</strong> Beyond individual growth, TechClub serves as a hub for collaboration and camaraderie among students. We organize events, competitions, and social gatherings to foster a sense of belonging and unity within the department.</li>
+            </ul>
+        </div>
 
     </section>
     <section class="py-12 px-8 md:py-32 text-gray-300 md:px-32 w-full ">
@@ -170,11 +192,11 @@ The department has two research laboratories having high-end systems with NVIDIA
            -->
         <h2 class="text-xl md:text-2xl  font-semibold self-start mb-4 md:mb-12">History of CompSem</h2>
            <p class="text-justify indent-8 mt-6 text-xs md:text-lg leading-tight">
-The Department of Computer Science and Engineering was established in the year 1984 to meet the demand for well-qualified computer professionals. Flexible Choice based Credit System. Student Centric Teaching Methodology is adopted. The various Associations and Clubs promote the leadership and organisational skills of the students by conducting various academic events throughout the year. Apart from academics, students also involve themselves in activities that inculcate service and team spirit. The department library has more than 7500 books.
-The department has two research laboratories having high-end systems with NVIDIA GeForce RTX 3080 Graphics Card to carry out research in the areas of Speech, Image/Video Processing and Data Analytics. There are six Computer Laboratories having 300 systems, an IoT Laboratory, and three seminar halls with necessary ICT facilities to conduct conferences/seminars and placement activities.
+            COMPSEM is a Student Symposium conducted by the Department of Computer Science and Engineering, Annamalai University every year during the month of February/March. COMPSEM is a conglomeration of various events such as Paper Presentation, Coding/Debugging contest, Marketing competition, Photo/Video editing, Quiz and many others organized to promote the abundant talent and creativity prevalent in the student community. COMPSEM is being held since 1990 and typically spans over the course of a day or two to showcase the research, studies and surveys carried out by students through oral presentations and poster sessions. The enthusiasm, creativity, and dedication to push the boundaries of knowledge by participating in such Symposiums will inspire and reaffirm the commitment of academic community to nurturing the next generation of scholars and innovators.
+            Beyond the formal sessions, the Symposium offers ample opportunities for networking and building connections with peers and enhances the organizational and leadership skills of the students. By continuing to embrace innovation, foster collaboration, and nurture talent, the Department of Computer Science and Engineering aspires to build on the momentum generated by the Symposium and continue to advance the frontiers of knowledge in the field of Computer Science and Engineering.
            </p>
     </section>
-    <section class="flex flex-col items-center justify-center w-full p-6 lg:px-32 ">
+    <section id='events' class="flex flex-col items-center justify-center w-full p-6 lg:px-32 ">
         <!--
            - Event Section
            -->

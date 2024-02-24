@@ -28,7 +28,7 @@
             {:else if (new Date() - eventDetails.scheduledDate > 2 * 3600 * 1000)}
                 <p class="text-green-500 px-8 rounded-md py-6">Completed</p>
             {:else if  eventDetails.form != null}
-                <a class="border-2 border-red-400 px-8 rounded-md py-6" href="{eventDetails.form}">Register !</a>
+                <a class="block border-2 border-red-400 px-8 rounded-md py-6 group" href="{eventDetails.form}"><span class="group-hover:text-lg tansition transition-all duration-100">Register !</span></a>
             {:else}
                 <p class="text-red-500 px-8 rounded-md py-6">Registration Not Available</p>
             {/if}
@@ -39,18 +39,18 @@
             <h2 class="text-xl md:text-4xl">Handlers</h2>
             <div class="w-full flex mt-8 -p-2 justify-between md:justify-around">
                 <div>
-                    <h3 class="text-center text-xs md:text-2xl">Student Co-ordinators</h3>
+                    <h3 class="font-anta text-center text-xs md:text-2xl">Student Co-ordinators</h3>
                     <ul class="flex gap-2 flex-col md:px-5 py-2 mt-4 items-center justify-between md:justify-around">
                         {#each eventDetails.students as stdu}
                             <li class="w-full rounded-md">
                                 <p class="font-bold text-xs md:text-lg">{stdu.name}</p>
-                                <a class="text-sky-600 text-xs md:text-lg" href="tel:{stdu.phone}">{stdu.phone}</a>
+                                <a class="text-rose-400 text-xs md:text-lg" href="tel:{stdu.phone}">+91 {stdu.phone}</a>
                             </li>
                         {/each}
                     </ul>
                 </div>
                 <div>
-                    <h3 class="text-center text-xs md:text-2xl">Staffs Co-ordinators</h3>
+                    <h3 class="font-anta text-center text-xs md:text-2xl">Staffs Co-ordinators</h3>
                     <ul class="flex flex-col gap-2 md:px-5 py-2 mt-4 justify-between md:justify-around">
                         {#each eventDetails.staffs as staff}
                             <li class="w-full rounded-md">
