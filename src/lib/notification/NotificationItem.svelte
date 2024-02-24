@@ -8,6 +8,8 @@
     export let content: string;
     export let date: Date;
     export let url: string;
+
+    console.log(url);
 </script>
 
 
