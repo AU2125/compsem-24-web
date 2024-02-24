@@ -104,7 +104,7 @@
                 <span class="animate-clip-text-from-below font-anta">Comp</span><span class="animate-clip-text-from-above font-anta">Sem</span><span
                 class="bg-clip-text text-transparent bg-gradient-to-r from-pink-300 to-red-400 font-anta">'{compSemYear}</span>
             </h1>
-                {#if timeLeft < 0}
+                {#if timeLeft > 0}
                     <div class="border-red-400 border-2  text-sm md:text-lg border py-3 rounded-md px-4 flex flex-col items-center">
                         <p class="text-red-400">Starting in</p>
                         <span class="flex gap-2 text-gray-900 bg-gray-800/40 backdrop-blur-sm rounded-md justify-between mt-2">
@@ -159,7 +159,7 @@ The department has two research laboratories having high-end systems with NVIDIA
         <h2 class="text-xl md:text-2xl text-gray-200 mb-12 font-semibold">Associations</h2>
         <div class="flex items-center px-8 py-8 md:py-16 bg-gray-800/60 backdrop-blur-sm text-xs md:text-lg text-slate-300 rounded-lg justify-around w-full ">
             {#each committees as comm}
-            <div class="flex flex-col items-center w-16 md:w-24">
+            <div class="flex flex-col items-center w-16 md:w-28">
                 <img class=" object-center object-cover w-full" src="{comm.logo}" alt="">
                 <p class="mt-2 md:mt-6">{comm.name}</p>
             </div>
@@ -195,7 +195,7 @@ The Department of Computer Science and Engineering was established in the year 1
 The department has two research laboratories having high-end systems with NVIDIA GeForce RTX 3080 Graphics Card to carry out research in the areas of Speech, Image/Video Processing and Data Analytics. There are six Computer Laboratories having 300 systems, an IoT Laboratory, and three seminar halls with necessary ICT facilities to conduct conferences/seminars and placement activities.
            </p>
     </section>
-    <section class="flex flex-col items-center justify-center w-full p-6 lg:px-32 ">gi 
+    <section class="flex flex-col items-center justify-center w-full p-6 lg:px-32 ">gi
         <!--
            - Event Section
            -->
