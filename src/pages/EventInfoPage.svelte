@@ -39,7 +39,7 @@
             <h2 class="text-xl md:text-4xl">Handlers</h2>
             <div class="w-full flex mt-8 -p-2 justify-between md:justify-around">
                 <div>
-                    <h3 class="text-center text-xs md:text-2xl">Student Co-ordinators</h3>
+                    <h3 class="font-anta text-center text-xs md:text-2xl">Student Co-ordinators</h3>
                     <ul class="flex gap-2 flex-col md:px-5 py-2 mt-4 items-center justify-between md:justify-around">
                         {#each eventDetails.students as stdu}
                             <li class="w-full rounded-md">
@@ -50,7 +50,7 @@
                     </ul>
                 </div>
                 <div>
-                    <h3 class="text-center text-xs md:text-2xl">Staffs Co-ordinators</h3>
+                    <h3 class="font-anta text-center text-xs md:text-2xl">Staffs Co-ordinators</h3>
                     <ul class="flex flex-col gap-2 md:px-5 py-2 mt-4 justify-between md:justify-around">
                         {#each eventDetails.staffs as staff}
                             <li class="w-full rounded-md">
