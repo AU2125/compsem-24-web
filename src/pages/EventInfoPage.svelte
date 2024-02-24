@@ -44,7 +44,7 @@
                         {#each eventDetails.students as stdu}
                             <li class="w-full rounded-md">
                                 <p class="font-bold text-xs md:text-lg">{stdu.name}</p>
-                                <a class="text-pink-600 text-xs md:text-lg" href="tel:{stdu.phone}">+91 {stdu.phone}</a>
+                                <a class="text-rose-400 text-xs md:text-lg" href="tel:{stdu.phone}">+91 {stdu.phone}</a>
                             </li>
                         {/each}
                     </ul>
