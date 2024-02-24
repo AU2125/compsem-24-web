@@ -161,7 +161,7 @@ The department has two research laboratories having high-end systems with NVIDIA
         <div class="flex items-center px-8 py-8 md:py-16 bg-gray-800/60 backdrop-blur-sm text-xs md:text-lg text-slate-300 rounded-lg justify-around w-full ">
             {#each committees as comm}
             <div class="flex flex-col items-center w-16 md:w-28">
-                <img class=" object-center object-cover w-full" src="{comm.logo}" alt="">
+                <img class="object-center object-cover w-full" src="{comm.logo}" alt="">
                 <p class="mt-2 md:mt-6">{comm.name}</p>
             </div>
             {/each}
@@ -173,8 +173,9 @@ The department has two research laboratories having high-end systems with NVIDIA
            -->
            <h2 class="text-xl md:text-2xl text-gray-300 font-semibold self-start mb-4 md:mb-12">About The TechClub</h2>
            <div class="font-maven text-gray-300 text-justify indent-8 text-xs leading-tight md:text-lg mt-6">
-                TechClub was founded with a clear mission: to provide a platform for students to explore, learn, and excel in various domains of technology. Our objectives encompass both technical and non-technical aspects, aiming to cultivate a well-rounded skill set among members. We strive to:
-            <ul class="-indent-2 px-4 md:px-8 mt-4 md:mt-2 flex flex-col gap-2">
+                TechClub was founded with a <strong>clear mission</strong>: to provide a platform for students to explore, learn, and excel in various domains of technology.<br/>
+                Our objectives encompass both technical and non-technical aspects, aiming to cultivate a well-rounded skill set among members. We strive to:
+            <ul class="indent-0 px-4 md:px-8 mt-4 md:mt-2 flex flex-col gap-2">
                 <li><strong>Facilitate Learning:</strong> Through workshops, seminars, and hands-on sessions, we aim to enhance technical proficiency in diverse areas such as Python programming, web designing, UI/UX design, poster design, and more.</li>
 
                 <li><strong>Promote Innovation:</strong> TechClub encourages members to think outside the box and explore innovative solutions to real-world problems. We foster creativity through activities like app building, game design challenges, and hackathons.</li>
