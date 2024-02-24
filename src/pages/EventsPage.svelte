@@ -1,7 +1,6 @@
 <script lang="ts">
     import events from '../data/events.json';
     import Events from '../lib/Events/Event.svelte';
-    import Footer from '../lib/Footer.svelte';
     export let evType: string;
 
 </script>
@@ -21,8 +20,10 @@
         </h2>
         <Events events = {
             events.filter((e) => e.type==evType)
-                .map((e) => ({...e, "scheduledDate": new Date(e["scheduledDate"])}
-                ))} />
+                .map((e) => ({...e, "scheduledDate": new Date(e["scheduledDate"])}))
+                .sort((e) => e.scheduledDate)
+                .reverse()
+                } />
     </section>
 
 </main>
