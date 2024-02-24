@@ -11,12 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-<<<<<<< HEAD
       - run: npm install && npm build
-=======
-      - run: npm install
-      - run: npm run build
->>>>>>> 1a95f65 (Update firebase-hosting-merge.yml)
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
@@ -24,8 +19,4 @@ jobs:
           channelId: live
           projectId: compsem24
         env:
-<<<<<<< HEAD
           FIREBASE_CLI_EXPERIMENTS: webframeworks
-=======
-         FIREBASE_CLI_EXPERIMENTS: webframeworks
->>>>>>> 1954bfe (Update firebase-hosting-merge.yml)
