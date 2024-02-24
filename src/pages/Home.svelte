@@ -53,7 +53,7 @@
             "to": "events/technical"
         },
         {
-            "name": "Non Technical Events",
+            "name": "Non - Technical Events",
             "to": "events/nontechnical"
         }
     ]
@@ -146,7 +146,7 @@
         <!--
            - About Department Section
            -->
-       <h2 class="text-xl md:text-2xl text-gray-300 font-semibold self-start mb-4 md:mb-12">About Department</h2>
+       <h2 class="text-xl md:text-2xl text-gray-300 font-semibold self-start mb-4 md:mb-12">About The Department</h2>
        <p class="text-gray-300 text-justify indent-8 text-xs leading-tight md:text-lg mt-6">
 The Department of Computer Science and Engineering was established in the year 1984 to meet the demand for well-qualified computer professionals. Flexible Choice based Credit System. Student Centric Teaching Methodology is adopted. The various Associations and Clubs promote the leadership and organisational skills of the students by conducting various academic events throughout the year. Apart from academics, students also involve themselves in activities that inculcate service and team spirit. The department library has more than 7500 books.
 The department has two research laboratories having high-end systems with NVIDIA GeForce RTX 3080 Graphics Card to carry out research in the areas of Speech, Image/Video Processing and Data Analytics. There are six Computer Laboratories having 300 systems, an IoT Laboratory, and three seminar halls with necessary ICT facilities to conduct conferences/seminars and placement activities.
@@ -157,11 +157,11 @@ The department has two research laboratories having high-end systems with NVIDIA
         <!--
            - Associations Section
            -->
-        <h2 class="text-xl md:text-2xl text-gray-200 mb-12 font-semibold">Associations</h2>
+        <h2 class="text-xl md:text-2xl text-gray-200 mb-12 font-semibold">Students' Associations</h2>
         <div class="flex items-center px-8 py-8 md:py-16 bg-gray-800/60 backdrop-blur-sm text-xs md:text-lg text-slate-300 rounded-lg justify-around w-full ">
             {#each committees as comm}
             <div class="flex flex-col items-center w-16 md:w-28">
-                <img class=" object-center object-cover w-full" src="{comm.logo}" alt="">
+                <img class="object-center object-cover w-full" src="{comm.logo}" alt="">
                 <p class="mt-2 md:mt-6">{comm.name}</p>
             </div>
             {/each}
@@ -171,10 +171,11 @@ The department has two research laboratories having high-end systems with NVIDIA
         <!--
            - About Tech Club Section
            -->
-           <h2 class="text-xl md:text-2xl text-gray-300 font-semibold self-start mb-4 md:mb-12">About Tech Club</h2>
+           <h2 class="text-xl md:text-2xl text-gray-300 font-semibold self-start mb-4 md:mb-12">About The TechClub</h2>
            <div class="font-maven text-gray-300 text-justify indent-8 text-xs leading-tight md:text-lg mt-6">
-                TechClub was founded with a clear mission: to provide a platform for students to explore, learn, and excel in various domains of technology. Our objectives encompass both technical and non-technical aspects, aiming to cultivate a well-rounded skill set among members. We strive to:
-            <ul class="-indent-2 px-4 md:px-8 mt-4 md:mt-2 flex flex-col gap-2">
+                TechClub was founded with a <strong>clear mission</strong>: to provide a platform for students to explore, learn, and excel in various domains of technology.<br/>
+                Our objectives encompass both technical and non-technical aspects, aiming to cultivate a well-rounded skill set among members. We strive to:
+            <ul class="indent-0 px-4 md:px-8 mt-4 md:mt-2 flex flex-col gap-2">
                 <li><strong>Facilitate Learning:</strong> Through workshops, seminars, and hands-on sessions, we aim to enhance technical proficiency in diverse areas such as Python programming, web designing, UI/UX design, poster design, and more.</li>
 
                 <li><strong>Promote Innovation:</strong> TechClub encourages members to think outside the box and explore innovative solutions to real-world problems. We foster creativity through activities like app building, game design challenges, and hackathons.</li>
@@ -190,7 +191,7 @@ The department has two research laboratories having high-end systems with NVIDIA
         <!--
            - History of CompSem Section
            -->
-        <h2 class="text-xl md:text-2xl  font-semibold self-start mb-4 md:mb-12">History of CompSem</h2>
+        <h2 class="text-xl md:text-2xl  font-semibold self-start mb-4 md:mb-12">History of The CompSem</h2>
            <p class="text-justify indent-8 mt-6 text-xs md:text-lg leading-tight">
             COMPSEM is a Student Symposium conducted by the Department of Computer Science and Engineering, Annamalai University every year during the month of February/March. COMPSEM is a conglomeration of various events such as Paper Presentation, Coding/Debugging contest, Marketing competition, Photo/Video editing, Quiz and many others organized to promote the abundant talent and creativity prevalent in the student community. COMPSEM is being held since 1990 and typically spans over the course of a day or two to showcase the research, studies and surveys carried out by students through oral presentations and poster sessions. The enthusiasm, creativity, and dedication to push the boundaries of knowledge by participating in such Symposiums will inspire and reaffirm the commitment of academic community to nurturing the next generation of scholars and innovators.
             Beyond the formal sessions, the Symposium offers ample opportunities for networking and building connections with peers and enhances the organizational and leadership skills of the students. By continuing to embrace innovation, foster collaboration, and nurture talent, the Department of Computer Science and Engineering aspires to build on the momentum generated by the Symposium and continue to advance the frontiers of knowledge in the field of Computer Science and Engineering.
@@ -219,7 +220,7 @@ The department has two research laboratories having high-end systems with NVIDIA
         <div class="text-[8px] text-gray-300 gap-2 md:text-sm p-4 md:p-8 bg-gray-800/50 backdrop-blur-sm rounded-md grid grid-rows-2 grid-cols-2 ">
             {#each contacts as contact}
             <div class="text-center p-2 md:p-4">
-                <p class="md:text-lg font-semibold">{contact.name}</p>
+                <p class="font-anta md:text-lg font-semibold">{contact.name}</p>
                 <p>{contact.designation}</p>
                 <a href="tel:{contact.phone}" class="text-rose-400 text-[6px] md:text-sm"><span class="hidden md:inline text-gray-300" >Phone: </span>{contact.phone}</a><br/>
                 <a href="mailto:{contact.email}" class="text-rose-400 text-[6px] md:text-sm"><span class="hidden md:inline text-gray-300" >Email: </span>{contact.email}</a>

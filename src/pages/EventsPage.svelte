@@ -25,5 +25,4 @@
                 ))} />
     </section>
 
-    <Footer />
 </main>

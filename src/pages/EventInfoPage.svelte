@@ -14,7 +14,7 @@
 <div class="w-screen h-screen  fixed top-0 left-0 -z-5"></div>
 <main class="snap-y absolute top-0 left-0 w-screen">
 
-    <section class=" gap-4 px-8 flex md:p-16 flex-col justify-center items-center">
+    <section class=" gap-4 p-8 flex md:p-16 flex-col justify-center items-center">
         <div class="md:w-3/4 border-red-400 border-2 text-white mt-40 w-full p-6 gap-8  flex flex-col md:flex-row justify-between items-center rounded-md backdrop-blur-sm bg-gray-800/40">
             <div class="flex flex-col justify-center  md:justify-evenly items-start">
                 <h1 class=" font-anta text-2xl md:text-6xl">{eventDetails.heading}</h1>
@@ -35,6 +35,10 @@
         </div>
         <div class="md:w-3/4 text-white border-red-400 border-2 p-6 w-full rounded-md backdrop-blur-sm bg-gray-800/40">
             <h2 class="text-xl md:text-4xl">Description</h2>
+            <div class="p-4 bg-gray-800/50 mt-4 rounded-md md:px-8 md:py-4">
+                <h2 class="text-xl md:text-xl text-rose-500">Note</h2>
+                <p class="w-full text-justify text-gray-400 py-4 text-sm font-semibold">{eventDetails.note}</p>
+            </div>
             <p class="w-full indent-5 text-justify py-4 md:p-8 text-sm md:text-base">{eventDetails.description}</p>
             <h2 class="text-xl md:text-4xl">Handlers</h2>
             <div class="w-full flex mt-8 -p-2 justify-between md:justify-around">
@@ -43,7 +47,7 @@
                     <ul class="flex gap-2 flex-col md:px-5 py-2 mt-4 items-center justify-between md:justify-around">
                         {#each eventDetails.students as stdu}
                             <li class="w-full rounded-md">
-                                <p class="font-bold text-xs md:text-lg">{stdu.name}</p>
+                                <p class="font-anta font-bold text-xs md:text-lg">{stdu.name}</p>
                                 <a class="text-rose-400 text-xs md:text-lg" href="tel:{stdu.phone}">+91 {stdu.phone}</a>
                             </li>
                         {/each}
@@ -54,7 +58,7 @@
                     <ul class="flex flex-col gap-2 md:px-5 py-2 mt-4 justify-between md:justify-around">
                         {#each eventDetails.staffs as staff}
                             <li class="w-full rounded-md">
-                                <p class="font-bold text-xs md:text-lg">{staff.name}</p>
+                                <p class="font-anta font-bold text-xs md:text-lg">{staff.name}</p>
                                 <p class="text-xs md:text-lg">{staff.designation}</p>
                             </li>
                         {/each}
