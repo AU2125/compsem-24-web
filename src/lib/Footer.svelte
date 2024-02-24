@@ -13,8 +13,8 @@
         </div>
 
         <div class="flex flex-col items-center ">
-           <img class="w-8 md:w-20" src="TechclubLogo.jpg" alt="TechClub Logo">
-           <p class="text-sm font-anta md:text-3xl">Tech Club</p>
+           <img class="w-10 p-2 bg-gray-700/40 backdrop-blur-sm rounded-full md:w-20" src="TechclubLogo.jpg" alt="TechClub Logo">
+           <p class="text-sm font-anta md:text-3xl">TechClub</p>
         </div>
 
     </div>
