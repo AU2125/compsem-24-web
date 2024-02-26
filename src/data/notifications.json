@@ -1,33 +1,32 @@
 [
     {
-        "heading": "Change of Event Dates",
-        "content": "Note that the Event dates for Drawing and Short Film have been swapped.",
+        "heading": "Thank You Note",
+        "content": "We appreciate your massive support by participating in the events conducted today. Scroll down to register for Day 2 events if you haven't already",
         "url" : "/",
-        "date": "2024-02-24T00:00:00"
+        "date": "2024-02-26T00:00:00"
     },
     {
-        "heading": "Welcome Note",
-        "content": "Welcome the newly launched CompSem website!!!!!!!",
+        "heading": "Day 1 Technical Event Winner : Technical Quiz",
+        "content": "1st Price Family Guys - 3rd year DS, 2nd Price Keyboard Breakers - 3rd year AI&ML, 3rd Price shared between - Hack Squad 4th year CSE abd B.A.R.S - 3rd Year DS",
         "url" : "/",
-        "date": "2024-02-24T00:00:00"
+        "date": "2024-02-26T00:00:00"
     },
     {
-        "heading": "Register Soon",
-        "content": "Registration for all events is now open!!!! Only pre-registration is allowed, on-the-spot registration will not be entertained.",
-        "url": "/#events",
-        "date": "2024-02-24T00:00:00"
+        "heading": "Day 2 Technical Event Winners: Essay Writing",
+        "content": "Tamil Essay Winners: 1st price Monesh P - 3rd Year AI&ML, 2nd price Sala C - 2nd Year CSE, 3rd Price English Essay Winners: 1st Price Riyaz Mohamed J - 3rd year CSE, 2nd Price Akshaya Arasi T - 3rd AI&ML, 3rd Price Subiksha Sri C - 4th year CSE", 
+        "url" : "/",
+        "date": "2024-02-26T00:00:00"
     },
     {
-        "heading": "Day 1 Technical Event: Technical Quiz",
-        "content": "Click Here to go to the Technical Quiz Event page",
-        "url": "/event/tech_quiz",
-        "date": "2024-02-24T00:00:00"
+        "heading": "Day 2 Technical Event: Technical Connection",
+        "content": "Click Here to go to the Technical Connection Event page",
+        "url": "/event/tech_conn",
+        "date": "2024-02-26T00:00:00"
     },
     {
-        "heading": "Day 1 Non-Technical Event: Essay Writing",
-        "content": "Click Here to go to the Essay Writing Event page",
-        "url": "/event/essay",
-        "date": "2024-02-24T00:00:00"
+        "heading": "Day 2 Non-Technical Event: Speech Competition",
+        "content": "Click Here to go to the Speech Competition Event page",
+        "url": "/event/speech_competition",
+        "date": "2024-02-26T00:00:00"
     }
 ]
-
