@@ -7,7 +7,7 @@
     const eventDetails: IEvent = events.find((e) => e.to == eventId) || events[0]
 
     const evType = eventDetails.type == "technical" ? "Technical Events" : "Non-Technical Events";
-
+    const eventDate =new Date(eventDetails.scheduledDate);
 </script>
 
 
@@ -20,13 +20,13 @@
                 <h1 class=" font-anta text-2xl md:text-6xl">{eventDetails.heading}</h1>
                 <div class="flex w-full items-center flex-col md:px-4 mt-4 text-center">
                     <p>{evType}</p>
-                    <p>{calcDate(new Date(eventDetails.scheduledDate))}</p>
+                    <p>{calcDate(eventDate)}</p>
                 </div>
             </div>
-            {#if (eventDetails.scheduledDate - new Date() >= 0)}
-                <p class="text-green-500 px-8 rounded-md py-6">On Going</p>
-            {:else if (new Date() - eventDetails.scheduledDate > 2 * 3600 * 1000)}
+            {#if (new Date() - eventDate > 2 * 3600 * 1000)}
                 <p class="text-green-500 px-8 rounded-md py-6">Completed</p>
+            {:else if (eventDate < new Date())}
+                <p class="text-green-500 px-8 rounded-md py-6">On Going</p>
             {:else if  eventDetails.form != null}
                 <a class="block border-2 border-red-400 px-8 rounded-md py-6 group" href="{eventDetails.form}"><span class="group-hover:text-lg tansition transition-all duration-100">Register !</span></a>
             {:else}
