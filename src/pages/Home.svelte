@@ -10,8 +10,8 @@
     import contacts from '../data/contacts.json';
     import notifications from '../data/notifications.json';
 
-
-
+    import {sym} from '../lib/store';
+    sym.set(false);
     let countdownInterval: any;
     let targetDate: any = new Date("2024-02-26T15:00:00");
     let timeLeft = Math.floor((targetDate - new Date())/ 1000);

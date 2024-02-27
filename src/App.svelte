@@ -5,7 +5,7 @@
     import Header from './lib/Header.svelte';
     import EventInfoPage from './pages/EventInfoPage.svelte';
 
-    import Footer from './lib/Footer.svelte';
+    import SymposiumPage from './pages/SymposiumPage.svelte';
     import P5 from 'p5-svelte';
 
     export let url = "";
@@ -101,6 +101,7 @@
     </div>
 
     <Route path="/"><HomePage/></Route>
+    <Route path="/symposium"><SymposiumPage/></Route>
     <Route path="/events/:evType" component={EventsPage}></Route>
     <Route path="/event/:eventId" component={EventInfoPage}></Route>
 </Router>

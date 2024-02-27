@@ -3,6 +3,8 @@
     import Events from '../lib/Events/Event.svelte';
     export let evType: string;
 
+    import {sym} from '../lib/store';
+    sym.set(false);
 </script>
 
 <svelte:head>
