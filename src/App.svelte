@@ -4,6 +4,7 @@
     import EventsPage from './pages/EventsPage.svelte';
     import Header from './lib/Header.svelte';
     import EventInfoPage from './pages/EventInfoPage.svelte';
+    import {sym} from './lib/store';
 
     import SymposiumPage from './pages/SymposiumPage.svelte';
     import P5 from 'p5-svelte';
@@ -13,6 +14,9 @@
     let width = window.innerWidth; // Set canvas width to full screen
     let height = window.innerHeight; // Set canvas height to full screen
     let particles = [];
+    let symp= false;
+
+    sym.subscribe((val) => symp = val)
 
     class Particle {
 
@@ -94,14 +98,26 @@
     }
 </style>
 
+<!-- bg-gradient-to-tr from-yellow-900 from-10% via-yellow-950 to-stone-950 -->
+
 <Router url={url}>
     <Header />
-    <div id="p5-container" class="fixed top-0 left-0 w-screen h-screen -z-5 bg-gradient-to-tr from-rose-950 from-10% via-gray-900 to-sky-950 ">
-        <P5 {sketch} id="p5-canvas"/>
-    </div>
-
-    <Route path="/"><HomePage/></Route>
-    <Route path="/symposium"><SymposiumPage/></Route>
-    <Route path="/events/:evType" component={EventsPage}></Route>
-    <Route path="/event/:eventId" component={EventInfoPage}></Route>
+    {#if symp}
+        <div id="p5-container" class="fixed top-0 left-0 w-screen h-screen -z-5 bg-gradient-to-tr from-yellow-900 from-10% via-yellow-950 to-stone-950 ">
+            <P5 sketch={sketch} id="p5-canvas"/>
+        </div>
+    {:else}
+        <div id="p5-container" class="fixed top-0 left-0 w-screen h-screen -z-5 bg-gradient-to-tr from-rose-950 from-10% via-gray-900 to-sky-950 ">
+            <P5 sketch={sketch} id="p5-canvas"/>
+        </div>
+    {/if}
+    {#if !symp}
+        <Router>
+            <Route path="/"><HomePage/></Route>
+            <Route path="/symposium"><SymposiumPage/></Route>
+            <Route path="/events/:evType" component={EventsPage}></Route>
+            <Route path="/event/:eventId" component={EventInfoPage}></Route>
+        </Router>
+    {/if}
 </Router>
+
