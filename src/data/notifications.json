@@ -1,32 +1,26 @@
 [
     {
-        "heading": "Change of Topic for Debate competition",
-        "content": "The tamil topic for debate is changed from அரசியல் போராட்டம்: சரியா ? தவறா to செயற்கை நுண்ணறிவு: ஆபத்தானதா ? பயனுள்ளதா ?",
+        "heading": "Day 3 Technical Event Winner : Brain Teaser",
+        "content": "1st Price The Matrix - 2rd year CSE&AI, 2nd Price Family Guys - 3rd year DS, 3rd Price BL Squad - 3rd Year CSE",
         "url" : "/",
-        "date": "2024-02-27T00:00:00"
+        "date": "2024-02-28T00:00:00"
     },
     {
-        "heading": "Day 2 Technical Event Winner : Technical Connection",
-        "content": "1st Price Family Guys - 3rd year DS, 2nd Price Queen Bees - 3rd year DS, 3rd Price Chief Guest - 3rd Year DS",
+        "heading": "Day 3 Non - Technical Event Winners: Speech Competition",
+        "content": "Tamil Debate Winners: 1st price MNB - 3rd Year AI&ML, 2nd price அறம் வெல்லும் - 4th Year DS, 3rd Price Team Incognito 4th Year CSE-B English Debate Winners: 1st Price ABC - 4th year CSE-A, 2nd Price Phoenix - 4th CSE-A, 3rd Price ADS Squad - 3rd year AI&ML", 
         "url" : "/",
-        "date": "2024-02-27T00:00:00"
+        "date": "2024-02-28T00:00:00"
     },
     {
-        "heading": "Day 2 Non - Technical Event Winners: Speech Competition",
-        "content": "Tamil Speech Winners: 1st price Sala C - 2rd Year CSE, 2nd price Keethana G - 2nd Year DS, 3rd Price Sriram P 2nd Year CSE-A English Speech Winners: 1st Price Leena N - 4th year CSE, 2nd Price Upanshu - 3rd DS, 3rd Price Joel Sharon - 4th year CSE-A", 
-        "url" : "/",
-        "date": "2024-02-27T00:00:00"
-    },
-    {
-        "heading": "Day 3 Technical Event: Brain Teaser",
+        "heading": "Day 4 Technical Event: Coding Challenge",
         "content": "Click Here to go to the Brain Teaser Event page",
-        "url": "/event/brain_tease",
-        "date": "2024-02-27T00:00:00"
+        "url": "/event/coding_challenge",
+        "date": "2024-02-28T00:00:00"
     },
     {
-        "heading": "Day 3 Non-Technical Event: Debate",
+        "heading": "Day 4 Non-Technical Event: Drawing",
         "content": "Click Here to go to the Debate Event page",
-        "url": "/event/debate",
-        "date": "2024-02-27T00:00:00"
+        "url": "/event/drawing",
+        "date": "2024-02-28T00:00:00"
     }
 ]
