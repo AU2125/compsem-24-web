@@ -35,7 +35,7 @@
            -->
         <div class="flex flex-col items-center justify-center">
             <h1 class="lg:text-[12rem] md:text-[6rem] text-[3rem] mb-4 text-gray-100">
-                <span class="animate-clip-text-from-below font-anta">TechFusion</span><span
+                <span class=" animate-clip-text-from-below font-anta">TechFusion</span><span
                 class="bg-clip-text text-transparent bg-gradient-to-r from-pink-300 to-red-400 font-anta">'{compSemYear}</span>
             </h1>
             <div class="border-red-400 border-2  text-sm md:text-lg border py-3 rounded-md px-4 flex flex-col items-center">
