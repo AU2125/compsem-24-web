@@ -30,7 +30,7 @@
         <Link on:click= {() => menuToggle = false} to="/" class="font-anta text-xl p-2 transition-transform duration-75 ease-in-out hover:scale-125 rounded-md hover:text-md hover:bg-clip-text hover:text-transparent hover:bg-gradient-to-r hover:from-pink-300 hover:to-red-400">Home</Link>
         <Link on:click= {() => menuToggle = false} to="/events/technical" class="font-anta text-xl p-2  transition-transform duration-75 ease-in-out hover:scale-125 hover:text-md hover:bg-clip-text hover:text-transparent hover:bg-gradient-to-r hover:from-pink-300 hover:to-red-400">Technical Events</Link>
         <Link on:click= {() => menuToggle = false} to="/events/nontechnical" class="font-anta text-xl p-2  transition-transform duration-75 ease-in-out hover:scale-125 hover:text-md hover:bg-clip-text hover:text-transparent hover:bg-gradient-to-r hover:from-pink-300 hover:to-red-400">Non Technical Events</Link>
-        <Link on:click= {() => menuToggle = false} to="/symposium" class="font-anta text-xl p-2  transition-transform duration-75 ease-in-out hover:scale-125 hover:text-md hover:bg-clip-text hover:text-transparent hover:bg-gradient-to-r hover:from-pink-300 hover:to-red-400">Symposium</Link>
+        <Link on:click= {() => menuToggle = false} to="/symposium" class="font-anta text-xl p-2  transition-transform duration-75 ease-in-out hover:scale-125 hover:text-md hover:bg-clip-text hover:text-transparent hover:bg-gradient-to-r hover:from-blue-800 hover:to-cyan-400">Symposium</Link>
         <a href="/#contacts" class="font-anta text-xl p-2 transition-transform duration-75 ease-in-out hover:scale-125 hover:text-md hover:bg-clip-text hover:text-transparent hover:bg-gradient-to-r hover:from-pink-300 hover:to-red-400">Contact Us</a>
     </nav>
    {/if}

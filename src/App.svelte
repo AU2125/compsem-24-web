@@ -28,7 +28,7 @@
         // creation of a particle.
         createParticle(p5) {
             p5.noStroke();
-            p5.fill(!$sym ? 'rgba(163, 33, 85,0.4)': '#ffffff66');
+            p5.fill(!$sym ? 'rgba(163, 33, 85,0.4)': 'rgba(45, 149, 150, 0.4)');
             p5.circle(this.x, this.y, this.r);
         }
 
@@ -48,7 +48,7 @@
             particles.forEach(element =>{
             let dis = p5.dist(this.x, this.y, element.x, element.y);
             if(dis < 85) {
-                p5.stroke(!$sym ? 'rgba(163, 33, 85,0.4)': '#ffffff');
+                p5.stroke(!$sym ? 'rgba(163, 33, 85,0.4)': 'rgba(45, 149, 150, 0.4)');
                 p5.line(this.x, this.y, element.x, element.y);
             }
             });
@@ -68,14 +68,13 @@
 
         p5.draw = () => {
             p5.clear();
-            if (!$sym){
+
             for(let i = 0; i < particles.length; i++) {
                 particles[i].createParticle(p5);
                 particles[i].moveParticle(p5);
                 particles[i].joinParticles(particles.slice(i), p5);
             }
 
-            }
         };
     };
 </script>
