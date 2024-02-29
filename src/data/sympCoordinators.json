@@ -1,16 +1,31 @@
+{
 
-[
-    {
-        "name" : "Mr. H. Janarthanan",
-        "designation": "Student Coordinator",
-        "phone": "+91 9842307274",
-        "email": "@gmail.com"
-    },
-    {
-        "name" : "Mr. S. Keerthivasan",
-        "designation": "Vice President, IEI",
-        "phone": "+91 9443077459",
-        "email": "@gmail.com"
-    }
-]
+    "staffs": [
+        {
+            "name" : "Mr. H. Janarthanan",
+            "designation": "Student Coordinator"
+        },
+        {
+            "name" : "Mr. S. Keerthivasan",
+            "designation": "Vice President, IEI"
+        },
+        {
+            "name" : "Mr. S. Keerthivasan",
+            "designation": "Vice President, IEI"
+        }
+    ],
 
+    "student": [
+        {
+            "name" : "Mr. H. Janarthanan",
+            "designation": "Student Coordinator",
+            "phone": "+91 9842307274"
+        },
+        {
+            "name" : "Mr. S. Keerthivasan",
+            "designation": "Vice President, IEI",
+            "phone": "+91 9443077459"
+        }
+    ]
+
+}

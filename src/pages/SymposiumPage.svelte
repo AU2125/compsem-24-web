@@ -3,6 +3,7 @@
 </svelte:head>
 <script lang="ts">
     import {onMount} from 'svelte';
+    import {slide} from 'svelte/transition';
     import Footer from '../lib/Footer.svelte';
     import coordinators from '../data/sympCoordinators.json';
 
@@ -12,6 +13,9 @@
 
     let compSemYear = 0;
     let comSemYearCounter: any;
+
+    const staffCoord = coordinators["staffs"];
+    const studCoord = coordinators["student"];
 
     onMount(() => {
         comSemYearCounter = setInterval(() => {
@@ -34,7 +38,7 @@
            - Hero Section
            -->
         <div class="flex flex-col items-center justify-center">
-            <h1 class="lg:text-[12rem] md:text-[6rem] text-[3rem] mb-4 text-gray-100">
+            <h1 transition:slide class="lg:text-[12rem] md:text-[6rem] text-[3rem] mb-4 text-gray-100">
                 <span class=" animate-clip-text-from-below font-anta">TechFusion</span><span
                 class="bg-clip-text text-transparent bg-gradient-to-r from-[#0B666A] to-blue-800 font-anta">'{compSemYear}</span>
             </h1>
@@ -49,8 +53,8 @@
                    </span>
                 </span>
             </div>
-        <a href="https://forms.gle/j7oMj1ciDncqfACc8" class="md:text-2xl border-2 border-slate-800 bg-gray-800 mt-8 bg-gray-100 inline-flex text-center text-cyan-500  backdrop-blur-sm rounded">
-            <p class="px-4 font-anta py-2">Register Now</p>
+        <a href="https://forms.gle/j7oMj1ciDncqfACc8" class="md:text-2xl hover:scale-125 border-2 border-slate-800 bg-gray-800 mt-8 bg-gray-100 inline-flex text-center text-cyan-500  backdrop-blur-sm rounded">
+            <p class="px-4 font-anta hover:text-[#2D9596] active:text-[#2D9596] py-2">Register Now</p>
         </a>
     </section>
 
@@ -59,12 +63,11 @@
            - Staff Coordinators Section
            -->
         <h2 class="text-xl md:text-2xl text-gray-300 font-semibold mb-4">Staff Coordinators</h2>
-        <div class="text-[8px] sm:text-xs text-gray-300 gap-2 p-3 md:text-sm md:p-8 bg-gray-800/50 backdrop-blur-sm rounded-md grid grid-rows-1 grid-cols-2 ">
-            {#each coordinators as contact}
+        <div class="text-[8px] sm:text-xs text-gray-300 gap-2 p-3 md:text-sm md:p-8 bg-gray-800/50 backdrop-blur-sm rounded-md grid grid-rows-1 grid-cols-3 ">
+            {#each staffCoord as contact}
             <div class="text-center p-1 md:p-4">
                 <p class="font-anta md:text-lg font-semibold">{contact.name}</p>
                 <p>{contact.designation}</p>
-                <a href="tel:{contact.phone}" class="text-cyan-400  md:text-sm"><span class="hidden md:inline text-gray-300" >Phone: </span>{contact.phone}</a><br/>
             </div>
             {/each}
         </div>
@@ -75,7 +78,7 @@
            -->
         <h2 class="text-xl md:text-2xl text-gray-300 font-semibold mb-4">Students Coordinators</h2>
         <div class="text-[8px] sm:text-xs text-gray-300 gap-2 p-3 md:text-sm md:p-8 bg-gray-800/50 backdrop-blur-sm rounded-md grid grid-rows-1 grid-cols-2 ">
-            {#each coordinators as contact}
+            {#each studCoord as contact}
             <div class="text-center p-1 md:p-4">
                 <p class="font-anta md:text-lg font-semibold">{contact.name}</p>
                 <p>{contact.designation}</p>
@@ -86,6 +89,3 @@
     </section>
     <Footer />
 </main>
-
-
-
