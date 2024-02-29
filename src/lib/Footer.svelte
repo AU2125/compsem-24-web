@@ -1,3 +1,8 @@
+<script lang="ts">
+    import {sym} from './store';
+
+</script>
+
 <footer class="p-1 md:px-8 md:py-6  md:text-sm flex flex-col items-center  justify-center ">
     <div class="flex mb-4 md:mb-8 justify-around items-center w-full text-gray-200 md:mb-8">
         <div class="flex flex-col items-center ">
@@ -22,7 +27,7 @@
 
     </div>
     <div class="w-full flex justify-between">
-        <p class="bg-clip-text text-[6px] md:text-sm text-transparent bg-gradient-to-r from-pink-300 to-red-400">All Rights Reserved &copy; Department of CSE.</p>
-        <p class='bg-clip-text text-[6px] md:text-sm text-transparent bg-gradient-to-r from-pink-300 to-red-400'>Made with ❤️ by <span class="font-semibold">TechClub</span></p>
+        <p class="bg-clip-text text-[6px] md:text-sm text-transparent bg-gradient-to-r {$sym ? 'from-cyan-400 to-cyan-200' : 'from-pink-300 to-red-400'} ">All Rights Reserved &copy; Department of CSE.</p>
+        <p class='bg-clip-text text-[6px] md:text-sm text-transparent bg-gradient-to-r {$sym ? 'from-cyan-400 to-cyan-200' : 'from-pink-300 to-red-400'} '>Made with ❤️ by <span class="font-semibold">TechClub</span></p>
     </div>
 </footer>

@@ -49,7 +49,7 @@
                    </span>
                 </span>
             </div>
-        <a href="https://google.com" class="md:text-2xl border-2 border-slate-800 bg-gray-800 mt-8 bg-gray-100 inline-flex text-center text-cyan-500  backdrop-blur-sm rounded">
+        <a href="https://forms.gle/j7oMj1ciDncqfACc8" class="md:text-2xl border-2 border-slate-800 bg-gray-800 mt-8 bg-gray-100 inline-flex text-center text-cyan-500  backdrop-blur-sm rounded">
             <p class="px-4 font-anta py-2">Register Now</p>
         </a>
     </section>
