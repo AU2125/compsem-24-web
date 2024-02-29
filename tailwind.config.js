@@ -19,8 +19,9 @@ export default {
         'anta': ["Anta", "sans-serif"]
       },
       animation: {
-        'clip-text-from-below': 'clip-polygon 2s ease-in-out',
-        'clip-text-from-above': 'clip-polygon-reverse 2s ease-in-out',
+        'clip-text-from-below': 'clip-polygon 1.5s ease-in-out',
+        'menu-drop': 'clip-polygon-reverse 600ms ease-in-out',
+        'clip-text-from-above': 'clip-polygon-reverse 1.5s ease-in-out',
         'spotlight': 'spotlight 2s ease-in-out',
       },
       keyframes: {
