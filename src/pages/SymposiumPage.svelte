@@ -36,20 +36,20 @@
         <div class="flex flex-col items-center justify-center">
             <h1 class="lg:text-[12rem] md:text-[6rem] text-[3rem] mb-4 text-gray-100">
                 <span class=" animate-clip-text-from-below font-anta">TechFusion</span><span
-                class="bg-clip-text text-transparent bg-gradient-to-r from-pink-300 to-red-400 font-anta">'{compSemYear}</span>
+                class="bg-clip-text text-transparent bg-gradient-to-r from-[#0B666A] to-blue-800 font-anta">'{compSemYear}</span>
             </h1>
-            <div class="border-red-400 border-2  text-sm md:text-lg border py-3 rounded-md px-4 flex flex-col items-center">
-                <p class="text-red-400">On</p>
+            <div class="border-cyan-400 border-2  text-sm md:text-lg border py-3 rounded-md px-4 flex flex-col items-center">
+                <p class="text-cyan-400">On</p>
                 <span class="flex gap-2  text-gray-900 bg-gray-800/40 backdrop-blur-sm rounded-md justify-between mt-2">
-                   <span class="text-center inline-flex flex-col  text-rose-400 md:text-md p-6 md:text-2xl rounded-md ">
+                   <span class="text-center inline-flex flex-col  text-cyan-400 md:text-md p-6 md:text-2xl rounded-md ">
                     <p>19-03-2024</p>
-                       <span class="text-center text-sm  text-rose-400 md:text-lg rounded-md ">
+                       <span class="text-center text-sm  text-cyan-400 md:text-lg rounded-md ">
                         Tuesday
                        </span>
                    </span>
                 </span>
             </div>
-        <a href="https://google.com" class="md:text-2xl border-2 border-slate-800 bg-gray-800 mt-8 bg-gray-100 inline-flex text-center text-rose-500  backdrop-blur-sm rounded">
+        <a href="https://google.com" class="md:text-2xl border-2 border-slate-800 bg-gray-800 mt-8 bg-gray-100 inline-flex text-center text-cyan-500  backdrop-blur-sm rounded">
             <p class="px-4 font-anta py-2">Register Now</p>
         </a>
     </section>
@@ -64,7 +64,7 @@
             <div class="text-center p-1 md:p-4">
                 <p class="font-anta md:text-lg font-semibold">{contact.name}</p>
                 <p>{contact.designation}</p>
-                <a href="tel:{contact.phone}" class="text-rose-400  md:text-sm"><span class="hidden md:inline text-gray-300" >Phone: </span>{contact.phone}</a><br/>
+                <a href="tel:{contact.phone}" class="text-cyan-400  md:text-sm"><span class="hidden md:inline text-gray-300" >Phone: </span>{contact.phone}</a><br/>
             </div>
             {/each}
         </div>
@@ -79,7 +79,7 @@
             <div class="text-center p-1 md:p-4">
                 <p class="font-anta md:text-lg font-semibold">{contact.name}</p>
                 <p>{contact.designation}</p>
-                <a href="tel:{contact.phone}" class="text-rose-400  md:text-sm"><span class="hidden md:inline text-gray-300" >Phone: </span>{contact.phone}</a><br/>
+                <a href="tel:{contact.phone}" class="text-cyan-400  md:text-sm"><span class="hidden md:inline text-gray-300" >Phone: </span>{contact.phone}</a><br/>
             </div>
             {/each}
         </div>

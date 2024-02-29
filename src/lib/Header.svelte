@@ -10,7 +10,7 @@
 <header class="px-8 py-6 z-10 absolute top-0 left-0 flex flex-col lg:flex-row items-center justify-center lg:justify-between w-screen">
     {#if $sym}
     <Link to="/symposium" >
-        <h3 class="font-anta text-3xl text-gray-200">TechFusion<span class="font-anta bg-clip-text text-transparent bg-gradient-to-r from-pink-300 to-red-400">'24</span></h3>
+        <h3 class="font-anta text-3xl text-gray-200">TechFusion<span class="font-anta bg-clip-text text-transparent bg-gradient-to-r from-[#0B666A] to-blue-800">'24</span></h3>
     </Link>
         {:else}
     <Link to="/" >
