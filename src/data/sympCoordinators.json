@@ -2,16 +2,16 @@
 
     "staffs": [
         {
-            "name" : "Mr. H. Janarthanan",
-            "designation": "Student Coordinator"
+            "name" : "Dr. P. Aruna",
+            "designation": "Professor"
         },
         {
-            "name" : "Mr. S. Keerthivasan",
-            "designation": "Vice President, IEI"
+            "name" : "Dr. A. N. Sigappi",
+            "designation": "Professor"
         },
         {
-            "name" : "Mr. S. Keerthivasan",
-            "designation": "Vice President, IEI"
+            "name" : "Dr. M. Kalaiselvi Geetha",
+            "designation": "Professor"
         }
     ],
 
