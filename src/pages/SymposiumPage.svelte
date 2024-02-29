@@ -40,9 +40,12 @@
             </h1>
             <div class="border-red-400 border-2  text-sm md:text-lg border py-3 rounded-md px-4 flex flex-col items-center">
                 <p class="text-red-400">On</p>
-                <span class="flex gap-2 text-gray-900 bg-gray-800/40 backdrop-blur-sm rounded-md justify-between mt-2">
-                   <span class="text-center  text-rose-400 md:text-md p-6 md:text-2xl rounded-md ">
-                    45-85-2224
+                <span class="flex gap-2  text-gray-900 bg-gray-800/40 backdrop-blur-sm rounded-md justify-between mt-2">
+                   <span class="text-center inline-flex flex-col  text-rose-400 md:text-md p-6 md:text-2xl rounded-md ">
+                    <p>19-03-2024</p>
+                       <span class="text-center text-sm  text-rose-400 md:text-lg rounded-md ">
+                        Tuesday
+                       </span>
                    </span>
                 </span>
             </div>
@@ -53,16 +56,30 @@
 
     <section class="flex flex-col w-full lg:px-32 justify-center items-center p-6">
         <!--
-           - Coordinators Section
+           - Staff Coordinators Section
            -->
-        <h2 class="text-xl md:text-2xl text-gray-300 font-semibold mb-4">Coordinators</h2>
+        <h2 class="text-xl md:text-2xl text-gray-300 font-semibold mb-4">Staff Coordinators</h2>
         <div class="text-[8px] sm:text-xs text-gray-300 gap-2 p-3 md:text-sm md:p-8 bg-gray-800/50 backdrop-blur-sm rounded-md grid grid-rows-1 grid-cols-2 ">
             {#each coordinators as contact}
             <div class="text-center p-1 md:p-4">
                 <p class="font-anta md:text-lg font-semibold">{contact.name}</p>
                 <p>{contact.designation}</p>
                 <a href="tel:{contact.phone}" class="text-rose-400  md:text-sm"><span class="hidden md:inline text-gray-300" >Phone: </span>{contact.phone}</a><br/>
-                <a href="mailto:{contact.email}" class="text-rose-400  md:text-sm"><span class="hidden md:inline text-gray-300" >Email: </span>{contact.email}</a>
+            </div>
+            {/each}
+        </div>
+    </section>
+    <section class="flex flex-col w-full lg:px-32 justify-center items-center p-6">
+        <!--
+           - Students Coordinators Section
+           -->
+        <h2 class="text-xl md:text-2xl text-gray-300 font-semibold mb-4">Students Coordinators</h2>
+        <div class="text-[8px] sm:text-xs text-gray-300 gap-2 p-3 md:text-sm md:p-8 bg-gray-800/50 backdrop-blur-sm rounded-md grid grid-rows-1 grid-cols-2 ">
+            {#each coordinators as contact}
+            <div class="text-center p-1 md:p-4">
+                <p class="font-anta md:text-lg font-semibold">{contact.name}</p>
+                <p>{contact.designation}</p>
+                <a href="tel:{contact.phone}" class="text-rose-400  md:text-sm"><span class="hidden md:inline text-gray-300" >Phone: </span>{contact.phone}</a><br/>
             </div>
             {/each}
         </div>
