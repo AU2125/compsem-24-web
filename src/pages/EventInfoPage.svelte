@@ -2,12 +2,14 @@
     import events from '../data/events.json';
     import type {IEvent} from '../lib/common';
     import {calcDate} from '../lib/common';
-
+    import {sym} from '../lib/store';
+    sym.set(false);
     export let eventId: string;
     const eventDetails: IEvent = events.find((e) => e.to == eventId) || events[0]
 
     const evType = eventDetails.type == "technical" ? "Technical Events" : "Non-Technical Events";
     const eventDate =new Date(eventDetails.scheduledDate);
+
 </script>
 
 

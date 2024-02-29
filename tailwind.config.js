@@ -19,16 +19,41 @@ export default {
         'anta': ["Anta", "sans-serif"]
       },
       animation: {
-        'clip-text-from-below': 'clip-polygon 600ms ease-in-out',
-        'clip-text-from-above': 'clip-polygon-reverse 600ms ease-in-out',
+        'clip-text-from-below': 'clip-polygon 1.5s ease-in-out',
+        'menu-drop': 'clip-polygon-reverse 600ms ease-in-out',
+        'clip-text-from-above': 'clip-polygon-reverse 1.5s ease-in-out',
+        'spotlight': 'spotlight 2s ease-in-out',
       },
       keyframes: {
+        'spotlight': {
+          '0%' :{
+            'clip-path': 'circle(100% at 50% 50%)',
+          },
+          '25%':{
+            'clip-path': 'circle(20% at 50% 50%)'
+          },
+          '50%' :{
+            'clip-path': 'circle(20% at 12% 84%)'
+          },
+          '75%':{
+            'clip-path': 'circle(20% at 93% 51%)',
+          },
+          '100%' : {
+            'clip-path':'circle(20% at -30% 20%)'
+          }
+        },
         'clip-polygon': {
           '0%': {
             'clip-path': 'polygon(0 100%, 100% 100%, 100% 100%, 0% 100%)',
           },
+          '25%': {
+            'clip-path': 'polygon(0 86%, 100% 80%, 100% 100%, 0% 100%)',
+          },
           '50%': {
-            'clip-path': 'polygon(0 60%, 100% 60%, 100% 100%, 0% 100%)',
+            'clip-path': 'polygon(0 40%, 100% 50%, 100% 100%, 0% 100%)',
+          },
+          '75%': {
+            'clip-path': 'polygon(0 26%, 100% 26%, 100% 100%, 0% 100%)',
           },
           '100%': {
             'clip-path': 'polygon(0 0, 100% 0, 100% 100%, 0% 100%)',
@@ -37,6 +62,15 @@ export default {
         'clip-polygon-reverse': {
           '0%': {
             'clip-path':'polygon(0 0, 100% 0, 100% 0, 0 0)'
+          },
+          '25%': {
+            'clip-path':'polygon(0 0, 100% 0, 100% 26%, 0 20%)'
+          },
+          '50%': {
+            'clip-path':'polygon(0 0, 100% 0, 100% 50%, 0 45%)'
+          },
+          '75%': {
+            'clip-path':'polygon(0 0, 100% 0, 100% 86%, 0 86%)'
           },
           '100%': {
             'clip-path': 'polygon(0 0, 100% 0, 100% 100%, 0 100%)'

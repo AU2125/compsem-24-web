@@ -4,8 +4,9 @@
     import EventsPage from './pages/EventsPage.svelte';
     import Header from './lib/Header.svelte';
     import EventInfoPage from './pages/EventInfoPage.svelte';
+    import {sym} from './lib/store';
 
-    import Footer from './lib/Footer.svelte';
+    import SymposiumPage from './pages/SymposiumPage.svelte';
     import P5 from 'p5-svelte';
 
     export let url = "";
@@ -27,7 +28,7 @@
         // creation of a particle.
         createParticle(p5) {
             p5.noStroke();
-            p5.fill('rgba(163, 33, 85,0.5)');
+            p5.fill(!$sym ? 'rgba(163, 33, 85,0.4)': 'rgba(45, 149, 150, 0.4)');
             p5.circle(this.x, this.y, this.r);
         }
 
@@ -47,7 +48,7 @@
             particles.forEach(element =>{
             let dis = p5.dist(this.x, this.y, element.x, element.y);
             if(dis < 85) {
-                p5.stroke('rgba(163, 33, 85,0.4)');
+                p5.stroke(!$sym ? 'rgba(163, 33, 85,0.4)': 'rgba(45, 149, 150, 0.4)');
                 p5.line(this.x, this.y, element.x, element.y);
             }
             });
@@ -60,22 +61,20 @@
             for(let i = 0; i < width / 10; i++){
                 particles.push(new Particle(p5));
             }
-            window.onresize = () => {
-                console.log(p5.windowWidth, p5.windowHeight);
-            }
             p5.windowResized = () => {
-                console.log("reseted")
                 cnv.resizeCanvas(p5.windowWidth, p5.windowHeight);
             };
         };
 
         p5.draw = () => {
             p5.clear();
+
             for(let i = 0; i < particles.length; i++) {
                 particles[i].createParticle(p5);
                 particles[i].moveParticle(p5);
                 particles[i].joinParticles(particles.slice(i), p5);
             }
+
         };
     };
 </script>
@@ -94,13 +93,16 @@
     }
 </style>
 
+<!-- bg-gradient-to-tr from-yellow-900 from-10% via-yellow-950 to-stone-950 -->
+
 <Router url={url}>
     <Header />
-    <div id="p5-container" class="fixed top-0 left-0 w-screen h-screen -z-5 bg-gradient-to-tr from-rose-950 from-10% via-gray-900 to-sky-950 ">
-        <P5 {sketch} id="p5-canvas"/>
+    <div id="p5-container" class="fixed top-0 left-0 w-screen h-screen -z-5 {$sym ?'bg-gradient-to-tr from-10% from-[#265073] via-zinc-950 to-[#0B666A]':'bg-gradient-to-tr from-10% from-rose-950 via-gray-900 to-sky-950'}   ">
+        <P5 sketch={sketch} id="p5-canvas"/>
     </div>
-
     <Route path="/"><HomePage/></Route>
+    <Route path="/symposium"><SymposiumPage/></Route>
     <Route path="/events/:evType" component={EventsPage}></Route>
     <Route path="/event/:eventId" component={EventInfoPage}></Route>
 </Router>
+
