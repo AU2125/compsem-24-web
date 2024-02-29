@@ -43,11 +43,11 @@
                 class="bg-clip-text text-transparent bg-gradient-to-r from-[#0B666A] to-blue-800 font-anta">'{compSemYear}</span>
             </h1>
             <div class="border-cyan-400 border-2  text-sm md:text-lg border py-3 rounded-md px-4 flex flex-col items-center">
-                <p class="text-cyan-400">On</p>
+                <p class="font-anta text-cyan-400">On</p>
                 <span class="flex gap-2  text-gray-900 bg-gray-800/40 backdrop-blur-sm rounded-md justify-between mt-2">
                    <span class="text-center inline-flex flex-col  text-cyan-400 md:text-md p-6 md:text-2xl rounded-md ">
-                    <p>19-03-2024</p>
-                       <span class="text-center text-sm  text-cyan-400 md:text-lg rounded-md ">
+                    <p class="font-anta">19-03-2024</p>
+                       <span class="font-anta text-center text-sm  text-cyan-400 md:text-lg rounded-md ">
                         Tuesday
                        </span>
                    </span>
