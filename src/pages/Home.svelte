@@ -120,7 +120,7 @@
                     {:else}
                         <div class="md:text-2xl bg-gray-700/10 inline-flex text-center text-rose-500  backdrop-blur-sm rounded-md">
 
-                                <p class="px-4 font-anta py-2">Live</p>
+                                <p class="px-4 font-anta py-2">Paused</p>
 
                                 <span class="h-3 z-3 w-3 top-0 right-0 absolute">
                                     <span class="h-full w-full  bg-red-400 rounded-full animate-ping opacity-75 absolute"></span>

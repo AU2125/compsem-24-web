@@ -1,32 +1,22 @@
 [
     {
-        "heading": "Symposium Page",
-        "content": "Check out our new page for our Project Expo click on Symposium to explore !!!!!",
-        "url" : "/symposium",
-        "date": "2024-02-29T00:00:00"
+        "heading": "Change of Newsletter Event Date",
+        "content": "The Date for Newsletter event has been postponed to 19th of March. Click on the notification to register soon !!!",
+        "url" : "/news_letter",
+        "date": "2024-03-02T00:00:00"
     },
     {
-        "heading": "Day 4 Technical Event Winner : Coding",
-        "content": "1st Price Amirthanathan R- 3rd year AI&ML, 2nd Price Sharun Ashwanth - 2rd year AI&ML, 3rd Price Aravind S - 3rd Year DS",
+        "heading": "A pause for a cause",
+        "content": "Compsem events are paused till 6th of march due to mid examinations",
         "url" : "/",
-        "date": "2024-02-29T00:00:00"
+        "date": "2024-03-02T00:00:00"
     },
     {
-        "heading": "Day 4 Non - Technical Event Winners: Drawing",
-        "content": "1st Price S. Vaishnavi- 4th year CSE, 2nd Price A Lingeshwaran - 4rd year AI&ML, 3rd Price Shared between G L Dhivya - 3rd Year AI&ML & P Monesh - 3rd Year AI&ML", 
-        "url" : "/",
-        "date": "2024-02-29T00:00:00"
-    },
-    {
-        "heading": "Day 5 Technical Event: Debugging",
-        "content": "Click Here to go to the Debugging Event page",
-        "url": "/event/debugging",
-        "date": "2024-02-29T00:00:00"
-    },
-    {
-        "heading": "Day 4 Non-Technical Event: Group Discussion",
-        "content": "Click Here to go to the Group Discussion Event page",
-        "url": "/event/group_discussion",
-        "date": "2024-02-29T00:00:00"
+        "heading": "Day 6 Non - Technical Event : Treasure Hunt",
+        "content": "Click here to register for the day 6 non-technical event", 
+        "url" : "/treasure_hunt",
+        "date": "2024-03-02T00:00:00"
     }
+
 ]
+
