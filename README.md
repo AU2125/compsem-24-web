@@ -17,9 +17,9 @@ To run this website locally, follow these steps:
 
 2. Clone this repository:
     ```bash
-    git clone <repository_url>
-    cd CompSem24
-    ```![Favi](https://github.com/AU2125/compsem-24-web/assets/102305446/4055e272-9945-4bbe-bb77-5e5b1f97d1da)
+    git clone https://github.com/AU2125/compsem-24-web.git
+    cd compsem-24-web
+    ```
 
 
 3. Install dependencies:
@@ -60,12 +60,11 @@ The website is deployed on Firebase. You can access it at [compsem24.web.app](ht
 ## Contribution Guidelines
 We welcome contributions from the community to improve CompSem'24. If you'd like to contribute, please follow these guidelines:
 1. Fork the repository and clone it locally.
-2. Create a new branch for your feature or bug fix: `git checkout -b feature-name`.
+2. Create a new branch for your feature or bug fix: `git checkout -b <feature-name>`.
 3. Make your changes and ensure they are working properly.
-4. Commit your changes: `git commit -m "Your message here"`.
-5. Push to the branch: `git push origin feature-name`.
-6. Submit a pull request
-equest detailing your changes.
+4. Commit your changes: `git commit -m "<Your message here>"`.
+5. Push to the branch: `git push origin <feature-name>`.
+6. Submit a pull request detailing your changes.
 
 ## License
 This project is licensed under the [MIT License](https://opensource.org/license/MIT).
