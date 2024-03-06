@@ -68,7 +68,7 @@ We welcome contributions from the community to improve CompSem'24. If you'd like
 equest detailing your changes.
 
 ## License
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](https://opensource.org/license/MIT).
 
 ## Contact
 For any inquiries or support related to CompSem'24, please contact 
