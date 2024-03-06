@@ -54,6 +54,9 @@ To run this website locally, follow these steps:
 - Svelte
 - Tailwind CSS
 
+## Deployment
+The website is deployed on Firebase. You can access it at [compsem24.web.app](https://compsem24.web.app).
+
 ## Contribution Guidelines
 We welcome contributions from the community to improve CompSem'24. If you'd like to contribute, please follow these guidelines:
 1. Fork the repository and clone it locally.
@@ -68,4 +71,6 @@ equest detailing your changes.
 This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
-For any inquiries or support related to CompSem'24, please contact [Your Name](mailto:your@email.com).
+For any inquiries or support related to CompSem'24, please contact 
+- [Amirthanathan R](mailto:amirth300324@gmail.com).
+- [Aravind S](mailto:aravind.slg1@gmail.com).
