@@ -1,47 +1,71 @@
-# Svelte + TS + Vite
+# CompSem'24
 
-This template should help get you started developing with Svelte and TypeScript in Vite.
+## Description
+CompSem'24 is a static website designed to showcase the College Symposium event. It offers comprehensive details about the Computer Science Department, shows the history of CompSem event, provides insights of the History of TechClub and showcase its activities, and facilitates event registration through Google Forms.
 
-## Recommended IDE Setup
+## Installation
+To run this website locally, follow these steps:
+1. Install Node.js and npm (if not already installed):
+    ```bash
+    # On Ubuntu/Debian
+    sudo apt update
+    sudo apt install nodejs npm
 
-[VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode).
+    # On macOS (using Homebrew)
+    brew install node
+    ```
 
-## Need an official Svelte framework?
+2. Clone this repository:
+    ```bash
+    git clone <repository_url>
+    cd CompSem24
+    ```![Favi](https://github.com/AU2125/compsem-24-web/assets/102305446/4055e272-9945-4bbe-bb77-5e5b1f97d1da)
 
-Check out [SvelteKit](https://github.com/sveltejs/kit#readme), which is also powered by Vite. Deploy anywhere with its serverless-first approach and adapt to various platforms, with out of the box support for TypeScript, SCSS, and Less, and easily-added support for mdsvex, GraphQL, PostCSS, Tailwind CSS, and more.
 
-## Technical considerations
+3. Install dependencies:
+    ```bash
+    npm install
+    ```
 
-**Why use this over SvelteKit?**
+4. Start the development server:
+    ```bash
+    npm run dev
+    ```
 
-- It brings its own routing solution which might not be preferable for some users.
-- It is first and foremost a framework that just happens to use Vite under the hood, not a Vite app.
+## Screenshots
+1. Home Page
+![home_page](https://github.com/AU2125/compsem-24-web/assets/102305446/2e8680e0-b4cb-4948-ae54-5ab16b023322)
+2. Technical Event Page
+![Technical Events](https://github.com/AU2125/compsem-24-web/assets/102305446/35b91804-16e5-4939-98bb-3205cef2ac06)
+3. Non-Technical Event Page
+![Non-Technical Events](https://github.com/AU2125/compsem-24-web/assets/102305446/7dc9e14c-b754-4d00-846e-df22001e75b7)
+4. Event Detail Page
+![event_detail](https://github.com/AU2125/compsem-24-web/assets/102305446/f12e7e70-e40e-44c9-8cfd-d6cac8e22161)
+5. Symposium Page
+![Symposium_page](https://github.com/AU2125/compsem-24-web/assets/102305446/ef546a5a-9a78-4f2f-85c9-701d1769ffc3)
 
-This template contains as little as possible to get started with Vite + TypeScript + Svelte, while taking into account the developer experience with regards to HMR and intellisense. It demonstrates capabilities on par with the other `create-vite` templates and is a good starting point for beginners dipping their toes into a Vite + Svelte project.
+## Features
+- Home page with information about the event and department
+- Technical and non-technical event pages
+- Individual pages for each event rendered from JSON data
+- Registration button redirecting to Google Forms
 
-Should you later need the extended capabilities and extensibility provided by SvelteKit, the template has been structured similarly to SvelteKit so that it is easy to migrate.
+## Technologies Used
+- Svelte
+- Tailwind CSS
 
-**Why `global.d.ts` instead of `compilerOptions.types` inside `jsconfig.json` or `tsconfig.json`?**
+## Contribution Guidelines
+We welcome contributions from the community to improve CompSem'24. If you'd like to contribute, please follow these guidelines:
+1. Fork the repository and clone it locally.
+2. Create a new branch for your feature or bug fix: `git checkout -b feature-name`.
+3. Make your changes and ensure they are working properly.
+4. Commit your changes: `git commit -m "Your message here"`.
+5. Push to the branch: `git push origin feature-name`.
+6. Submit a pull request
+equest detailing your changes.
 
-Setting `compilerOptions.types` shuts out all other types not explicitly listed in the configuration. Using triple-slash references keeps the default TypeScript setting of accepting type information from the entire workspace, while also adding `svelte` and `vite/client` type information.
+## License
+This project is licensed under the [MIT License](LICENSE).
 
-**Why include `.vscode/extensions.json`?**
-
-Other templates indirectly recommend extensions via the README, but this file allows VS Code to prompt the user to install the recommended extension upon opening the project.
-
-**Why enable `allowJs` in the TS template?**
-
-While `allowJs: false` would indeed prevent the use of `.js` files in the project, it does not prevent the use of JavaScript syntax in `.svelte` files. In addition, it would force `checkJs: false`, bringing the worst of both worlds: not being able to guarantee the entire codebase is TypeScript, and also having worse typechecking for the existing JavaScript. In addition, there are valid use cases in which a mixed codebase may be relevant.
-
-**Why is HMR not preserving my local component state?**
-
-HMR state preservation comes with a number of gotchas! It has been disabled by default in both `svelte-hmr` and `@sveltejs/vite-plugin-svelte` due to its often surprising behavior. You can read the details [here](https://github.com/rixo/svelte-hmr#svelte-hmr).
-
-If you have state that's important to retain within a component, consider creating an external store which would not be replaced by HMR.
-
-```ts
-// store.ts
-// An extremely simple external store
-import { writable } from 'svelte/store'
-export default writable(0)
-```
+## Contact
+For any inquiries or support related to CompSem'24, please contact [Your Name](mailto:your@email.com).
