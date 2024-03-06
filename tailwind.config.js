@@ -39,7 +39,7 @@ export default {
             'clip-path': 'circle(20% at 93% 51%)',
           },
           '80%': {
-            'clip-path': 'circle(20% at -30% 20%)', 
+            'clip-path': 'circle(20% at 10% 20%)', 
           },
           '100%': {
             'clip-path': 'circle(110% at 53% 41%)', 
