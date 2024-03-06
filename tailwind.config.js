@@ -22,24 +22,27 @@ export default {
         'clip-text-from-below': 'clip-polygon 1.5s ease-in-out',
         'menu-drop': 'clip-polygon-reverse 600ms ease-in-out',
         'clip-text-from-above': 'clip-polygon-reverse 1.5s ease-in-out',
-        'spotlight': 'spotlight 3s ease-in-out',
+        'spotlight': 'spotlight 4s ease-in-out',
       },
       keyframes: {
         'spotlight': {
-          '0%' :{
+          '0%': {
             'clip-path': 'circle(100% at 50% 50%)',
           },
-          '25%':{
+          '20%': {
             'clip-path': 'circle(20% at 50% 50%)'
           },
-          '50%' :{
+          '40%': {
             'clip-path': 'circle(20% at 12% 84%)'
           },
-          '75%':{
+          '60%': {
             'clip-path': 'circle(20% at 93% 51%)',
           },
-          '100%' : {
-            'clip-path':'circle(20% at -30% 20%)'
+          '80%': {
+            'clip-path': 'circle(20% at -30% 20%)', 
+          },
+          '100%': {
+            'clip-path': 'circle(110% at 53% 41%)', 
           }
         },
         'clip-polygon': {
