@@ -13,7 +13,7 @@
     import {sym} from '../lib/store';
     sym.set(false);
     let countdownInterval: any;
-    let targetDate: any = new Date("2024-02-26T15:00:00");
+    let targetDate: any = new Date("2024-03-07T15:00:00");
     let timeLeft = Math.floor((targetDate - new Date())/ 1000);
 
     let compSemYear = 0;
@@ -107,7 +107,7 @@
             </h1>
                 {#if timeLeft > 0}
                     <div class="border-red-400 border-2  text-sm md:text-lg border py-3 rounded-md px-4 flex flex-col items-center">
-                        <p class="text-red-400">Starting in</p>
+                        <p class="text-red-400">Resuming in</p>
                         <span class="flex gap-2 text-gray-900 bg-gray-800/40 backdrop-blur-sm rounded-md justify-between mt-2">
                             {#each Object.entries(countdown) as [key, value]}
                             <span class="text-center text-sm text-rose-400 md:text-md w-14  p-2 rounded-md ">
@@ -120,7 +120,7 @@
                     {:else}
                         <div class="md:text-2xl bg-gray-700/10 inline-flex text-center text-rose-500  backdrop-blur-sm rounded-md">
 
-                                <p class="px-4 font-anta py-2">Paused</p>
+                                <p class="px-4 font-anta py-2">Live</p>
 
                                 <span class="h-3 z-3 w-3 top-0 right-0 absolute">
                                     <span class="h-full w-full  bg-red-400 rounded-full animate-ping opacity-75 absolute"></span>
