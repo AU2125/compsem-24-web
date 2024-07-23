@@ -97,7 +97,7 @@
 
 <Router url={url}>
     <Header />
-    <div id="p5-container" class="fixed top-0 left-0 w-screen h-screen -z-5 {$sym ?'bg-gradient-to-tr from-10% from-[#265073] via-zinc-950 to-[#0B666A]':'bg-gradient-to-tr from-10% from-rose-950 via-gray-900 to-sky-950'}   ">
+    <div id="p5-container" class="fixed top-0 left-0 w-screen h-screen -z-5 {$sym ?'bg-gradient-to-tr from-10% from-[#0B666A] via-zinc-950 to-[#265073]':'bg-gradient-to-tr from-10% from-rose-950 via-gray-900 to-sky-950'}   ">
         <P5 sketch={sketch} id="p5-canvas"/>
     </div>
     <Route path="/"><HomePage/></Route>
